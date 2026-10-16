@@ -1,4 +1,4 @@
-Copied from fennick-first-call-playbook.md in the project folder on 2026-10-16.
+Copied from fennick-first-call-playbook.md (Fennick Software, this folder) on 2026-10-16.
 
 # Fennick first-call playbook
 

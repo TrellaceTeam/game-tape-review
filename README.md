@@ -44,23 +44,23 @@ The run sheet is a document you can paste into a meeting agenda. It opens with a
 
 > ### 2. Priya, pause: Sable Point (Oct 13, first call)
 >
-> **Why this step matters.** When a buyer says "I'll need to run it by my boss," the buyer has just told you the person who signs, or the one who sways them, and has handed you the way to ask for them. <!-- prose-allow: just -->
+> **Why this step matters.** When a buyer says "I'll run it by my boss," that's the moment to learn who the boss is and ask to put them on the next call. If it passes, the buyer carries our case alone and the next step becomes an email.
 >
-> **Set it up.** Greg is the maintenance manager at Sable Point Packaging, a 250-person corrugated box plant. He's had three unplanned corrugator stops in August. Priya has just shown the product and quoted a price, and Greg took it well. We're about 15 minutes in. <!-- prose-allow: just -->
+> **Set it up.** Greg runs maintenance at Sable Point Packaging, a one-plant corrugated box maker. Priya has just finished a long demo and answered Greg's price question. The clip starts after the price talk. <!-- prose-allow: just -->
 >
-> **Play part 1: [15:05 to 15:50](https://recorder.example/share/q5Ws1Sable1013?t=905).** Pause right after Greg says "[00:15:43] I like it. I really do. I'll need to run it by my boss. He'll want to see numbers." <!-- prose-allow: really -->
+> **Play part 1: [15:22 to 15:54](https://recorder.example/share/q5Ws1Sable1013?t=922).** Pause right after Greg says "[00:15:43] I like it. I really do. I'll need to run it by my boss. He'll want to see numbers." <!-- prose-allow: really -->
 >
 > **Ask the room while it's paused.**
 > 1. What would you say next?
 >
 > **What came before.** The answer key, to share after the room answers.
-> - 9:31. Greg said, "[00:09:31] Sorry, one thing before you move on. I've got budget left this year if we move before December." Priya answered "Oh, that's great to know" and moved on.
-> - 12:02. Greg said, "[00:12:02] Does that break it out by machine? My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down."
+> - 12:02. "[00:12:02] Does that break it out by machine? My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down."
+> - 9:31. "[00:09:31] Sorry, one thing before you move on. I've got budget left this year if we move before December."
 >
-> **Play part 2: [15:50 to 16:40](https://recorder.example/share/q5Ws1Sable1013?t=950).**
+> **Play part 2: [15:54 to 16:40](https://recorder.example/share/q5Ws1Sable1013?t=954).**
 >
-> **The near-miss.** The call ends on "send some info," and the boss, who will judge the numbers, never hears them from us. Greg offered the chance twice: "run it by my boss" and "budget left this year if we move before December." Priya could have said:
-> - "Who's your boss, and would he join a 20 minute call so he sees numbers on your own corrugator? I have two times this week."
+> **The near-miss.** Greg named the boss, Neil, and said Neil keeps asking about the corrugator. Greg also said there's budget this year if they move before December. The call ends with Greg saying "[00:16:33] Perfect. Yeah, I'll get back to you next week or so." We don't know who signs, and no meeting is booked. Priya could say:
+> - "Neil keeps asking why the corrugator goes down. Would he join a 30 minute look at that downtime report with you? Who else weighs in before you'd move ahead?"
 
 A script that ships with the skill checks every quote against its transcript line, and every link against its start time. When a quote is off, the script prints the right time or the real words, and the assistant fixes it.
 

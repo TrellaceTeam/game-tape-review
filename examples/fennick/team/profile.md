@@ -1,11 +1,11 @@
-# Game tape setup
+# Game tape review setup
 
-Saved by the game-tape skill on 2026-10-16. Edit any line, or ask for a change in plain words.
+Saved by the game-tape-review skill on 2026-10-16. Edit any line, or ask for a change in plain words.
 
 ## Calls
-- Recorder: none connected. Exported transcript files in the calls folder of the project, with each call's share link in calls/links.txt
-- Getting transcripts: read the files in calls/ (.txt, .vtt, .srt, .json) and convert them with tape.py. If a new call is missing, ask for its transcript export with timestamps and speaker names on, and add its share link to calls/links.txt
-- Link pattern: <share link>?t={seconds}, from calls/links.txt. Priya Raman confirmed on 2026-10-16 that a test link opened at the right moment. We didn't open it ourselves
+- Recorder: none connected. Transcript exports in the calls folder of the project (calls/), one file per call (TXT, VTT, SRT, JSON).
+- Getting transcripts: read the files in calls/ directly. Each call's share link is in calls/links.txt.
+- Link pattern: <share link>?t={seconds}, checked 2026-10-16 (Priya confirmed it opens at the right moment)
 - Reps:
   - Priya Raman <priya@fennick.example>
   - Jordan Ellis <jordan@fennick.example>
@@ -18,7 +18,8 @@ Saved by the game-tape skill on 2026-10-16. Edit any line, or ask for a change i
 ## Sessions
 - Run by: Priya Raman
 - Meeting: Monday sales meeting
-- Game tape gets: 30 minutes
+- In the room: not set
+- Review length: 30 minutes
 - Who's on tape: every rep
 
 ## Settings
@@ -31,10 +32,6 @@ Saved by the game-tape skill on 2026-10-16. Edit any line, or ask for a change i
 - Look for: nothing set
 
 ## Notes
-- 2026-10-16: Priya runs game tape and her own calls are on tape. Tell her in the hand-back so she can watch them first.
 
 ## Played
-- 2026-10-19: Priya, good, Harrow Creek 2026-10-06, 18:00 to 21:32
-- 2026-10-19: Priya, pause, Sable Point 2026-10-13, 15:05 to 16:40
-- 2026-10-19: Jordan, good, Ashgrove 2026-09-22, 21:15 to 24:39
-- 2026-10-19: Jordan, pause, Ashgrove working session 2026-09-30, 10:15 to 12:36
+- 2026-10-19 meeting. Priya: Harrow Creek Oct 6 (signer ask, booked live), Sable Point Oct 13 (pause, "run it by my boss"). Jordan: Ashgrove Sep 22 (booked live), Ashgrove Sep 22 and Sep 30 (pause, CFO stays off the calendar).
