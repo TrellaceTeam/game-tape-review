@@ -1,0 +1,90 @@
+Fennick Software / Ashgrove Plastics: discovery call (fictional example, condensed)
+Tuesday, September 22, 2026, 2:00 PM Eastern
+Attendees: Jordan Ellis (Fennick Software), Dana Whitfield (Ashgrove Plastics)
+
+[00:00:13] Jordan Ellis: Hi Dana, thanks for making the time. Can you hear me okay?
+[00:00:21] Dana Whitfield: Loud and clear. Sorry, I'm a couple of minutes late. Plant walk ran over.
+[00:00:34] Jordan Ellis: No problem at all. I saw the news about the third plant in Dayton. Congratulations. That's a big year.
+[00:00:52] Dana Whitfield: Thanks. It's been a lot. Good a lot, mostly.
+[00:01:02] Jordan Ellis: So here's what I'd like to do with our 30 minutes. I'd like to understand what's going on with maintenance planning on your side, share a bit about how we think about it, and figure out together whether there's a reason to talk again. Does that work? Anything you want to make sure we cover?
+[00:01:47] Dana Whitfield: That works. I'd like to hear how you handle multiple plants, because that's where everything falls apart for us.
+[00:02:05] Jordan Ellis: Got it, I'll make sure we get there. So what prompted you to take this call?
+[00:02:18] Dana Whitfield: Honestly? Press 7 went down in the middle of a run for our biggest customer, and nobody knew the maintenance on it was three weeks overdue. That was in July. I'm still hearing about it.
+[00:02:52] Jordan Ellis: Three weeks overdue and nobody knew. How does that happen?
+[00:03:02] Dana Whitfield: Because the schedule lives in Luis's head and on a whiteboard. Luis Ortega runs our biggest plant. Every Monday he rebuilds the schedule on the shop whiteboard, and anything that isn't on it gets missed. Press 7 fell off the board when we shuffled jobs for a rush order.
+[00:03:46] Jordan Ellis: When you say anything that isn't on the board gets missed, what does that look like on a normal week?
+[00:04:02] Dana Whitfield: It means the techs work off whatever's written up there. If a PM gets erased to make room, it's gone. Nobody's going back through the spreadsheet to check.
+[00:04:30] Jordan Ellis: And there's a spreadsheet behind the board?
+[00:04:38] Dana Whitfield: There's a spreadsheet on Luis's laptop, a whiteboard in the shop, and a different version at each plant. Three plants, three systems, none of them talk.
+[00:05:04] Jordan Ellis: How often does a press go down that you weren't expecting?
+[00:05:15] Dana Whitfield: Two or three times a month on the big presses. Most of them are short. Last quarter two of them weren't. Press 4 lost about a shift. Press 7 was the bad one.
+[00:05:43] Jordan Ellis: Have you put a number on what press 7 cost you?
+[00:05:54] Dana Whitfield: Press 7 was down 31 hours last quarter. Our controller puts an hour at about $1,800 of lost output. So call it fifty-five thousand, and that's before the overtime to catch up and the expedited freight.
+[00:06:33] Jordan Ellis: Fifty-five thousand on one press in one quarter. Was that a surprise to people when the controller ran it?
+[00:06:48] Dana Whitfield: To our CEO it was. He thought downtime was a rounding error.
+[00:07:01] Jordan Ellis: And how does this land on you personally?
+[00:07:09] Dana Whitfield: I'm the one who calls the customer. When press 7 went down I had to explain to their supply chain lead why their parts were late, and I didn't have a good answer. That's not a call I want to make again.
+[00:07:43] Jordan Ellis: What's your CEO most focused on this quarter?
+[00:07:51] Dana Whitfield: On-time delivery to that customer. They're about a fifth of our revenue. He looks at the on-time number every Friday.
+[00:08:14] Jordan Ellis: That makes sense. Why is this a priority now and not, say, six months ago?
+[00:08:27] Dana Whitfield: Two things. Press 7, obviously. But the bigger one is that our biggest customer's supplier review is on March 12th, and maintenance records are on their scorecard now. They added it this year. If we show up with a whiteboard photo, we're in trouble.
+[00:09:09] Jordan Ellis: What happens if nothing changes before that review?
+[00:09:19] Dana Whitfield: Worst case, we lose preferred-supplier status. Best case, we get put on a corrective action plan and spend next year proving ourselves. Either way it's a fifth of our revenue on the line.
+[00:09:53] Jordan Ellis: Is anyone else outside the company pushing on this, or is it mostly that customer?
+[00:10:03] Dana Whitfield: Mostly them. Our insurance carrier asked about it at renewal, but that's a footnote.
+[00:10:19] Jordan Ellis: Okay. You mentioned the spreadsheet and the whiteboard. Have you tried to fix this before?
+[00:10:32] Dana Whitfield: We did. Two years ago we bought one of the big enterprise maintenance systems. It lasted about four months.
+[00:10:50] Jordan Ellis: What happened?
+[00:10:55] Dana Whitfield: The techs had to log everything on a desktop in the office. They're on the floor all day. Nobody walks back to an office to close a work order. So the data was garbage within a month, and then Luis went back to his spreadsheet. And honestly, nobody asked the plants what they needed before we bought it. That one's on us.
+[00:11:45] Jordan Ellis: If you could change one thing about how it works today, what would it be?
+[00:11:55] Dana Whitfield: One schedule for all three plants that the techs update from the floor. If I could see on Monday what's due and what's overdue across all three, without calling Luis, that would be most of it.
+[00:12:29] Jordan Ellis: What would anything new need to connect to?
+[00:12:37] Dana Whitfield: Our ERP for parts. That's about it. IT will want to know how it sits on the network.
+[00:12:52] Jordan Ellis: Good to know. Can I share one slide? It's not about us. It's the things we hear most from plants your size.
+[00:13:10] Dana Whitfield: Sure.
+[00:13:18] Jordan Ellis: These are the five we hear most. Which of these sound familiar, and which don't?
+[00:13:39] Dana Whitfield: Number one, for sure. "We find out a press needs work when it stops." That's us. Number three too, the one person who knows the schedule. That's Luis. Number four, parts, not really. Our parts crib is in good shape.
+[00:14:21] Jordan Ellis: Tell me about number one. When did it last happen, apart from press 7?
+[00:14:34] Dana Whitfield: Two weeks ago. A hydraulic line on press 2. The tech said it had been weeping for a while, but there was no PM on the board, so nobody looked.
+[00:15:00] Jordan Ellis: Okay. Let's say it's six months from now and this worked. What would you point to?
+[00:15:15] Dana Whitfield: Honestly, fewer surprises.
+[00:15:23] Jordan Ellis: Fewer surprises meaning what, day to day?
+[00:15:31] Dana Whitfield: Knowing what's coming. Not getting the five a.m. call from Luis. Walking into the supplier review with records I'm not embarrassed by.
+[00:15:57] Jordan Ellis: That's clear. Let me ask about how decisions get made. How do investments like this usually get made at Ashgrove?
+[00:16:15] Dana Whitfield: I build the case, Karen Holt signs anything over $25,000, and IT reviews anything that touches the network. Karen's our CFO.
+[00:16:41] Jordan Ellis: What will Karen care about most?
+[00:16:49] Dana Whitfield: Payback. She signed off on the last system and wrote it off, so she'll want to see this pay for itself inside a year. And she'll want the plant managers on board first this time.
+[00:17:17] Jordan Ellis: Who else would weigh in?
+[00:17:25] Dana Whitfield: Luis, at our biggest plant. If he isn't on board, it won't happen. The other two plant managers will follow him.
+[00:17:46] Jordan Ellis: So if I've got the steps right, it's Luis seeing it and believing the techs will use it, then an IT review, then you take a case to Karen for sign-off.
+[00:18:12] Dana Whitfield: That's right. IT is usually a two-week thing. They just need the security questionnaire.
+[00:18:28] Jordan Ellis: And is anyone likely to push back?
+[00:18:35] Dana Whitfield: Luis, if he thinks it's the last system again. That's the real risk.
+[00:18:51] Jordan Ellis: Understood. On budget, for three plants teams like yours usually invest between $45,000 and $70,000 a year. It scales with the number of assets, so even a rough sense helps. How does that compare with what you had in mind?
+[00:19:30] Dana Whitfield: That's in the range I'd expect. Nothing's set aside right now, though. It would come out of next year's operations budget.
+[00:19:51] Jordan Ellis: When does that get set?
+[00:19:56] Dana Whitfield: Karen locks it in mid-November.
+[00:20:04] Jordan Ellis: Okay, so we'd want the case in front of her before then.
+[00:20:12] Dana Whitfield: Ideally, yes.
+[00:20:17] Jordan Ellis: And on timing, you mentioned the review on March 12th. Does this need to be running by then?
+[00:20:32] Dana Whitfield: Running at the main plant before the supplier review on March 12th. The other two can follow, but Luis's plant is the one they audit.
+[00:20:56] Jordan Ellis: Where does this rank against everything else on your plate this quarter?
+[00:21:06] Dana Whitfield: Top two. The Dayton ramp is number one, and this is right behind it.
+[00:21:19] Jordan Ellis: Let me play back what I heard so I know I've got it. Press 7 went down mid-run for your biggest customer, and it cost about $55,000 last quarter before overtime and freight. It matters now because maintenance records are on their scorecard at the March 12th supplier review, and a fifth of your revenue rides on it. You build the case, Luis has to believe the techs will use it, IT reviews it, and Karen signs. Did I get that right?
+[00:22:29] Dana Whitfield: That's right. That's exactly it.
+[00:22:37] Jordan Ellis: Based on that, I think the right next step is a working session with you and Luis where we show the weekly schedule on a phone, the way a tech would use it on the floor. Can we get that on the calendar now? I have Wednesday the 30th at 10 Eastern or Thursday the 1st at 2.
+[00:23:21] Dana Whitfield: Let me look. Luis is at the main plant all next week. Wednesday the 30th at 10 works for both of us.
+[00:23:42] Jordan Ellis: Great. I'll send the invite now to you and Luis. Anyone else who should be there?
+[00:23:58] Dana Whitfield: Just Luis for this one. If he likes it, we'll bring IT in after.
+[00:24:11] Jordan Ellis: Sent. It should be in your inbox.
+[00:24:26] Dana Whitfield: Got it. Accepted. I'll forward a note to Luis so he knows what it is.
+[00:24:39] Jordan Ellis: What would you and Luis need to see on Wednesday to know whether this is worth pursuing?
+[00:24:52] Dana Whitfield: Show Luis the weekly plan on a phone. If a tech can close a work order from the press in under a minute, he'll listen.
+[00:25:16] Jordan Ellis: We'll build the session around that. If this were to stall, what would be the reason?
+[00:25:29] Dana Whitfield: Karen travels most of November. If we miss her before the budget's locked, it slides to next year.
+[00:25:47] Jordan Ellis: Should we put a time on her calendar now, for after the session with Luis?
+[00:25:57] Dana Whitfield: Let's see how Wednesday goes first. I don't want to bring her anything half-baked.
+[00:26:13] Jordan Ellis: Fair enough. I'll ask you about it at the end of Wednesday's session.
+[00:26:23] Dana Whitfield: Deal.
+[00:26:29] Jordan Ellis: Thanks, Dana. I'll send a short recap this afternoon with what I heard, so you can forward it to Luis.
+[00:26:44] Dana Whitfield: Perfect. Talk Wednesday.

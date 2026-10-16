@@ -1,0 +1,1175 @@
+1
+00:00:04,000 --> 00:00:06,700
+Priya Raman: Hi Ruth, it's Priya from Fennick.
+
+2
+00:00:06,800 --> 00:00:09,500
+Priya Raman: Can you hear me okay?
+
+3
+00:00:10,000 --> 00:00:12,050
+Ruth Adeyemi: Yep, I've got you.
+
+4
+00:00:12,150 --> 00:00:14,200
+Ruth Adeyemi: Sorry, give me one second, I just came in off the floor.
+
+5
+00:00:14,300 --> 00:00:16,350
+Ruth Adeyemi: Okay.
+
+6
+00:00:16,450 --> 00:00:18,500
+Ruth Adeyemi: Hi.
+
+7
+00:00:19,000 --> 00:00:22,200
+Priya Raman: No rush at all.
+
+8
+00:00:22,300 --> 00:00:25,500
+Priya Raman: Were you out on the pour deck?
+
+9
+00:00:26,000 --> 00:00:30,100
+Ruth Adeyemi: I was.
+
+10
+00:00:30,200 --> 00:00:34,300
+Ruth Adeyemi: We had a ladle running a little cold this morning, so I went out to look at it myself.
+
+11
+00:00:34,400 --> 00:00:38,500
+Ruth Adeyemi: It's fine now.
+
+12
+00:00:39,000 --> 00:00:46,200
+Priya Raman: I've only ever watched a pour from behind the yellow line, and I could still feel the heat on my face.
+
+13
+00:00:46,300 --> 00:00:53,500
+Priya Raman: I don't know how your crew does it.
+
+14
+00:00:54,000 --> 00:00:56,100
+Ruth Adeyemi: You get used to it.
+
+15
+00:00:56,200 --> 00:00:58,300
+Ruth Adeyemi: Mostly.
+
+16
+00:00:58,400 --> 00:01:00,500
+Ruth Adeyemi: In August nobody gets used to anything.
+
+17
+00:01:01,000 --> 00:01:06,000
+Priya Raman: I believe it.
+
+18
+00:01:06,100 --> 00:01:11,100
+Priya Raman: Well, thanks for making the time on a day like that.
+
+19
+00:01:11,200 --> 00:01:16,200
+Priya Raman: Here's what I was hoping to do with our twenty-five minutes.
+
+20
+00:01:16,300 --> 00:01:21,300
+Priya Raman: I'd like to hear how maintenance actually runs at Harrow Creek today, share a little about what we've seen at other plants like yours, and then figure out together if a second conversation even makes sense.
+
+21
+00:01:21,400 --> 00:01:26,400
+Priya Raman: Does that work?
+
+22
+00:01:26,500 --> 00:01:31,500
+Priya Raman: And is there anything you want to make sure we cover?
+
+23
+00:01:32,000 --> 00:01:36,767
+Ruth Adeyemi: That works.
+
+24
+00:01:36,867 --> 00:01:41,633
+Ruth Adeyemi: The main thing for me is whether this works for guys who don't sit at a desk.
+
+25
+00:01:41,733 --> 00:01:46,500
+Ruth Adeyemi: My crew isn't going to walk back to a computer to log anything.
+
+26
+00:01:47,000 --> 00:01:49,800
+Priya Raman: That's fair.
+
+27
+00:01:49,900 --> 00:01:52,700
+Priya Raman: I'll make sure we get there.
+
+28
+00:01:52,800 --> 00:01:55,600
+Priya Raman: So, walk me through a normal morning.
+
+29
+00:01:55,700 --> 00:01:58,500
+Priya Raman: How does maintenance actually run today?
+
+30
+00:01:59,000 --> 00:02:04,550
+Ruth Adeyemi: So every morning around five-thirty, our planner prints the work orders for the day.
+
+31
+00:02:04,650 --> 00:02:10,200
+Ruth Adeyemi: Each tech gets a stack.
+
+32
+00:02:10,300 --> 00:02:15,850
+Ruth Adeyemi: They do the jobs, they write on the paper, and they drop it in a tray by the maintenance office.
+
+33
+00:02:15,950 --> 00:02:21,500
+Ruth Adeyemi: And then somebody types it in when they get a chance.
+
+34
+00:02:22,000 --> 00:02:25,200
+Priya Raman: When they get a chance.
+
+35
+00:02:25,300 --> 00:02:28,500
+Priya Raman: How often is that, really?
+
+36
+00:02:29,000 --> 00:02:32,050
+Ruth Adeyemi: Honestly?
+
+37
+00:02:32,150 --> 00:02:35,200
+Ruth Adeyemi: Some weeks it's every day.
+
+38
+00:02:35,300 --> 00:02:38,350
+Ruth Adeyemi: Some weeks the tray just fills up and our planner catches up on a Friday.
+
+39
+00:02:38,450 --> 00:02:41,500
+Ruth Adeyemi: By then half of it's covered in sand.
+
+40
+00:02:42,000 --> 00:02:49,500
+Priya Raman: And what happens to whatever's written on the paper while it's sitting in the tray?
+
+41
+00:02:50,000 --> 00:02:55,550
+Ruth Adeyemi: Well, that's the problem.
+
+42
+00:02:55,650 --> 00:03:01,200
+Ruth Adeyemi: First shift finds something, a leak, a noise, whatever, and they write it on the back of a work order.
+
+43
+00:03:01,300 --> 00:03:06,850
+Ruth Adeyemi: Second shift never sees it.
+
+44
+00:03:06,950 --> 00:03:12,500
+Ruth Adeyemi: Second shift gets their own stack at three, and whatever first shift found is sitting in a tray by the office.
+
+45
+00:03:13,000 --> 00:03:20,500
+Priya Raman: So second shift walks the floor without anything first shift learned that day.
+
+46
+00:03:21,000 --> 00:03:23,100
+Ruth Adeyemi: Right.
+
+47
+00:03:23,200 --> 00:03:25,300
+Ruth Adeyemi: And it's not anybody's fault.
+
+48
+00:03:25,400 --> 00:03:27,500
+Ruth Adeyemi: It's just paper.
+
+49
+00:03:28,000 --> 00:03:32,500
+Priya Raman: Can you think of a time this really cost you?
+
+50
+00:03:33,000 --> 00:03:36,667
+Ruth Adeyemi: Yeah.
+
+51
+00:03:36,767 --> 00:03:40,433
+Ruth Adeyemi: Last month.
+
+52
+00:03:40,533 --> 00:03:44,200
+Ruth Adeyemi: Our sand mixer at the main plant went down for two full shifts.
+
+53
+00:03:44,300 --> 00:03:47,967
+Ruth Adeyemi: And when we pieced it together after, one of my first shift guys, Marco, had heard the main bearing grinding two days before.
+
+54
+00:03:48,067 --> 00:03:51,733
+Ruth Adeyemi: He mentioned it to the guy next to him.
+
+55
+00:03:51,833 --> 00:03:55,500
+Ruth Adeyemi: He never wrote it up.
+
+56
+00:03:56,000 --> 00:04:01,500
+Priya Raman: So two days of warning, and it lived in one conversation.
+
+57
+00:04:02,000 --> 00:04:06,100
+Ruth Adeyemi: Yep.
+
+58
+00:04:06,200 --> 00:04:10,300
+Ruth Adeyemi: And the mixer feeds the whole molding line.
+
+59
+00:04:10,400 --> 00:04:14,500
+Ruth Adeyemi: So when it's down, we're not making molds, and if we're not making molds, we're not pouring.
+
+60
+00:04:15,000 --> 00:04:21,500
+Priya Raman: What did those two shifts look like on the floor?
+
+61
+00:04:22,000 --> 00:04:28,433
+Ruth Adeyemi: Pretty ugly.
+
+62
+00:04:28,533 --> 00:04:34,967
+Ruth Adeyemi: The molding crew stood around for the first couple of hours, then we sent some people home.
+
+63
+00:04:35,067 --> 00:04:41,500
+Ruth Adeyemi: And then we ran a Saturday to catch up on a customer order, and that customer still called me twice that week.
+
+64
+00:04:42,000 --> 00:04:44,500
+Priya Raman: That's a rough week.
+
+65
+00:04:45,000 --> 00:04:49,433
+Ruth Adeyemi: It was.
+
+66
+00:04:49,533 --> 00:04:53,967
+Ruth Adeyemi: And, you know, it's not like we haven't tried to fix this.
+
+67
+00:04:54,067 --> 00:04:58,500
+Ruth Adeyemi: We looked at a couple of other tools last spring, and it just kind of went nowhere.
+
+68
+00:04:59,000 --> 00:05:02,200
+Priya Raman: Okay.
+
+69
+00:05:02,300 --> 00:05:05,500
+Priya Raman: So when the mixer went down, who found out first?
+
+70
+00:05:06,000 --> 00:05:10,000
+Ruth Adeyemi: The operator.
+
+71
+00:05:10,100 --> 00:05:14,100
+Ruth Adeyemi: It seized right at the start of second shift.
+
+72
+00:05:14,200 --> 00:05:18,200
+Ruth Adeyemi: He called Dale, who runs maintenance on second shift, and Dale called me at home.
+
+73
+00:05:18,300 --> 00:05:22,300
+Ruth Adeyemi: Dale's been with us twenty-two years.
+
+74
+00:05:22,400 --> 00:05:26,400
+Ruth Adeyemi: He's my best guy at night.
+
+75
+00:05:26,500 --> 00:05:30,500
+Ruth Adeyemi: Second shift runs three to eleven-thirty, and most nights he's the only maintenance lead in the building.
+
+76
+00:05:31,000 --> 00:05:37,500
+Priya Raman: Have you put a number on what the mixer cost you?
+
+77
+00:05:38,000 --> 00:05:43,700
+Ruth Adeyemi: I had our controller run it after.
+
+78
+00:05:43,800 --> 00:05:49,500
+Ruth Adeyemi: Between the castings we scrapped and the Saturday overtime, it came to about $38,000.
+
+79
+00:05:50,000 --> 00:05:52,500
+Priya Raman: $38,000 from one bearing.
+
+80
+00:05:53,000 --> 00:05:57,433
+Ruth Adeyemi: From a bearing that costs maybe four hundred dollars.
+
+81
+00:05:57,533 --> 00:06:01,967
+Ruth Adeyemi: That's the part that gets me.
+
+82
+00:06:02,067 --> 00:06:06,500
+Ruth Adeyemi: I keep doing that math in my head, and it doesn't get any better.
+
+83
+00:06:07,000 --> 00:06:11,500
+Priya Raman: How did that number land with people?
+
+84
+00:06:12,000 --> 00:06:16,767
+Ruth Adeyemi: Sandra, our GM, asked me how we didn't see it coming.
+
+85
+00:06:16,867 --> 00:06:21,633
+Ruth Adeyemi: And the honest answer was, we did see it coming.
+
+86
+00:06:21,733 --> 00:06:26,500
+Ruth Adeyemi: We just didn't write it down anywhere anybody could find it.
+
+87
+00:06:27,000 --> 00:06:33,500
+Priya Raman: That's a hard answer to have to give.
+
+88
+00:06:34,000 --> 00:06:37,522
+Ruth Adeyemi: It was.
+
+89
+00:06:37,622 --> 00:06:41,144
+Ruth Adeyemi: I don't want to give it again.
+
+90
+00:06:41,244 --> 00:06:44,767
+Ruth Adeyemi: And it's not just the mixer, that's just the one that got expensive enough for Sandra to hear about.
+
+91
+00:06:44,867 --> 00:06:48,389
+Ruth Adeyemi: Somebody said the shakeout conveyor sounded funny last week.
+
+92
+00:06:48,489 --> 00:06:52,011
+Ruth Adeyemi: They all get mentioned.
+
+93
+00:06:52,111 --> 00:06:55,633
+Ruth Adeyemi: None of them get written down.
+
+94
+00:06:55,733 --> 00:06:59,256
+Ruth Adeyemi: And our second plant's worse, honestly.
+
+95
+00:06:59,356 --> 00:07:02,878
+Ruth Adeyemi: It's smaller, there's no planner over there, and the lead keeps everything on a clipboard he carries around.
+
+96
+00:07:02,978 --> 00:07:06,500
+Ruth Adeyemi: If he's out sick, nobody knows what's due.
+
+97
+00:07:07,000 --> 00:07:14,500
+Priya Raman: Can I ask what made you reach out to us now, and not, say, last year?
+
+98
+00:07:15,000 --> 00:07:18,800
+Ruth Adeyemi: The mixer, mostly.
+
+99
+00:07:18,900 --> 00:07:22,700
+Ruth Adeyemi: Sandra asking me that question, really.
+
+100
+00:07:22,800 --> 00:07:26,600
+Ruth Adeyemi: And then I was on your website and saw the part about techs closing work orders from their phones.
+
+101
+00:07:26,700 --> 00:07:30,500
+Ruth Adeyemi: That's what made me book this.
+
+102
+00:07:31,000 --> 00:07:35,500
+Priya Raman: What about it caught your eye?
+
+103
+00:07:36,000 --> 00:07:41,700
+Ruth Adeyemi: I keep picturing it, honestly.
+
+104
+00:07:41,800 --> 00:07:47,500
+Ruth Adeyemi: So if Dale on second shift could see first shift's note on his phone before he walks the floor...
+
+105
+00:07:48,000 --> 00:07:52,200
+Priya Raman: Keep going.
+
+106
+00:07:52,300 --> 00:07:56,500
+Priya Raman: Walk me through what Dale would do with that at eleven at night.
+
+107
+00:07:57,000 --> 00:08:00,856
+Ruth Adeyemi: Okay.
+
+108
+00:08:00,956 --> 00:08:04,811
+Ruth Adeyemi: So eleven at night is when it matters, because by then it's just Dale.
+
+109
+00:08:04,911 --> 00:08:08,767
+Ruth Adeyemi: First shift's gone home, I'm asleep, there's nobody to call.
+
+110
+00:08:08,867 --> 00:08:12,722
+Ruth Adeyemi: If something sounds wrong, he's deciding by himself whether to shut a machine down.
+
+111
+00:08:12,822 --> 00:08:16,678
+Ruth Adeyemi: So he's walking past the mixer and it sounds a little off.
+
+112
+00:08:16,778 --> 00:08:20,633
+Ruth Adeyemi: He pulls out his phone, he looks up the mixer, and he sees what Marco wrote that morning.
+
+113
+00:08:20,733 --> 00:08:24,589
+Ruth Adeyemi: Main bearing grinding, check it.
+
+114
+00:08:24,689 --> 00:08:28,544
+Ruth Adeyemi: Now he's not guessing.
+
+115
+00:08:28,644 --> 00:08:32,500
+Ruth Adeyemi: Two guys heard the same thing.
+
+116
+00:08:33,000 --> 00:08:36,500
+Priya Raman: And then what does he do?
+
+117
+00:08:37,000 --> 00:08:43,550
+Ruth Adeyemi: He puts his hand on the housing.
+
+118
+00:08:43,650 --> 00:08:50,200
+Ruth Adeyemi: If it's hot, he waits for the end of the batch, shuts it down and swaps the bearing.
+
+119
+00:08:50,300 --> 00:08:56,850
+Ruth Adeyemi: Forty minutes, maybe an hour, and molding barely notices.
+
+120
+00:08:56,950 --> 00:09:03,500
+Ruth Adeyemi: And then he writes down that he swapped it, so first shift sees it at six in the morning and doesn't tear it apart again looking for the noise.
+
+121
+00:09:04,000 --> 00:09:08,500
+Priya Raman: So the note goes both ways.
+
+122
+00:09:09,000 --> 00:09:14,767
+Ruth Adeyemi: It has to.
+
+123
+00:09:14,867 --> 00:09:20,633
+Ruth Adeyemi: Right now first shift doesn't know what second shift did either.
+
+124
+00:09:20,733 --> 00:09:26,500
+Ruth Adeyemi: They find a new bearing in there and nobody knows why, or who put it in, or whether it was the right one.
+
+125
+00:09:27,000 --> 00:09:34,500
+Priya Raman: And what would it mean for Dale to have that?
+
+126
+00:09:35,000 --> 00:09:38,000
+Ruth Adeyemi: Honestly?
+
+127
+00:09:38,100 --> 00:09:41,100
+Ruth Adeyemi: He'd sleep better.
+
+128
+00:09:41,200 --> 00:09:44,200
+Ruth Adeyemi: He hates calling me at home.
+
+129
+00:09:44,300 --> 00:09:47,300
+Ruth Adeyemi: He thinks it makes him look like he can't handle it, and he can handle it.
+
+130
+00:09:47,400 --> 00:09:50,400
+Ruth Adeyemi: He just doesn't have the information.
+
+131
+00:09:50,500 --> 00:09:53,500
+Ruth Adeyemi: He's making a call at eleven at night with half the story.
+
+132
+00:09:54,000 --> 00:09:59,986
+Priya Raman: Let me read that back in your words, so I know I've got it.
+
+133
+00:10:00,086 --> 00:10:06,071
+Priya Raman: It's eleven at night and Dale's by himself, with nobody to call.
+
+134
+00:10:06,171 --> 00:10:12,157
+Priya Raman: He walks past the mixer, it sounds off, he pulls it up on his phone and sees Marco's note from that morning, main bearing grinding, check it.
+
+135
+00:10:12,257 --> 00:10:18,243
+Priya Raman: So he's not guessing.
+
+136
+00:10:18,343 --> 00:10:24,329
+Priya Raman: He feels the housing, swaps the bearing at the end of the batch, and writes it down so first shift sees it at six.
+
+137
+00:10:24,429 --> 00:10:30,414
+Priya Raman: He's not making the call with half the story, and he doesn't have to call you at home.
+
+138
+00:10:30,514 --> 00:10:36,500
+Priya Raman: Is that it?
+
+139
+00:10:37,000 --> 00:10:38,767
+Ruth Adeyemi: That's it.
+
+140
+00:10:38,867 --> 00:10:40,633
+Ruth Adeyemi: That's exactly it.
+
+141
+00:10:40,733 --> 00:10:42,500
+Ruth Adeyemi: That's really the whole thing.
+
+142
+00:10:43,000 --> 00:10:47,700
+Priya Raman: Can I tell you about one of our customers?
+
+143
+00:10:47,800 --> 00:10:52,500
+Priya Raman: I think parts of it will sound familiar.
+
+144
+00:10:53,000 --> 00:10:56,500
+Ruth Adeyemi: Sure, go ahead.
+
+145
+00:10:57,000 --> 00:11:01,986
+Priya Raman: They're a die-casting company in Indiana, two plants, a little bigger than you.
+
+146
+00:11:02,086 --> 00:11:07,071
+Priya Raman: When I first met their operations director, she told me almost the same story.
+
+147
+00:11:07,171 --> 00:11:12,157
+Priya Raman: First shift would find something, and second shift would never hear about it.
+
+148
+00:11:12,257 --> 00:11:17,243
+Priya Raman: Their night lead had a binder, and the binder was always a day behind.
+
+149
+00:11:17,343 --> 00:11:22,329
+Priya Raman: Then they lost a trim press for most of a weekend, and it turned out a day shift tech had flagged a leak on it that Tuesday.
+
+150
+00:11:22,429 --> 00:11:27,414
+Priya Raman: On paper.
+
+151
+00:11:27,514 --> 00:11:32,500
+Priya Raman: In the tray.
+
+152
+00:11:33,000 --> 00:11:35,500
+Ruth Adeyemi: Oh, that's us.
+
+153
+00:11:36,000 --> 00:11:42,620
+Priya Raman: So the first thing they did with us wasn't the whole schedule.
+
+154
+00:11:42,720 --> 00:11:49,340
+Priya Raman: It was just the notes.
+
+155
+00:11:49,440 --> 00:11:56,060
+Priya Raman: Every tech could put a note on a machine from their phone, and the next shift saw it before they walked the floor.
+
+156
+00:11:56,160 --> 00:12:02,780
+Priya Raman: We didn't touch their PM schedule for the first month.
+
+157
+00:12:02,880 --> 00:12:09,500
+Priya Raman: Within a couple of months, their night lead was catching two or three things a week that used to wait until morning, and the schedule came after, once people trusted it.
+
+158
+00:12:10,000 --> 00:12:12,433
+Ruth Adeyemi: Two or three a week.
+
+159
+00:12:12,533 --> 00:12:14,967
+Ruth Adeyemi: Huh.
+
+160
+00:12:15,067 --> 00:12:17,500
+Ruth Adeyemi: That's more than we catch in a month.
+
+161
+00:12:18,000 --> 00:12:21,620
+Priya Raman: And the reason I bring them up is something you said earlier.
+
+162
+00:12:21,720 --> 00:12:25,340
+Priya Raman: You said second shift never sees what first shift found.
+
+163
+00:12:25,440 --> 00:12:29,060
+Priya Raman: That's exactly where they started.
+
+164
+00:12:29,160 --> 00:12:32,780
+Priya Raman: Does that ring true for Harrow Creek?
+
+165
+00:12:32,880 --> 00:12:36,500
+Priya Raman: Or is something different for you?
+
+166
+00:12:37,000 --> 00:12:40,843
+Ruth Adeyemi: No, it rings true.
+
+167
+00:12:40,943 --> 00:12:44,786
+Ruth Adeyemi: The one thing that's different is the guys.
+
+168
+00:12:44,886 --> 00:12:48,729
+Ruth Adeyemi: A lot of my crew has been here twenty, thirty years.
+
+169
+00:12:48,829 --> 00:12:52,671
+Ruth Adeyemi: Some of them still have flip phones in their lockers.
+
+170
+00:12:52,771 --> 00:12:56,614
+Ruth Adeyemi: That's what I meant at the start about guys who don't sit at a desk.
+
+171
+00:12:56,714 --> 00:13:00,557
+Ruth Adeyemi: I can see Dale using it.
+
+172
+00:13:00,657 --> 00:13:04,500
+Ruth Adeyemi: I'm less sure about some of the others.
+
+173
+00:13:05,000 --> 00:13:09,557
+Priya Raman: That's a real concern, and I'm glad you said it.
+
+174
+00:13:09,657 --> 00:13:14,214
+Priya Raman: At that die-caster, the person most against it was their night lead.
+
+175
+00:13:14,314 --> 00:13:18,871
+Priya Raman: Twenty-eight years in.
+
+176
+00:13:18,971 --> 00:13:23,529
+Priya Raman: What turned him was that closing a work order took him under a minute, standing right at the machine.
+
+177
+00:13:23,629 --> 00:13:28,186
+Priya Raman: He didn't have to walk anywhere or type much.
+
+178
+00:13:28,286 --> 00:13:32,843
+Priya Raman: It took him about two weeks.
+
+179
+00:13:32,943 --> 00:13:37,500
+Priya Raman: By the end of the first month, he was the one telling the younger guys to put their notes in.
+
+180
+00:13:38,000 --> 00:13:39,700
+Ruth Adeyemi: Wait, back up.
+
+181
+00:13:39,800 --> 00:13:41,500
+Ruth Adeyemi: How does he not type much?
+
+182
+00:13:42,000 --> 00:13:48,433
+Priya Raman: He'd snap a photo of whatever he found and add a few words.
+
+183
+00:13:48,533 --> 00:13:54,967
+Priya Raman: A lot of the older guys like that better than typing.
+
+184
+00:13:55,067 --> 00:14:01,500
+Priya Raman: They also put a shared phone at each maintenance station for anybody who didn't want it on their own phone.
+
+185
+00:14:02,000 --> 00:14:05,050
+Ruth Adeyemi: Okay.
+
+186
+00:14:05,150 --> 00:14:08,200
+Ruth Adeyemi: The shared phone thing would matter.
+
+187
+00:14:08,300 --> 00:14:11,350
+Ruth Adeyemi: Some of my guys won't put a work app on their personal phone, period.
+
+188
+00:14:11,450 --> 00:14:14,500
+Ruth Adeyemi: And I don't blame them.
+
+189
+00:14:15,000 --> 00:14:20,100
+Priya Raman: That's really common.
+
+190
+00:14:20,200 --> 00:14:25,300
+Priya Raman: And for your second plant, it's one schedule across both.
+
+191
+00:14:25,400 --> 00:14:30,500
+Priya Raman: The lead with the clipboard would see the same thing you see, and you'd see his, without driving over.
+
+192
+00:14:31,000 --> 00:14:35,300
+Ruth Adeyemi: That alone would help.
+
+193
+00:14:35,400 --> 00:14:39,700
+Ruth Adeyemi: I drive over there twice a week just to find out what's going on.
+
+194
+00:14:39,800 --> 00:14:44,100
+Ruth Adeyemi: It's forty minutes each way.
+
+195
+00:14:44,200 --> 00:14:48,500
+Ruth Adeyemi: And then I'm back here by three trying to catch second shift.
+
+196
+00:14:49,000 --> 00:14:55,500
+Priya Raman: Can I ask how a decision like this gets made at Harrow Creek?
+
+197
+00:14:56,000 --> 00:15:00,220
+Ruth Adeyemi: So I'd bring it.
+
+198
+00:15:00,320 --> 00:15:04,540
+Ruth Adeyemi: But really it comes down to two people.
+
+199
+00:15:04,640 --> 00:15:08,860
+Ruth Adeyemi: Walt Brenner is our plant manager at the main plant, and he has to believe the crew will actually use it.
+
+200
+00:15:08,960 --> 00:15:13,180
+Ruth Adeyemi: Because if Walt doesn't believe it, the crew won't either.
+
+201
+00:15:13,280 --> 00:15:17,500
+Ruth Adeyemi: And then Sandra Kim, our general manager, signs.
+
+202
+00:15:18,000 --> 00:15:22,500
+Priya Raman: And what will matter most to Sandra?
+
+203
+00:15:23,000 --> 00:15:29,500
+Ruth Adeyemi: She'll ask if this is another system the guys won't use.
+
+204
+00:15:30,000 --> 00:15:37,500
+Priya Raman: What would she need to see to believe they will?
+
+205
+00:15:38,000 --> 00:15:41,300
+Ruth Adeyemi: Walt telling her.
+
+206
+00:15:41,400 --> 00:15:44,700
+Ruth Adeyemi: If Walt says the guys will use it, she'll believe it.
+
+207
+00:15:44,800 --> 00:15:48,100
+Ruth Adeyemi: She won't really believe me, because I'm the one who wants it.
+
+208
+00:15:48,200 --> 00:15:51,500
+Ruth Adeyemi: And she, um, definitely won't believe you.
+
+209
+00:15:52,000 --> 00:15:53,767
+Priya Raman: That's fair.
+
+210
+00:15:53,867 --> 00:15:55,633
+Priya Raman: I wouldn't either.
+
+211
+00:15:55,733 --> 00:15:57,500
+Priya Raman: What does Walt care about?
+
+212
+00:15:58,000 --> 00:16:03,020
+Ruth Adeyemi: Walt cares about not adding work for his guys.
+
+213
+00:16:03,120 --> 00:16:08,140
+Ruth Adeyemi: If it's one more thing to fill out, he'll kill it.
+
+214
+00:16:08,240 --> 00:16:13,260
+Ruth Adeyemi: He's not a no person.
+
+215
+00:16:13,360 --> 00:16:18,380
+Ruth Adeyemi: He just protects his crew.
+
+216
+00:16:18,480 --> 00:16:23,500
+Ruth Adeyemi: He ran second shift maintenance here for eight years before he was plant manager, so he knows what it's like when somebody in an office hands you one more form.
+
+217
+00:16:24,000 --> 00:16:28,200
+Priya Raman: That sounds like a good plant manager.
+
+218
+00:16:28,300 --> 00:16:32,500
+Priya Raman: Has Walt heard about any of this yet?
+
+219
+00:16:33,000 --> 00:16:36,050
+Ruth Adeyemi: A little.
+
+220
+00:16:36,150 --> 00:16:39,200
+Ruth Adeyemi: He knows about the mixer and Marco, obviously.
+
+221
+00:16:39,300 --> 00:16:42,350
+Ruth Adeyemi: He was there for the whole thing.
+
+222
+00:16:42,450 --> 00:16:45,500
+Ruth Adeyemi: I haven't told him I'm talking to anybody yet.
+
+223
+00:16:46,000 --> 00:16:49,700
+Priya Raman: Is there anyone else who'd weigh in?
+
+224
+00:16:49,800 --> 00:16:53,500
+Priya Raman: IT, finance, your planner?
+
+225
+00:16:54,000 --> 00:16:58,550
+Ruth Adeyemi: Our IT guy will want to know what it connects to and where the data lives, but he won't stop it.
+
+226
+00:16:58,650 --> 00:17:03,200
+Ruth Adeyemi: Our planner will want to know it doesn't make her day longer.
+
+227
+00:17:03,300 --> 00:17:07,850
+Ruth Adeyemi: And Sandra handles the money side herself.
+
+228
+00:17:07,950 --> 00:17:12,500
+Ruth Adeyemi: We're not that big.
+
+229
+00:17:13,000 --> 00:17:16,500
+Priya Raman: Is there a timing you're working toward?
+
+230
+00:17:17,000 --> 00:17:22,800
+Ruth Adeyemi: Sandra sets next year's budget in November.
+
+231
+00:17:22,900 --> 00:17:28,700
+Ruth Adeyemi: She does it the week before Thanksgiving, every year, and once it's set, it's set.
+
+232
+00:17:28,800 --> 00:17:34,600
+Ruth Adeyemi: So if this is going to happen in the first quarter, she needs to see it before then.
+
+233
+00:17:34,700 --> 00:17:40,500
+Ruth Adeyemi: Otherwise it waits a year, and I'm not doing another year of the tray.
+
+234
+00:17:41,000 --> 00:17:46,433
+Priya Raman: Okay.
+
+235
+00:17:46,533 --> 00:17:51,967
+Priya Raman: So it's Walt believing the crew will use it, a quick look from IT, your planner seeing it saves her time, and Sandra signing before her budget's set in November.
+
+236
+00:17:52,067 --> 00:17:57,500
+Priya Raman: Did I get that right?
+
+237
+00:17:58,000 --> 00:18:00,700
+Ruth Adeyemi: Yeah, that's right.
+
+238
+00:18:00,800 --> 00:18:03,500
+Ruth Adeyemi: That's the whole list.
+
+239
+00:18:04,000 --> 00:18:10,700
+Priya Raman: Would Walt and Sandra be willing to join the next conversation?
+
+240
+00:18:10,800 --> 00:18:17,500
+Priya Raman: Honestly, I think it would go better than me trying to reach them through you.
+
+241
+00:18:18,000 --> 00:18:20,550
+Ruth Adeyemi: Walt, yes.
+
+242
+00:18:20,650 --> 00:18:23,200
+Ruth Adeyemi: Sandra, maybe, if it's short.
+
+243
+00:18:23,300 --> 00:18:25,850
+Ruth Adeyemi: She hates long vendor calls.
+
+244
+00:18:25,950 --> 00:18:28,500
+Ruth Adeyemi: The last one went ninety minutes and she still brings it up.
+
+245
+00:18:29,000 --> 00:18:33,433
+Priya Raman: Thirty minutes.
+
+246
+00:18:33,533 --> 00:18:37,967
+Priya Raman: And I'd want Walt doing most of the talking, not me.
+
+247
+00:18:38,067 --> 00:18:42,500
+Priya Raman: What would Walt need to see in that half hour to believe his crew would use it?
+
+248
+00:18:43,000 --> 00:18:48,767
+Ruth Adeyemi: Honestly, a tech closing a work order on a phone.
+
+249
+00:18:48,867 --> 00:18:54,633
+Ruth Adeyemi: If he can hand the phone to one of his own guys and watch him do it in under a minute, he'll get it.
+
+250
+00:18:54,733 --> 00:19:00,500
+Ruth Adeyemi: Can you set that up?
+
+251
+00:19:01,000 --> 00:19:06,767
+Priya Raman: Yes.
+
+252
+00:19:06,867 --> 00:19:12,633
+Priya Raman: We'll set up a demo with your mixer and a few of your machines in it, so it's your plant on the screen and not a made-up one.
+
+253
+00:19:12,733 --> 00:19:18,500
+Priya Raman: He can hand the phone to whoever he wants.
+
+254
+00:19:19,000 --> 00:19:22,100
+Ruth Adeyemi: Then Sandra will come.
+
+255
+00:19:22,200 --> 00:19:25,300
+Ruth Adeyemi: And Walt will like that a lot.
+
+256
+00:19:25,400 --> 00:19:28,500
+Ruth Adeyemi: He'll probably grab Dale for it.
+
+257
+00:19:29,000 --> 00:19:34,820
+Priya Raman: Great.
+
+258
+00:19:34,920 --> 00:19:40,740
+Priya Raman: Then let's get it on the calendar while we're both here, so it doesn't turn into a week of email.
+
+259
+00:19:40,840 --> 00:19:46,660
+Priya Raman: I have Tuesday the 13th at 10 or Wednesday the 14th at 2, Eastern.
+
+260
+00:19:46,760 --> 00:19:52,580
+Priya Raman: And the reason I'd push for it is so Sandra hears it from Walt, not from a vendor.
+
+261
+00:19:52,680 --> 00:19:58,500
+Priya Raman: Walt sees the phone side, asks his own questions, and Sandra hears what he thinks well before November.
+
+262
+00:19:59,000 --> 00:20:02,200
+Ruth Adeyemi: Okay, that makes sense.
+
+263
+00:20:02,300 --> 00:20:05,500
+Ruth Adeyemi: Hang on, let me pull up my calendar.
+
+264
+00:20:06,000 --> 00:20:15,500
+Priya Raman: Take your time.
+
+265
+00:20:16,000 --> 00:20:19,667
+Ruth Adeyemi: Okay.
+
+266
+00:20:19,767 --> 00:20:23,433
+Ruth Adeyemi: Tuesday the 13th is no good, Walt has a customer audit that morning.
+
+267
+00:20:23,533 --> 00:20:27,200
+Ruth Adeyemi: Wednesday the 14th at 2 works for me, and it looks like Walt's open.
+
+268
+00:20:27,300 --> 00:20:30,967
+Ruth Adeyemi: Sandra's showing free too.
+
+269
+00:20:31,067 --> 00:20:34,733
+Ruth Adeyemi: Let's do Wednesday the 14th at 2.
+
+270
+00:20:34,833 --> 00:20:38,500
+Ruth Adeyemi: Their emails are the same as mine, first initial and last name.
+
+271
+00:20:39,000 --> 00:20:42,800
+Priya Raman: Got it.
+
+272
+00:20:42,900 --> 00:20:46,700
+Priya Raman: I'm sending it now to all three of you, Wednesday the 14th, 2 to 2:30 Eastern.
+
+273
+00:20:46,800 --> 00:20:50,600
+Priya Raman: Okay, it's sent.
+
+274
+00:20:50,700 --> 00:20:54,500
+Priya Raman: Did it come through on your end?
+
+275
+00:20:55,000 --> 00:20:58,300
+Ruth Adeyemi: Hang on.
+
+276
+00:20:58,400 --> 00:21:01,700
+Ruth Adeyemi: Yep, it's here.
+
+277
+00:21:01,800 --> 00:21:05,100
+Ruth Adeyemi: I'm accepting it now.
+
+278
+00:21:05,200 --> 00:21:08,500
+Ruth Adeyemi: And I'll walk over and tell Walt in person, so it doesn't just show up on his calendar.
+
+279
+00:21:09,000 --> 00:21:12,667
+Priya Raman: Good.
+
+280
+00:21:12,767 --> 00:21:16,433
+Priya Raman: In the description I put one line, a tech closes a work order on a phone in under a minute, in front of Walt.
+
+281
+00:21:16,533 --> 00:21:20,200
+Priya Raman: If he wants anything else on there, he can just reply to the invite.
+
+282
+00:21:20,300 --> 00:21:23,967
+Priya Raman: And here's my cell, in case anything comes up before then.
+
+283
+00:21:24,067 --> 00:21:27,733
+Priya Raman: It's 312-555-0142.
+
+284
+00:21:27,833 --> 00:21:31,500
+Priya Raman: Texting is easiest.
+
+285
+00:21:32,000 --> 00:21:37,700
+Ruth Adeyemi: Got it, putting it in my phone now.
+
+286
+00:21:37,800 --> 00:21:43,500
+Ruth Adeyemi: And I'll send you a list of what's on the floor at the main plant, so the demo looks like us.
+
+287
+00:21:44,000 --> 00:21:47,433
+Priya Raman: Thanks, Ruth.
+
+288
+00:21:47,533 --> 00:21:50,967
+Priya Raman: This was really helpful.
+
+289
+00:21:51,067 --> 00:21:54,500
+Priya Raman: And tell Dale I said hi, even though he doesn't know who I am yet.
+
+290
+00:21:55,000 --> 00:21:56,767
+Ruth Adeyemi: Ha.
+
+291
+00:21:56,867 --> 00:21:58,633
+Ruth Adeyemi: I will.
+
+292
+00:21:58,733 --> 00:22:00,500
+Ruth Adeyemi: Talk to you on the 14th.
+
+293
+00:22:01,000 --> 00:22:02,900
+Priya Raman: Talk then.
+
+294
+00:22:03,000 --> 00:22:04,900
+Priya Raman: Bye.

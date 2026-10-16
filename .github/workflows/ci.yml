@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Skill rules
+        run: python scripts/check_skill.py skills/game-tape
+
+      - name: Prose rules
+        run: python scripts/lint_prose.py
+
+      - name: Links
+        run: python scripts/check_links.py
+
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+
+      - name: The zip builds with the right shape
+        run: python scripts/build_zip.py
+
+      - name: Scripts run on Python 3.9
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.9"
+
+      - name: Tests on Python 3.9
+        run: python -m unittest discover -s tests -v
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Skills CLI finds the skill
+        env:
+          DISABLE_TELEMETRY: "1"
+          NO_COLOR: "1"
+        run: |
+          listing="$(npx -y skills@1.7.2 add . --list 2>&1)"
+          echo "$listing"
+          grep -q "game-tape" <<< "$listing" || { echo "skills CLI did not list game-tape"; exit 1; }

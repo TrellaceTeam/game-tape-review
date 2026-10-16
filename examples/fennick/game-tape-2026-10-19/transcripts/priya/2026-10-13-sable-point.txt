@@ -1,0 +1,92 @@
+TITLE: sable-point-first-call-2026-10-13
+DATE: 2026-10-13
+MINUTES: 18
+REP: Priya Raman
+CALL_TYPE: first call
+LINK: https://recorder.example/share/q5Ws1Sable1013?t={seconds}
+BUYERS: Greg Tolliver, maintenance manager at Sable Point Packaging
+
+[00:00:05] Priya Raman: Hi Greg, it's Priya from Fennick. Can you hear me?
+[00:00:12] Greg Tolliver: Hey Priya. Yeah, I got you. Sorry, I'm in the office by the corrugator, so if it gets loud, that's why.
+[00:00:23] Priya Raman: No problem at all. How's your week going?
+[00:00:28] Greg Tolliver: Busy. It's always busy. We had a customer in for a plant tour this morning, so I spent most of yesterday making the place look clean. You know how it is. Suddenly everybody cares about the floor.
+[00:00:44] Priya Raman: Ha, the tour-day scramble. Every plant I've been in has one. Did it go okay?
+[00:00:53] Greg Tolliver: It went fine. They liked the new stacker, so that's good. They asked a lot about lead times, which isn't really my department, but I smiled. And nothing broke while they were standing there, which is the main thing.
+[00:01:11] Priya Raman: That's the real win. Well, I know your time's tight, so I'll just jump in. Tell me a little about Sable Point.
+[00:01:22] Greg Tolliver: Sure. So we're one plant, about two hundred fifty people. We make corrugated boxes, mostly for food and beverage customers around the region, some e-commerce stuff now too. We run two shifts, sometimes a third when it's busy, like right now going into the holidays. I've been the maintenance manager about four years.
+[00:01:47] Priya Raman: And how big is the maintenance team?
+[00:01:51] Greg Tolliver: Eight techs across the shifts, plus me. Two of them are pretty new, so I'm still bringing them up to speed.
+[00:02:02] Priya Raman: Okay. And what are you using to track maintenance today?
+[00:02:08] Greg Tolliver: Mostly a spreadsheet and a whiteboard. There's an old system from before my time that nobody really uses, so it's basically my spreadsheet. Which works great until I'm on vacation.
+[00:02:22] Priya Raman: Got it. And what made you want to take the call?
+[00:02:30] Greg Tolliver: Honestly, the corrugator. We had three unplanned stops on the corrugator in August.
+[00:02:39] Priya Raman: Three in one month. Ouch. What happened?
+[00:02:43] Greg Tolliver: One was the glue unit, one was a bearing on the single facer, and one was a drive on the double backer. The single facer was the bad one. We lost most of a shift on that, and we had to push two orders, and one of those customers was not happy.
+[00:03:06] Priya Raman: Yeah, the corrugator's the heart of the whole plant, right? Everything downstream waits on it.
+[00:03:14] Greg Tolliver: Pretty much. If the corrugator's down, converting runs out of board in a couple of hours, and then you've got people standing around on that side too. And the single facer one, honestly, I think we could've caught it. The PM on it was overdue.
+[00:03:38] Greg Tolliver: We'd pushed it twice because we were slammed, and then the bearing went on a Tuesday night with a big order on the line.
+[00:03:45] Priya Raman: Yeah, that's really common. We hear that a lot, the PM was on the list and it just slid because nobody wanted to stop the line. That's kind of exactly what we're built for. Honestly, I think it'll be easier if I just show you how we handle that. Let me share my screen.
+[00:04:06] Priya Raman: Okay, can you see it? You should see a calendar with a bunch of colored blocks.
+[00:04:15] Greg Tolliver: Yep, I see it.
+[00:04:18] Priya Raman: So this is the schedule for a plant. Every block is a planned job. Green is done, yellow is due this week and red is overdue. And you can schedule a job by date or by run hours, so a PM on the corrugator can come due after so many hours of running instead of just every thirty days.
+[00:04:40] Priya Raman: Most of our customers do a mix. The calendar ones for safety stuff and inspections, and run hours for anything that wears.
+[00:04:52] Greg Tolliver: Run hours would be nice. In our busy months the calendar ones come up way too late, and in the slow months we're doing PMs on stuff that barely ran.
+[00:05:06] Priya Raman: Exactly. And before I click in, this is the machine list. You can nest things, so the corrugator has the single facer, the double backer, the glue unit and the knife under it. Then when you look at downtime later, you see which part of the corrugator it was, not just corrugator.
+[00:05:30] Greg Tolliver: That'd help. In my spreadsheet it just says corrugator, and then I have to go read the notes to figure out what actually broke.
+[00:05:42] Priya Raman: Right. Okay, this is a demo plant, so ignore the names, but if I click into one of these, here's a work order. It's got the steps, the parts, the last three times somebody did it, and any notes they left. And up here you can see who it's assigned to and when it's due.
+[00:06:07] Greg Tolliver: Can the techs see the old notes?
+[00:06:12] Priya Raman: They can. That's actually one of the things people use the most. You can attach the manual too, or a photo of how it's supposed to look, so nobody's hunting for the binder.
+[00:06:27] Greg Tolliver: Oh, that's nice. Our binders are a mess. Half the manuals are for machines we don't even have anymore.
+[00:06:37] Priya Raman: Everybody's binders are a mess. Okay, so here's the part I really wanted to show you. This is what the tech sees on their phone. I'm pulling it up right next to the schedule so you can see both. So they get the work order on the phone, they tap through the steps, they can take a photo if something looks off, and when they're done they just tap close.
+[00:07:01] Priya Raman: That's it. Most jobs, it's under a minute. They can add a note too, and the next person who opens that machine sees it.
+[00:07:17] Greg Tolliver: Wait, so they close it right there at the machine? They don't come back to the office?
+[00:07:27] Priya Raman: Right there at the machine. And if they're somewhere with no signal, like the back of the warehouse, it saves and syncs when they're back on wifi.
+[00:07:41] Greg Tolliver: This is exactly what we need. Honestly, this would fix half my week.
+[00:07:48] Priya Raman: Ha, I love that. What's the other half?
+[00:07:53] Greg Tolliver: The other half is chasing paper. My guys write stuff on the work order, it sits on my desk, and I'm typing it in at seven at night. Or I'm walking the floor trying to find out if something got done.
+[00:08:12] Priya Raman: Yeah, you'd be done with that. And when they close it, it turns green on the schedule right away. Watch, I'll close this one.
+[00:08:25] Greg Tolliver: Oh, there it goes.
+[00:08:30] Priya Raman: Yep. And you'd see it on your phone too, so if you're stuck in a meeting you still know what's done. Let me show you parts real quick, because that's the other thing people always ask about. So every job can have the parts it needs listed on it.
+[00:08:53] Priya Raman: When a tech uses one, it comes off the count, and when you get low it tells you. So you're not finding out the morning of a PM that you're out of bearings. You can set the minimum for each part, and it'll flag it on your phone.
+[00:09:12] Greg Tolliver: That's happened. More than once. We had a belt job last spring where we pulled the old one off and then found out the new one wasn't on the shelf.
+[00:09:26] Priya Raman: Oof. Yeah. Okay, and then over here is...
+[00:09:31] Greg Tolliver: Sorry, one thing before you move on. I've got budget left this year if we move before December.
+[00:09:41] Priya Raman: Oh, that's great to know. Okay, so this next screen is reporting. This is the one managers usually live on. So up top, you've got how many planned jobs got done on time this month.
+[00:10:03] Priya Raman: That's the number most of our customers watch, because when it goes up, the unplanned stops usually come down. Then below that, the overdue list, sorted by how late they are, so you know what to chase first. You can filter it by shift too, so you can see if first and second shift are keeping up the same.
+[00:10:21] Greg Tolliver: Huh, okay. I'd like to see that by shift, honestly.
+[00:10:29] Priya Raman: And this one here is backlog by tech, so you can see if somebody's buried while somebody else is light. That's usually where the new guys show up, because the experienced guys grab the jobs they already know.
+[00:10:45] Greg Tolliver: Yeah, that'd be useful. Right now I just kind of know who's buried. Usually it's me.
+[00:10:54] Priya Raman: Right, it's all in your head. And this is the part a lot of people don't expect. Operators can send a request from their phone too. You put a code on each machine, so they don't even have to look it up. If somebody on converting hears something, they don't have to go find you.
+[00:11:18] Priya Raman: They just send it, and it lands in your queue with the machine and a photo.
+[00:11:24] Greg Tolliver: Oh, I like that. My operators tell me stuff in the break room and I forget half of it by the time I'm back at my desk. Or I write it on my hand.
+[00:11:41] Priya Raman: Yeah, that's exactly why we built it. And then down here at the bottom is downtime. Every unplanned stop, how long it lasted and what caused it. The tech tags the cause when they close it out, so it's not a guess three weeks later.
+[00:12:02] Greg Tolliver: Does that break it out by machine? My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down.
+[00:12:14] Priya Raman: Yep, it does. You'd pick the corrugator here, and you see every stop, how long it lasted and what the cause was. You can export it too, or just send somebody the link.
+[00:12:28] Greg Tolliver: That'd be nice. Something to show him besides my spreadsheet. He's not a spreadsheet guy.
+[00:12:36] Priya Raman: Totally. And you can set it to email you every Monday, so you're not building it by hand. A lot of maintenance managers forward that one up.
+[00:12:50] Greg Tolliver: Okay. That'd save me a couple hours a week right there.
+[00:12:57] Priya Raman: Yeah. So that's most of it. There's more, like the audit history and the reports for your insurance carrier, but that's the core. Any questions so far?
+[00:13:11] Greg Tolliver: Not really. It looks pretty simple, which is what I want. My guys aren't going to use anything complicated. So what does something like this cost? Just ballpark.
+[00:13:23] Priya Raman: For one plant your size, most teams land somewhere between $20,000 and $28,000 a year. It mostly depends on how many machines you put in, not how many people use it. With the corrugator line and converting, you'd probably be somewhere in the middle of that.
+[00:13:43] Greg Tolliver: Okay. That's reasonable. Honestly, it's less than I figured. I thought you were going to say double that.
+[00:13:53] Priya Raman: Ha, no. And that includes the setup and the training for your techs. There's no extra charge per user, so you and all eight of your guys are covered, and the operators too if you want them sending requests.
+[00:14:11] Greg Tolliver: How long does it take to get going?
+[00:14:17] Priya Raman: Usually a few weeks to get your machines in and the techs using it. The first week is mostly us loading your machines and PMs with you, and then we train your techs on the floor, a shift at a time. And honestly, packaging plants tend to go fast.
+[00:14:38] Priya Raman: We've got a folding carton plant that was up and running in about three weeks.
+[00:14:46] Greg Tolliver: Three weeks would be good. And training on the floor is good. If you put my guys in a conference room, you'll lose them in ten minutes. Can we bring over the spreadsheet, though? I've got four years of stuff in there, and I really don't want to start over.
+[00:15:07] Priya Raman: Yep, we'd import it. We've done it from spreadsheets a lot messier than yours, I promise. You'd keep all that history, so the reports have something in them from day one.
+[00:15:22] Greg Tolliver: Okay, good. That was the thing I was most worried about, to be honest.
+[00:15:30] Priya Raman: Great. So that's the whole picture. The schedule, the phone app, parts, the reports, and we set it up with you. So, um, what do you think?
+[00:15:43] Greg Tolliver: I like it. I really do. I'll need to run it by my boss. He'll want to see numbers.
+[00:15:54] Priya Raman: Totally, that makes sense. Why don't I send over a few things and you can take a look and let me know?
+[00:16:06] Greg Tolliver: Yeah, that works. What kind of stuff?
+[00:16:10] Priya Raman: I'll send our overview deck, a one-pager on pricing, and a recording of a demo like this one, so you can show it around. There's also a short case study in there from a packaging plant. I think you'd like that one. I'll have it all over to you by tomorrow morning.
+[00:16:33] Greg Tolliver: Perfect. Yeah, I'll get back to you next week or so.
+[00:16:40] Priya Raman: Sounds great. No rush at all. And good luck with the corrugator. I hope October's quieter than August was.
+[00:16:50] Greg Tolliver: Ha. Me too. It's been okay so far, knock on wood.
+[00:16:58] Priya Raman: Are you guys running all the way through the holidays, or do you get a break?
+[00:17:06] Greg Tolliver: We run hard until about the twentieth of December, and then we shut down for a week and do all the big jobs. That's honestly my favorite week of the year. Nobody's running anything, and I can actually get ahead.
+[00:17:23] Priya Raman: Ha, the shutdown week. Every maintenance manager I know says that. Well, enjoy it when it comes.
+[00:17:32] Greg Tolliver: I will. And hey, thanks for keeping it short. Most of these calls go an hour.
+[00:17:41] Priya Raman: Of course. I know you've got a plant to run. Thanks, Greg, this was great. Talk soon.
+[00:17:51] Greg Tolliver: Take care, Priya.

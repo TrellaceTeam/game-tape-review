@@ -1,0 +1,44 @@
+TITLE: ashgrove-working-session-2026-09-30
+DATE: 2026-09-30
+MINUTES: 13
+REP: Jordan Ellis
+CALL_TYPE: second call (working session)
+LINK: https://recorder.example/share/x9Lp4Ashgrove0930?t={seconds}
+BUYERS: Dana Whitfield, Luis Ortega, Ashgrove Plastics
+
+[00:00:12] Jordan Ellis: Morning, Dana. Morning, Luis. Thanks for making the time, I know Wednesdays are busy at the plant.
+[00:00:30] Luis Ortega: They're all busy.
+[00:00:36] Jordan Ellis: Fair. Before I show anything, let me check I've got the picture right. Last week Dana told me the schedule gets rebuilt on the shop whiteboard every Monday, PMs fall off when jobs get shuffled, and press 7 went down in July with its maintenance three weeks overdue. And the goal is to walk into the March 12th supplier review with records you're not embarrassed by. Luis, is that how you'd put it?
+[00:01:48] Luis Ortega: Mostly. I'd add that I spend most of Monday on that board. Me and two planners. That's a day a week each, gone.
+[00:02:15] Jordan Ellis: That's helpful. Three people, most of a day each. Is that the part you'd most want back?
+[00:02:33] Luis Ortega: That and the five a.m. calls.
+[00:02:42] Jordan Ellis: Understood. Dana said the test for today is simple: can a tech close a work order from the press in under a minute. So I'll start there and skip everything else unless you ask. I'm sharing my phone screen now. Can you both see it?
+[00:03:24] Dana Whitfield: Yep.
+[00:03:27] Luis Ortega: Yeah.
+[00:03:33] Jordan Ellis: This is what a tech sees when they open the app at the start of a shift. Today's PMs for their area, sorted by due date. Red means overdue. Let's say I'm the tech on press 7. I tap the PM, it shows the checklist, the parts, and the last three times it was done. I check the items, take a photo of the hydraulic fitting, and tap close. That's it.
+[00:04:48] Luis Ortega: How long was that?
+[00:04:54] Jordan Ellis: About forty seconds, and I was talking.
+[00:05:03] Luis Ortega: What happens when there's no signal? The press hall is a dead zone. Half the phones don't work back there.
+[00:05:24] Jordan Ellis: Good question. The app works offline. It stores everything on the phone and syncs when it's back on wifi. You'd see a little cloud icon until it syncs.
+[00:05:54] Luis Ortega: Okay. That was the first thing that killed the last system, so I had to ask.
+[00:06:09] Jordan Ellis: That makes sense. Let me show you the Monday view, since that's where your day goes. This is the schedule for all three plants. Everything due this week, by plant and by press. If a job gets shuffled, the PMs don't disappear. They move to the overdue list and the planner gets a nudge.
+[00:07:12] Luis Ortega: Can I move a PM to a different day without it screaming at me?
+[00:07:24] Jordan Ellis: Yes. You drag it. It keeps a note of who moved it and why, which is the part auditors like.
+[00:07:45] Dana Whitfield: That's the piece for the supplier review. Can it export the history per press?
+[00:08:00] Jordan Ellis: It can. One click, per press or per plant, as a PDF or a spreadsheet.
+[00:08:18] Dana Whitfield: Okay, good.
+[00:08:24] Jordan Ellis: So pricing for three plants your size would be about $58,000 a year. That includes setup, the mobile app for every tech, and training. We'd load your asset list and your existing PMs from the spreadsheets, and the main plant would be live in about four weeks.
+[00:09:15] Dana Whitfield: Okay. That's in the range we talked about.
+[00:09:27] Luis Ortega: Four weeks is fast. Who does the loading? Because my planners don't have time to retype everything.
+[00:09:45] Jordan Ellis: We do. Your planners spend about two hours with us checking it at the end.
+[00:10:03] Luis Ortega: Okay. If the guys can do it from the floor, that changes things. That's what I care about.
+[00:10:21] Jordan Ellis: Good. Dana, what would you need from me to take this to Karen?
+[00:10:33] Dana Whitfield: A short proposal with the price and the payback. She'll want to see it pay for itself inside a year. And IT will need your security questionnaire.
+[00:11:00] Jordan Ellis: I can do both. I'll put the payback against the press 7 numbers you gave me, the thirty-one hours at eighteen hundred an hour.
+[00:11:24] Dana Whitfield: That would help. Karen's traveling most of November, so sooner is better.
+[00:11:39] Jordan Ellis: Understood. I'll send the proposal and the security questionnaire over this week, and then we can figure out next steps from there.
+[00:12:03] Dana Whitfield: Sounds good.
+[00:12:09] Luis Ortega: Send me a login for the app too. I want to show one of my techs.
+[00:12:21] Jordan Ellis: Will do, I'll set up a trial account for you today.
+[00:12:33] Luis Ortega: Thanks.
+[00:12:36] Jordan Ellis: Thanks, both. Talk soon.

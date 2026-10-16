@@ -1,0 +1,40 @@
+TITLE: pell-valley-intro-2026-09-24
+DATE: 2026-09-24
+MINUTES: 13
+REP: Jordan Ellis
+CALL_TYPE: intro call
+LINK: https://recorder.example/share/m3Vt8Pell0924?t={seconds}
+BUYERS: Marcus Hale, Pell Valley Components
+
+[00:00:08] Jordan Ellis: Hey Marcus, Jordan from Fennick. Thanks for jumping on.
+[00:00:17] Marcus Hale: Sure. I've got about 20 minutes.
+[00:00:25] Jordan Ellis: Perfect, that's plenty. So let me give you a quick overview of who we are and then we can dig in. Fennick was founded in 2021. We do preventive maintenance planning for mid-size manufacturers, so plants from about 150 up to 1,500 people. We have about 90 customers now, mostly in plastics, metal fabrication and packaging. The platform does three main things. It builds your PM schedule automatically from your asset list and your run hours. It gives your techs a mobile app so they can close work orders from the floor. And it gives managers a dashboard across every plant, so you can see what's due, what's overdue and where your downtime is coming from. We also integrate with most of the big ERPs for parts. Customers usually see a big drop in unplanned downtime in the first six months.
+[00:03:10] Marcus Hale: Okay.
+[00:03:16] Jordan Ellis: So, are you having maintenance issues right now?
+[00:03:27] Marcus Hale: Uptime's a big focus for us this year.
+[00:03:36] Jordan Ellis: Totally. That's what we hear from almost everyone. And that's exactly where the scheduling engine helps, because most downtime comes from PMs that slip. The engine looks at run hours and flags anything that's coming due, so nothing falls through the cracks. And on the mobile side, techs get a push notification when a PM is assigned to them. They can attach photos, log parts, close it out. It takes about a minute. The managers love the dashboard because they finally have one view across all their sites. How many plants do you have?
+[00:05:14] Marcus Hale: Two.
+[00:05:19] Jordan Ellis: Two, great. So you'd see both of them side by side. We have a customer with four plants in Ohio who rolled it out to all four in about eight weeks. Their maintenance manager said it was the first system the techs actually used.
+[00:06:01] Marcus Hale: Good.
+[00:06:07] Jordan Ellis: What are you using today for maintenance?
+[00:06:18] Marcus Hale: The maintenance module in our ERP. And spreadsheets.
+[00:06:29] Jordan Ellis: Got it. Yeah, a lot of our customers came off ERP maintenance modules. They're built for finance people, not for techs. The interfaces are clunky and nobody on the floor wants to use them. That's really the gap we fill. We sit on top of the ERP and pull parts from it, so you keep the ERP for what it's good at.
+[00:07:31] Marcus Hale: Makes sense.
+[00:07:36] Jordan Ellis: Have you had much downtime this year?
+[00:07:45] Marcus Hale: Some. More than I'd like.
+[00:07:53] Jordan Ellis: Yeah, that's really common. Most plants we talk to don't even track it properly until they have a system like ours. The dashboard breaks downtime out by asset and by cause, so you can see which machines are hurting you. I can show you a sample dashboard if you want, I've got one with demo data.
+[00:08:46] Marcus Hale: Maybe another time.
+[00:08:52] Jordan Ellis: Sure, no problem. Let me tell you a bit about how onboarding works, because that's usually the next question. We do a two-week setup where we load your asset list, we import your existing PMs from the spreadsheets, and we train the techs on the app. Most plants are live in three to four weeks. There's a customer success manager assigned to you the whole time. Mei runs that team and she's great.
+[00:10:05] Marcus Hale: Okay.
+[00:10:10] Jordan Ellis: Do you have budget set aside for something like this?
+[00:10:22] Marcus Hale: We'll see.
+[00:10:27] Jordan Ellis: Fair enough. Pricing depends on the number of assets, so once I know more about your plants I can put together a quote. It's usually very reasonable compared to the cost of downtime.
+[00:11:01] Marcus Hale: Sure.
+[00:11:06] Jordan Ellis: When are you looking to make a change?
+[00:11:15] Marcus Hale: Sometime this year, probably.
+[00:11:23] Jordan Ellis: Great. That works well with our onboarding timeline. If we started in the next few weeks, you'd be live well before the end of the year.
+[00:11:46] Marcus Hale: Look, I've got another call in a few minutes. Can you send me something I can look at?
+[00:12:00] Jordan Ellis: Absolutely. I'll send over our deck and some pricing info, and I'll follow up next week to see what you think.
+[00:12:19] Marcus Hale: Sounds good.
+[00:12:25] Jordan Ellis: Great talking to you, Marcus. Have a good one.
+[00:12:33] Marcus Hale: You too.

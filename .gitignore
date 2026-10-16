@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+dist/
+.env
+# A game-tape run inside this repo's root holds real transcripts. Keep it out of git.
+/game-tape-*/
+/game-tape-profile.md

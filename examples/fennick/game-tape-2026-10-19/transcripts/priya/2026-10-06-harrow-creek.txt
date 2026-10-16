@@ -1,0 +1,112 @@
+TITLE: harrow-creek-first-call-2026-10-06
+DATE: 2026-10-06
+MINUTES: 22
+REP: Priya Raman
+CALL_TYPE: first call
+LINK: https://recorder.example/share/c2Hd6Harrow1006?t={seconds}
+BUYERS: Ruth Adeyemi, Harrow Creek Castings
+
+[00:00:04] Priya Raman: Hi Ruth, it's Priya from Fennick. Can you hear me okay?
+[00:00:10] Ruth Adeyemi: Yep, I've got you. Sorry, give me one second, I just came in off the floor. Okay. Hi.
+[00:00:19] Priya Raman: No rush at all. Were you out on the pour deck?
+[00:00:26] Ruth Adeyemi: I was. We had a ladle running a little cold this morning, so I went out to look at it myself. It's fine now.
+[00:00:39] Priya Raman: I've only ever watched a pour from behind the yellow line, and I could still feel the heat on my face. I don't know how your crew does it.
+[00:00:54] Ruth Adeyemi: You get used to it. Mostly. In August nobody gets used to anything.
+[00:01:01] Priya Raman: I believe it. Well, thanks for making the time on a day like that. Here's what I was hoping to do with our twenty-five minutes. I'd like to hear how maintenance actually runs at Harrow Creek today, share a little about what we've seen at other plants like yours, and then figure out together if a second conversation even makes sense. Does that work?
+[00:01:26] Priya Raman: And is there anything you want to make sure we cover?
+[00:01:32] Ruth Adeyemi: That works. The main thing for me is whether this works for guys who don't sit at a desk. My crew isn't going to walk back to a computer to log anything.
+[00:01:47] Priya Raman: That's fair. I'll make sure we get there. So, walk me through a normal morning. How does maintenance actually run today?
+[00:01:59] Ruth Adeyemi: So every morning around five-thirty, our planner prints the work orders for the day. Each tech gets a stack. They do the jobs, they write on the paper, and they drop it in a tray by the maintenance office. And then somebody types it in when they get a chance.
+[00:02:22] Priya Raman: When they get a chance. How often is that, really?
+[00:02:29] Ruth Adeyemi: Honestly? Some weeks it's every day. Some weeks the tray just fills up and our planner catches up on a Friday. By then half of it's covered in sand.
+[00:02:42] Priya Raman: And what happens to whatever's written on the paper while it's sitting in the tray?
+[00:02:50] Ruth Adeyemi: Well, that's the problem. First shift finds something, a leak, a noise, whatever, and they write it on the back of a work order. Second shift never sees it. Second shift gets their own stack at three, and whatever first shift found is sitting in a tray by the office.
+[00:03:13] Priya Raman: So second shift walks the floor without anything first shift learned that day.
+[00:03:21] Ruth Adeyemi: Right. And it's not anybody's fault. It's just paper.
+[00:03:28] Priya Raman: Can you think of a time this really cost you?
+[00:03:33] Ruth Adeyemi: Yeah. Last month. Our sand mixer at the main plant went down for two full shifts. And when we pieced it together after, one of my first shift guys, Marco, had heard the main bearing grinding two days before. He mentioned it to the guy next to him. He never wrote it up.
+[00:03:56] Priya Raman: So two days of warning, and it lived in one conversation.
+[00:04:02] Ruth Adeyemi: Yep. And the mixer feeds the whole molding line. So when it's down, we're not making molds, and if we're not making molds, we're not pouring.
+[00:04:15] Priya Raman: What did those two shifts look like on the floor?
+[00:04:22] Ruth Adeyemi: Pretty ugly. The molding crew stood around for the first couple of hours, then we sent some people home. And then we ran a Saturday to catch up on a customer order, and that customer still called me twice that week.
+[00:04:42] Priya Raman: That's a rough week.
+[00:04:45] Ruth Adeyemi: It was. And, you know, it's not like we haven't tried to fix this. We looked at a couple of other tools last spring, and it just kind of went nowhere.
+[00:04:59] Priya Raman: Okay. So when the mixer went down, who found out first?
+[00:05:06] Ruth Adeyemi: The operator. It seized right at the start of second shift. He called Dale, who runs maintenance on second shift, and Dale called me at home. Dale's been with us twenty-two years. He's my best guy at night. Second shift runs three to eleven-thirty, and most nights he's the only maintenance lead in the building.
+[00:05:31] Priya Raman: Have you put a number on what the mixer cost you?
+[00:05:38] Ruth Adeyemi: I had our controller run it after. Between the castings we scrapped and the Saturday overtime, it came to about $38,000.
+[00:05:50] Priya Raman: $38,000 from one bearing.
+[00:05:53] Ruth Adeyemi: From a bearing that costs maybe four hundred dollars. That's the part that gets me. I keep doing that math in my head, and it doesn't get any better.
+[00:06:07] Priya Raman: How did that number land with people?
+[00:06:12] Ruth Adeyemi: Sandra, our GM, asked me how we didn't see it coming. And the honest answer was, we did see it coming. We just didn't write it down anywhere anybody could find it.
+[00:06:27] Priya Raman: That's a hard answer to have to give.
+[00:06:34] Ruth Adeyemi: It was. I don't want to give it again. And it's not just the mixer, that's just the one that got expensive enough for Sandra to hear about. Somebody said the shakeout conveyor sounded funny last week. They all get mentioned. None of them get written down.
+[00:06:55] Ruth Adeyemi: And our second plant's worse, honestly. It's smaller, there's no planner over there, and the lead keeps everything on a clipboard he carries around. If he's out sick, nobody knows what's due.
+[00:07:07] Priya Raman: Can I ask what made you reach out to us now, and not, say, last year?
+[00:07:15] Ruth Adeyemi: The mixer, mostly. Sandra asking me that question, really. And then I was on your website and saw the part about techs closing work orders from their phones. That's what made me book this.
+[00:07:31] Priya Raman: What about it caught your eye?
+[00:07:36] Ruth Adeyemi: I keep picturing it, honestly. So if Dale on second shift could see first shift's note on his phone before he walks the floor...
+[00:07:48] Priya Raman: Keep going. Walk me through what Dale would do with that at eleven at night.
+[00:07:57] Ruth Adeyemi: Okay. So eleven at night is when it matters, because by then it's just Dale. First shift's gone home, I'm asleep, there's nobody to call. If something sounds wrong, he's deciding by himself whether to shut a machine down. So he's walking past the mixer and it sounds a little off. He pulls out his phone, he looks up the mixer, and he sees what Marco wrote that morning.
+[00:08:20] Ruth Adeyemi: Main bearing grinding, check it. Now he's not guessing. Two guys heard the same thing.
+[00:08:33] Priya Raman: And then what does he do?
+[00:08:37] Ruth Adeyemi: He puts his hand on the housing. If it's hot, he waits for the end of the batch, shuts it down and swaps the bearing. Forty minutes, maybe an hour, and molding barely notices. And then he writes down that he swapped it, so first shift sees it at six in the morning and doesn't tear it apart again looking for the noise.
+[00:09:04] Priya Raman: So the note goes both ways.
+[00:09:09] Ruth Adeyemi: It has to. Right now first shift doesn't know what second shift did either. They find a new bearing in there and nobody knows why, or who put it in, or whether it was the right one.
+[00:09:27] Priya Raman: And what would it mean for Dale to have that?
+[00:09:35] Ruth Adeyemi: Honestly? He'd sleep better. He hates calling me at home. He thinks it makes him look like he can't handle it, and he can handle it. He just doesn't have the information. He's making a call at eleven at night with half the story.
+[00:09:54] Priya Raman: Let me read that back in your words, so I know I've got it. It's eleven at night and Dale's by himself, with nobody to call. He walks past the mixer, it sounds off, he pulls it up on his phone and sees Marco's note from that morning, main bearing grinding, check it. So he's not guessing.
+[00:10:18] Priya Raman: He feels the housing, swaps the bearing at the end of the batch, and writes it down so first shift sees it at six. He's not making the call with half the story, and he doesn't have to call you at home. Is that it?
+[00:10:37] Ruth Adeyemi: That's it. That's exactly it. That's really the whole thing.
+[00:10:43] Priya Raman: Can I tell you about one of our customers? I think parts of it will sound familiar.
+[00:10:53] Ruth Adeyemi: Sure, go ahead.
+[00:10:57] Priya Raman: They're a die-casting company in Indiana, two plants, a little bigger than you. When I first met their operations director, she told me almost the same story. First shift would find something, and second shift would never hear about it. Their night lead had a binder, and the binder was always a day behind. Then they lost a trim press for most of a weekend, and it turned out a day shift tech had flagged a leak on it that Tuesday.
+[00:11:22] Priya Raman: On paper. In the tray.
+[00:11:33] Ruth Adeyemi: Oh, that's us.
+[00:11:36] Priya Raman: So the first thing they did with us wasn't the whole schedule. It was just the notes. Every tech could put a note on a machine from their phone, and the next shift saw it before they walked the floor. We didn't touch their PM schedule for the first month.
+[00:12:02] Priya Raman: Within a couple of months, their night lead was catching two or three things a week that used to wait until morning, and the schedule came after, once people trusted it.
+[00:12:10] Ruth Adeyemi: Two or three a week. Huh. That's more than we catch in a month.
+[00:12:18] Priya Raman: And the reason I bring them up is something you said earlier. You said second shift never sees what first shift found. That's exactly where they started. Does that ring true for Harrow Creek? Or is something different for you?
+[00:12:37] Ruth Adeyemi: No, it rings true. The one thing that's different is the guys. A lot of my crew has been here twenty, thirty years. Some of them still have flip phones in their lockers. That's what I meant at the start about guys who don't sit at a desk. I can see Dale using it.
+[00:13:00] Ruth Adeyemi: I'm less sure about some of the others.
+[00:13:05] Priya Raman: That's a real concern, and I'm glad you said it. At that die-caster, the person most against it was their night lead. Twenty-eight years in. What turned him was that closing a work order took him under a minute, standing right at the machine. He didn't have to walk anywhere or type much.
+[00:13:28] Priya Raman: It took him about two weeks. By the end of the first month, he was the one telling the younger guys to put their notes in.
+[00:13:38] Ruth Adeyemi: Wait, back up. How does he not type much?
+[00:13:42] Priya Raman: He'd snap a photo of whatever he found and add a few words. A lot of the older guys like that better than typing. They also put a shared phone at each maintenance station for anybody who didn't want it on their own phone.
+[00:14:02] Ruth Adeyemi: Okay. The shared phone thing would matter. Some of my guys won't put a work app on their personal phone, period. And I don't blame them.
+[00:14:15] Priya Raman: That's really common. And for your second plant, it's one schedule across both. The lead with the clipboard would see the same thing you see, and you'd see his, without driving over.
+[00:14:31] Ruth Adeyemi: That alone would help. I drive over there twice a week just to find out what's going on. It's forty minutes each way. And then I'm back here by three trying to catch second shift.
+[00:14:49] Priya Raman: Can I ask how a decision like this gets made at Harrow Creek?
+[00:14:56] Ruth Adeyemi: So I'd bring it. But really it comes down to two people. Walt Brenner is our plant manager at the main plant, and he has to believe the crew will actually use it. Because if Walt doesn't believe it, the crew won't either. And then Sandra Kim, our general manager, signs.
+[00:15:18] Priya Raman: And what will matter most to Sandra?
+[00:15:23] Ruth Adeyemi: She'll ask if this is another system the guys won't use.
+[00:15:30] Priya Raman: What would she need to see to believe they will?
+[00:15:38] Ruth Adeyemi: Walt telling her. If Walt says the guys will use it, she'll believe it. She won't really believe me, because I'm the one who wants it. And she, um, definitely won't believe you.
+[00:15:52] Priya Raman: That's fair. I wouldn't either. What does Walt care about?
+[00:15:58] Ruth Adeyemi: Walt cares about not adding work for his guys. If it's one more thing to fill out, he'll kill it. He's not a no person. He just protects his crew. He ran second shift maintenance here for eight years before he was plant manager, so he knows what it's like when somebody in an office hands you one more form.
+[00:16:24] Priya Raman: That sounds like a good plant manager. Has Walt heard about any of this yet?
+[00:16:33] Ruth Adeyemi: A little. He knows about the mixer and Marco, obviously. He was there for the whole thing. I haven't told him I'm talking to anybody yet.
+[00:16:46] Priya Raman: Is there anyone else who'd weigh in? IT, finance, your planner?
+[00:16:54] Ruth Adeyemi: Our IT guy will want to know what it connects to and where the data lives, but he won't stop it. Our planner will want to know it doesn't make her day longer. And Sandra handles the money side herself. We're not that big.
+[00:17:13] Priya Raman: Is there a timing you're working toward?
+[00:17:17] Ruth Adeyemi: Sandra sets next year's budget in November. She does it the week before Thanksgiving, every year, and once it's set, it's set. So if this is going to happen in the first quarter, she needs to see it before then. Otherwise it waits a year, and I'm not doing another year of the tray.
+[00:17:41] Priya Raman: Okay. So it's Walt believing the crew will use it, a quick look from IT, your planner seeing it saves her time, and Sandra signing before her budget's set in November. Did I get that right?
+[00:17:58] Ruth Adeyemi: Yeah, that's right. That's the whole list.
+[00:18:04] Priya Raman: Would Walt and Sandra be willing to join the next conversation? Honestly, I think it would go better than me trying to reach them through you.
+[00:18:18] Ruth Adeyemi: Walt, yes. Sandra, maybe, if it's short. She hates long vendor calls. The last one went ninety minutes and she still brings it up.
+[00:18:29] Priya Raman: Thirty minutes. And I'd want Walt doing most of the talking, not me. What would Walt need to see in that half hour to believe his crew would use it?
+[00:18:43] Ruth Adeyemi: Honestly, a tech closing a work order on a phone. If he can hand the phone to one of his own guys and watch him do it in under a minute, he'll get it. Can you set that up?
+[00:19:01] Priya Raman: Yes. We'll set up a demo with your mixer and a few of your machines in it, so it's your plant on the screen and not a made-up one. He can hand the phone to whoever he wants.
+[00:19:19] Ruth Adeyemi: Then Sandra will come. And Walt will like that a lot. He'll probably grab Dale for it.
+[00:19:29] Priya Raman: Great. Then let's get it on the calendar while we're both here, so it doesn't turn into a week of email. I have Tuesday the 13th at 10 or Wednesday the 14th at 2, Eastern. And the reason I'd push for it is so Sandra hears it from Walt, not from a vendor.
+[00:19:52] Priya Raman: Walt sees the phone side, asks his own questions, and Sandra hears what he thinks well before November.
+[00:19:59] Ruth Adeyemi: Okay, that makes sense. Hang on, let me pull up my calendar.
+[00:20:06] Priya Raman: Take your time.
+[00:20:16] Ruth Adeyemi: Okay. Tuesday the 13th is no good, Walt has a customer audit that morning. Wednesday the 14th at 2 works for me, and it looks like Walt's open. Sandra's showing free too. Let's do Wednesday the 14th at 2. Their emails are the same as mine, first initial and last name.
+[00:20:39] Priya Raman: Got it. I'm sending it now to all three of you, Wednesday the 14th, 2 to 2:30 Eastern. Okay, it's sent. Did it come through on your end?
+[00:20:55] Ruth Adeyemi: Hang on. Yep, it's here. I'm accepting it now. And I'll walk over and tell Walt in person, so it doesn't just show up on his calendar.
+[00:21:09] Priya Raman: Good. In the description I put one line, a tech closes a work order on a phone in under a minute, in front of Walt. If he wants anything else on there, he can just reply to the invite. And here's my cell, in case anything comes up before then. It's 312-555-0142. Texting is easiest.
+[00:21:32] Ruth Adeyemi: Got it, putting it in my phone now. And I'll send you a list of what's on the floor at the main plant, so the demo looks like us.
+[00:21:44] Priya Raman: Thanks, Ruth. This was really helpful. And tell Dale I said hi, even though he doesn't know who I am yet.
+[00:21:55] Ruth Adeyemi: Ha. I will. Talk to you on the 14th.
+[00:22:01] Priya Raman: Talk then. Bye.

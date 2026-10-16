@@ -1,0 +1,7 @@
+Share links for each call. Our recorder opens a link at a time if you add ?t= and the number of seconds.
+
+- ashgrove-discovery: https://recorder.example/share/r7Kq2Ashgrove0922  (Tuesday, September 22, 2026, 2:00 PM Eastern. Attendees: Jordan Ellis (Fennick Software), Dana Whitfield (Ashgrove Plastics))
+- pell-valley-intro: https://recorder.example/share/m3Vt8Pell0924  (Thursday, September 24, 2026, 11:00 AM Eastern. Attendees: Jordan Ellis (Fennick Software), Marcus Hale (Pell Valley Components))
+- ashgrove-working-session: https://recorder.example/share/x9Lp4Ashgrove0930  (Wednesday, September 30, 2026, 10:00 AM Eastern. Attendees: Jordan Ellis (Fennick Software), Dana Whitfield (Ashgrove Plastics), Luis Ortega (Ashgrove Plastics))
+- harrow-creek-first-call: https://recorder.example/share/c2Hd6Harrow1006  (Tuesday, October 6, 2026, 1:00 PM Eastern. Attendees: Priya Raman (Fennick Software), Ruth Adeyemi (Harrow Creek Castings))
+- sable-point-first-call: https://recorder.example/share/q5Ws1Sable1013  (Tuesday, October 13, 2026, 3:00 PM Eastern. Attendees: Priya Raman (Fennick Software), Greg Tolliver (Sable Point Packaging))

@@ -1,0 +1,95 @@
+Jordan Ellis  00:08
+Hey Marcus, Jordan from Fennick. Thanks for jumping on.
+
+Marcus Hale  00:17
+Sure. I've got about 20 minutes.
+
+Jordan Ellis  00:25
+Perfect, that's plenty. So let me give you a quick overview of who we are and then we can dig in. Fennick was founded in 2021. We do preventive maintenance planning for mid-size manufacturers, so plants from about 150 up to 1,500 people. We have about 90 customers now, mostly in plastics, metal fabrication and packaging. The platform does three main things. It builds your PM schedule automatically from your asset list and your run hours. It gives your techs a mobile app so they can close work orders from the floor. And it gives managers a dashboard across every plant, so you can see what's due, what's overdue and where your downtime is coming from. We also integrate with most of the big ERPs for parts. Customers usually see a big drop in unplanned downtime in the first six months.
+
+Marcus Hale  03:10
+Okay.
+
+Jordan Ellis  03:16
+So, are you having maintenance issues right now?
+
+Marcus Hale  03:27
+Uptime's a big focus for us this year.
+
+Jordan Ellis  03:36
+Totally. That's what we hear from almost everyone. And that's exactly where the scheduling engine helps, because most downtime comes from PMs that slip. The engine looks at run hours and flags anything that's coming due, so nothing falls through the cracks. And on the mobile side, techs get a push notification when a PM is assigned to them. They can attach photos, log parts, close it out. It takes about a minute. The managers love the dashboard because they finally have one view across all their sites. How many plants do you have?
+
+Marcus Hale  05:14
+Two.
+
+Jordan Ellis  05:19
+Two, great. So you'd see both of them side by side. We have a customer with four plants in Ohio who rolled it out to all four in about eight weeks. Their maintenance manager said it was the first system the techs actually used.
+
+Marcus Hale  06:01
+Good.
+
+Jordan Ellis  06:07
+What are you using today for maintenance?
+
+Marcus Hale  06:18
+The maintenance module in our ERP. And spreadsheets.
+
+Jordan Ellis  06:29
+Got it. Yeah, a lot of our customers came off ERP maintenance modules. They're built for finance people, not for techs. The interfaces are clunky and nobody on the floor wants to use them. That's really the gap we fill. We sit on top of the ERP and pull parts from it, so you keep the ERP for what it's good at.
+
+Marcus Hale  07:31
+Makes sense.
+
+Jordan Ellis  07:36
+Have you had much downtime this year?
+
+Marcus Hale  07:45
+Some. More than I'd like.
+
+Jordan Ellis  07:53
+Yeah, that's really common. Most plants we talk to don't even track it properly until they have a system like ours. The dashboard breaks downtime out by asset and by cause, so you can see which machines are hurting you. I can show you a sample dashboard if you want, I've got one with demo data.
+
+Marcus Hale  08:46
+Maybe another time.
+
+Jordan Ellis  08:52
+Sure, no problem. Let me tell you a bit about how onboarding works, because that's usually the next question. We do a two-week setup where we load your asset list, we import your existing PMs from the spreadsheets, and we train the techs on the app. Most plants are live in three to four weeks. There's a customer success manager assigned to you the whole time. Mei runs that team and she's great.
+
+Marcus Hale  10:05
+Okay.
+
+Jordan Ellis  10:10
+Do you have budget set aside for something like this?
+
+Marcus Hale  10:22
+We'll see.
+
+Jordan Ellis  10:27
+Fair enough. Pricing depends on the number of assets, so once I know more about your plants I can put together a quote. It's usually very reasonable compared to the cost of downtime.
+
+Marcus Hale  11:01
+Sure.
+
+Jordan Ellis  11:06
+When are you looking to make a change?
+
+Marcus Hale  11:15
+Sometime this year, probably.
+
+Jordan Ellis  11:23
+Great. That works well with our onboarding timeline. If we started in the next few weeks, you'd be live well before the end of the year.
+
+Marcus Hale  11:46
+Look, I've got another call in a few minutes. Can you send me something I can look at?
+
+Jordan Ellis  12:00
+Absolutely. I'll send over our deck and some pricing info, and I'll follow up next week to see what you think.
+
+Marcus Hale  12:19
+Sounds good.
+
+Jordan Ellis  12:25
+Great talking to you, Marcus. Have a good one.
+
+Marcus Hale  12:33
+You too.

@@ -1,0 +1,1668 @@
+{
+ "data": {
+  "transcript": {
+   "title": "Sable Point Packaging intro",
+   "sentences": [
+    {
+     "index": 0,
+     "speaker_name": "Priya Raman",
+     "text": "Hi Greg, it's Priya from Fennick.",
+     "start_time": 5.0,
+     "end_time": 8.3
+    },
+    {
+     "index": 1,
+     "speaker_name": "Priya Raman",
+     "text": "Can you hear me?",
+     "start_time": 8.3,
+     "end_time": 11.6
+    },
+    {
+     "index": 2,
+     "speaker_name": "Greg Tolliver",
+     "text": "Hey Priya.",
+     "start_time": 12.0,
+     "end_time": 15.53
+    },
+    {
+     "index": 3,
+     "speaker_name": "Greg Tolliver",
+     "text": "Yeah, I got you.",
+     "start_time": 15.53,
+     "end_time": 19.07
+    },
+    {
+     "index": 4,
+     "speaker_name": "Greg Tolliver",
+     "text": "Sorry, I'm in the office by the corrugator, so if it gets loud, that's why.",
+     "start_time": 19.07,
+     "end_time": 22.6
+    },
+    {
+     "index": 5,
+     "speaker_name": "Priya Raman",
+     "text": "No problem at all.",
+     "start_time": 23.0,
+     "end_time": 25.3
+    },
+    {
+     "index": 6,
+     "speaker_name": "Priya Raman",
+     "text": "How's your week going?",
+     "start_time": 25.3,
+     "end_time": 27.6
+    },
+    {
+     "index": 7,
+     "speaker_name": "Greg Tolliver",
+     "text": "Busy.",
+     "start_time": 28.0,
+     "end_time": 31.12
+    },
+    {
+     "index": 8,
+     "speaker_name": "Greg Tolliver",
+     "text": "It's always busy.",
+     "start_time": 31.12,
+     "end_time": 34.24
+    },
+    {
+     "index": 9,
+     "speaker_name": "Greg Tolliver",
+     "text": "We had a customer in for a plant tour this morning, so I spent most of yesterday making the place look clean.",
+     "start_time": 34.24,
+     "end_time": 37.36
+    },
+    {
+     "index": 10,
+     "speaker_name": "Greg Tolliver",
+     "text": "You know how it is.",
+     "start_time": 37.36,
+     "end_time": 40.48
+    },
+    {
+     "index": 11,
+     "speaker_name": "Greg Tolliver",
+     "text": "Suddenly everybody cares about the floor.",
+     "start_time": 40.48,
+     "end_time": 43.6
+    },
+    {
+     "index": 12,
+     "speaker_name": "Priya Raman",
+     "text": "Ha, the tour-day scramble.",
+     "start_time": 44.0,
+     "end_time": 46.87
+    },
+    {
+     "index": 13,
+     "speaker_name": "Priya Raman",
+     "text": "Every plant I've been in has one.",
+     "start_time": 46.87,
+     "end_time": 49.73
+    },
+    {
+     "index": 14,
+     "speaker_name": "Priya Raman",
+     "text": "Did it go okay?",
+     "start_time": 49.73,
+     "end_time": 52.6
+    },
+    {
+     "index": 15,
+     "speaker_name": "Greg Tolliver",
+     "text": "It went fine.",
+     "start_time": 53.0,
+     "end_time": 57.4
+    },
+    {
+     "index": 16,
+     "speaker_name": "Greg Tolliver",
+     "text": "They liked the new stacker, so that's good.",
+     "start_time": 57.4,
+     "end_time": 61.8
+    },
+    {
+     "index": 17,
+     "speaker_name": "Greg Tolliver",
+     "text": "They asked a lot about lead times, which isn't really my department, but I smiled.",
+     "start_time": 61.8,
+     "end_time": 66.2
+    },
+    {
+     "index": 18,
+     "speaker_name": "Greg Tolliver",
+     "text": "And nothing broke while they were standing there, which is the main thing.",
+     "start_time": 66.2,
+     "end_time": 70.6
+    },
+    {
+     "index": 19,
+     "speaker_name": "Priya Raman",
+     "text": "That's the real win.",
+     "start_time": 71.0,
+     "end_time": 74.53
+    },
+    {
+     "index": 20,
+     "speaker_name": "Priya Raman",
+     "text": "Well, I know your time's tight, so I'll just jump in.",
+     "start_time": 74.53,
+     "end_time": 78.07
+    },
+    {
+     "index": 21,
+     "speaker_name": "Priya Raman",
+     "text": "Tell me a little about Sable Point.",
+     "start_time": 78.07,
+     "end_time": 81.6
+    },
+    {
+     "index": 22,
+     "speaker_name": "Greg Tolliver",
+     "text": "Sure.",
+     "start_time": 82.0,
+     "end_time": 86.92
+    },
+    {
+     "index": 23,
+     "speaker_name": "Greg Tolliver",
+     "text": "So we're one plant, about two hundred fifty people.",
+     "start_time": 86.92,
+     "end_time": 91.84
+    },
+    {
+     "index": 24,
+     "speaker_name": "Greg Tolliver",
+     "text": "We make corrugated boxes, mostly for food and beverage customers around the region, some e-commerce stuff now too.",
+     "start_time": 91.84,
+     "end_time": 96.76
+    },
+    {
+     "index": 25,
+     "speaker_name": "Greg Tolliver",
+     "text": "We run two shifts, sometimes a third when it's busy, like right now going into the holidays.",
+     "start_time": 96.76,
+     "end_time": 101.68
+    },
+    {
+     "index": 26,
+     "speaker_name": "Greg Tolliver",
+     "text": "I've been the maintenance manager about four years.",
+     "start_time": 101.68,
+     "end_time": 106.6
+    },
+    {
+     "index": 27,
+     "speaker_name": "Priya Raman",
+     "text": "And how big is the maintenance team?",
+     "start_time": 107.0,
+     "end_time": 110.6
+    },
+    {
+     "index": 28,
+     "speaker_name": "Greg Tolliver",
+     "text": "Eight techs across the shifts, plus me.",
+     "start_time": 111.0,
+     "end_time": 116.3
+    },
+    {
+     "index": 29,
+     "speaker_name": "Greg Tolliver",
+     "text": "Two of them are pretty new, so I'm still bringing them up to speed.",
+     "start_time": 116.3,
+     "end_time": 121.6
+    },
+    {
+     "index": 30,
+     "speaker_name": "Priya Raman",
+     "text": "Okay.",
+     "start_time": 122.0,
+     "end_time": 124.8
+    },
+    {
+     "index": 31,
+     "speaker_name": "Priya Raman",
+     "text": "And what are you using to track maintenance today?",
+     "start_time": 124.8,
+     "end_time": 127.6
+    },
+    {
+     "index": 32,
+     "speaker_name": "Greg Tolliver",
+     "text": "Mostly a spreadsheet and a whiteboard.",
+     "start_time": 128.0,
+     "end_time": 132.53
+    },
+    {
+     "index": 33,
+     "speaker_name": "Greg Tolliver",
+     "text": "There's an old system from before my time that nobody really uses, so it's basically my spreadsheet.",
+     "start_time": 132.53,
+     "end_time": 137.07
+    },
+    {
+     "index": 34,
+     "speaker_name": "Greg Tolliver",
+     "text": "Which works great until I'm on vacation.",
+     "start_time": 137.07,
+     "end_time": 141.6
+    },
+    {
+     "index": 35,
+     "speaker_name": "Priya Raman",
+     "text": "Got it.",
+     "start_time": 142.0,
+     "end_time": 145.8
+    },
+    {
+     "index": 36,
+     "speaker_name": "Priya Raman",
+     "text": "And what made you want to take the call?",
+     "start_time": 145.8,
+     "end_time": 149.6
+    },
+    {
+     "index": 37,
+     "speaker_name": "Greg Tolliver",
+     "text": "Honestly, the corrugator.",
+     "start_time": 150.0,
+     "end_time": 154.3
+    },
+    {
+     "index": 38,
+     "speaker_name": "Greg Tolliver",
+     "text": "We had three unplanned stops on the corrugator in August.",
+     "start_time": 154.3,
+     "end_time": 158.6
+    },
+    {
+     "index": 39,
+     "speaker_name": "Priya Raman",
+     "text": "Three in one month.",
+     "start_time": 159.0,
+     "end_time": 160.2
+    },
+    {
+     "index": 40,
+     "speaker_name": "Priya Raman",
+     "text": "Ouch.",
+     "start_time": 160.2,
+     "end_time": 161.4
+    },
+    {
+     "index": 41,
+     "speaker_name": "Priya Raman",
+     "text": "What happened?",
+     "start_time": 161.4,
+     "end_time": 162.6
+    },
+    {
+     "index": 42,
+     "speaker_name": "Greg Tolliver",
+     "text": "One was the glue unit, one was a bearing on the single facer, and one was a drive on the double backer.",
+     "start_time": 163.0,
+     "end_time": 170.53
+    },
+    {
+     "index": 43,
+     "speaker_name": "Greg Tolliver",
+     "text": "The single facer was the bad one.",
+     "start_time": 170.53,
+     "end_time": 178.07
+    },
+    {
+     "index": 44,
+     "speaker_name": "Greg Tolliver",
+     "text": "We lost most of a shift on that, and we had to push two orders, and one of those customers was not happy.",
+     "start_time": 178.07,
+     "end_time": 185.6
+    },
+    {
+     "index": 45,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah, the corrugator's the heart of the whole plant, right?",
+     "start_time": 186.0,
+     "end_time": 189.8
+    },
+    {
+     "index": 46,
+     "speaker_name": "Priya Raman",
+     "text": "Everything downstream waits on it.",
+     "start_time": 189.8,
+     "end_time": 193.6
+    },
+    {
+     "index": 47,
+     "speaker_name": "Greg Tolliver",
+     "text": "Pretty much.",
+     "start_time": 194.0,
+     "end_time": 200.12
+    },
+    {
+     "index": 48,
+     "speaker_name": "Greg Tolliver",
+     "text": "If the corrugator's down, converting runs out of board in a couple of hours, and then you've got people standing around on that side too.",
+     "start_time": 200.12,
+     "end_time": 206.24
+    },
+    {
+     "index": 49,
+     "speaker_name": "Greg Tolliver",
+     "text": "And the single facer one, honestly, I think we could've caught it.",
+     "start_time": 206.24,
+     "end_time": 212.36
+    },
+    {
+     "index": 50,
+     "speaker_name": "Greg Tolliver",
+     "text": "The PM on it was overdue.",
+     "start_time": 212.36,
+     "end_time": 218.48
+    },
+    {
+     "index": 51,
+     "speaker_name": "Greg Tolliver",
+     "text": "We'd pushed it twice because we were slammed, and then the bearing went on a Tuesday night with a big order on the line.",
+     "start_time": 218.48,
+     "end_time": 224.6
+    },
+    {
+     "index": 52,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah, that's really common.",
+     "start_time": 225.0,
+     "end_time": 229.23
+    },
+    {
+     "index": 53,
+     "speaker_name": "Priya Raman",
+     "text": "We hear that a lot, the PM was on the list and it just slid because nobody wanted to stop the line.",
+     "start_time": 229.23,
+     "end_time": 233.46
+    },
+    {
+     "index": 54,
+     "speaker_name": "Priya Raman",
+     "text": "That's kind of exactly what we're built for.",
+     "start_time": 233.46,
+     "end_time": 237.69
+    },
+    {
+     "index": 55,
+     "speaker_name": "Priya Raman",
+     "text": "Honestly, I think it'll be easier if I just show you how we handle that.",
+     "start_time": 237.69,
+     "end_time": 241.91
+    },
+    {
+     "index": 56,
+     "speaker_name": "Priya Raman",
+     "text": "Let me share my screen.",
+     "start_time": 241.91,
+     "end_time": 246.14
+    },
+    {
+     "index": 57,
+     "speaker_name": "Priya Raman",
+     "text": "Okay, can you see it?",
+     "start_time": 246.14,
+     "end_time": 250.37
+    },
+    {
+     "index": 58,
+     "speaker_name": "Priya Raman",
+     "text": "You should see a calendar with a bunch of colored blocks.",
+     "start_time": 250.37,
+     "end_time": 254.6
+    },
+    {
+     "index": 59,
+     "speaker_name": "Greg Tolliver",
+     "text": "Yep, I see it.",
+     "start_time": 255.0,
+     "end_time": 257.6
+    },
+    {
+     "index": 60,
+     "speaker_name": "Priya Raman",
+     "text": "So this is the schedule for a plant.",
+     "start_time": 258.0,
+     "end_time": 263.6
+    },
+    {
+     "index": 61,
+     "speaker_name": "Priya Raman",
+     "text": "Every block is a planned job.",
+     "start_time": 263.6,
+     "end_time": 269.2
+    },
+    {
+     "index": 62,
+     "speaker_name": "Priya Raman",
+     "text": "Green is done, yellow is due this week and red is overdue.",
+     "start_time": 269.2,
+     "end_time": 274.8
+    },
+    {
+     "index": 63,
+     "speaker_name": "Priya Raman",
+     "text": "And you can schedule a job by date or by run hours, so a PM on the corrugator can come due after so many hours of running instead of just every thirty days.",
+     "start_time": 274.8,
+     "end_time": 280.4
+    },
+    {
+     "index": 64,
+     "speaker_name": "Priya Raman",
+     "text": "Most of our customers do a mix.",
+     "start_time": 280.4,
+     "end_time": 286.0
+    },
+    {
+     "index": 65,
+     "speaker_name": "Priya Raman",
+     "text": "The calendar ones for safety stuff and inspections, and run hours for anything that wears.",
+     "start_time": 286.0,
+     "end_time": 291.6
+    },
+    {
+     "index": 66,
+     "speaker_name": "Greg Tolliver",
+     "text": "Run hours would be nice.",
+     "start_time": 292.0,
+     "end_time": 298.8
+    },
+    {
+     "index": 67,
+     "speaker_name": "Greg Tolliver",
+     "text": "In our busy months the calendar ones come up way too late, and in the slow months we're doing PMs on stuff that barely ran.",
+     "start_time": 298.8,
+     "end_time": 305.6
+    },
+    {
+     "index": 68,
+     "speaker_name": "Priya Raman",
+     "text": "Exactly.",
+     "start_time": 306.0,
+     "end_time": 311.9
+    },
+    {
+     "index": 69,
+     "speaker_name": "Priya Raman",
+     "text": "And before I click in, this is the machine list.",
+     "start_time": 311.9,
+     "end_time": 317.8
+    },
+    {
+     "index": 70,
+     "speaker_name": "Priya Raman",
+     "text": "You can nest things, so the corrugator has the single facer, the double backer, the glue unit and the knife under it.",
+     "start_time": 317.8,
+     "end_time": 323.7
+    },
+    {
+     "index": 71,
+     "speaker_name": "Priya Raman",
+     "text": "Then when you look at downtime later, you see which part of the corrugator it was, not just corrugator.",
+     "start_time": 323.7,
+     "end_time": 329.6
+    },
+    {
+     "index": 72,
+     "speaker_name": "Greg Tolliver",
+     "text": "That'd help.",
+     "start_time": 330.0,
+     "end_time": 335.8
+    },
+    {
+     "index": 73,
+     "speaker_name": "Greg Tolliver",
+     "text": "In my spreadsheet it just says corrugator, and then I have to go read the notes to figure out what actually broke.",
+     "start_time": 335.8,
+     "end_time": 341.6
+    },
+    {
+     "index": 74,
+     "speaker_name": "Priya Raman",
+     "text": "Right.",
+     "start_time": 342.0,
+     "end_time": 348.15
+    },
+    {
+     "index": 75,
+     "speaker_name": "Priya Raman",
+     "text": "Okay, this is a demo plant, so ignore the names, but if I click into one of these, here's a work order.",
+     "start_time": 348.15,
+     "end_time": 354.3
+    },
+    {
+     "index": 76,
+     "speaker_name": "Priya Raman",
+     "text": "It's got the steps, the parts, the last three times somebody did it, and any notes they left.",
+     "start_time": 354.3,
+     "end_time": 360.45
+    },
+    {
+     "index": 77,
+     "speaker_name": "Priya Raman",
+     "text": "And up here you can see who it's assigned to and when it's due.",
+     "start_time": 360.45,
+     "end_time": 366.6
+    },
+    {
+     "index": 78,
+     "speaker_name": "Greg Tolliver",
+     "text": "Can the techs see the old notes?",
+     "start_time": 367.0,
+     "end_time": 371.6
+    },
+    {
+     "index": 79,
+     "speaker_name": "Priya Raman",
+     "text": "They can.",
+     "start_time": 372.0,
+     "end_time": 376.87
+    },
+    {
+     "index": 80,
+     "speaker_name": "Priya Raman",
+     "text": "That's actually one of the things people use the most.",
+     "start_time": 376.87,
+     "end_time": 381.73
+    },
+    {
+     "index": 81,
+     "speaker_name": "Priya Raman",
+     "text": "You can attach the manual too, or a photo of how it's supposed to look, so nobody's hunting for the binder.",
+     "start_time": 381.73,
+     "end_time": 386.6
+    },
+    {
+     "index": 82,
+     "speaker_name": "Greg Tolliver",
+     "text": "Oh, that's nice.",
+     "start_time": 387.0,
+     "end_time": 390.2
+    },
+    {
+     "index": 83,
+     "speaker_name": "Greg Tolliver",
+     "text": "Our binders are a mess.",
+     "start_time": 390.2,
+     "end_time": 393.4
+    },
+    {
+     "index": 84,
+     "speaker_name": "Greg Tolliver",
+     "text": "Half the manuals are for machines we don't even have anymore.",
+     "start_time": 393.4,
+     "end_time": 396.6
+    },
+    {
+     "index": 85,
+     "speaker_name": "Priya Raman",
+     "text": "Everybody's binders are a mess.",
+     "start_time": 397.0,
+     "end_time": 401.95
+    },
+    {
+     "index": 86,
+     "speaker_name": "Priya Raman",
+     "text": "Okay, so here's the part I really wanted to show you.",
+     "start_time": 401.95,
+     "end_time": 406.9
+    },
+    {
+     "index": 87,
+     "speaker_name": "Priya Raman",
+     "text": "This is what the tech sees on their phone.",
+     "start_time": 406.9,
+     "end_time": 411.85
+    },
+    {
+     "index": 88,
+     "speaker_name": "Priya Raman",
+     "text": "I'm pulling it up right next to the schedule so you can see both.",
+     "start_time": 411.85,
+     "end_time": 416.8
+    },
+    {
+     "index": 89,
+     "speaker_name": "Priya Raman",
+     "text": "So they get the work order on the phone, they tap through the steps, they can take a photo if something looks off, and when they're done they just tap close.",
+     "start_time": 416.8,
+     "end_time": 421.75
+    },
+    {
+     "index": 90,
+     "speaker_name": "Priya Raman",
+     "text": "That's it.",
+     "start_time": 421.75,
+     "end_time": 426.7
+    },
+    {
+     "index": 91,
+     "speaker_name": "Priya Raman",
+     "text": "Most jobs, it's under a minute.",
+     "start_time": 426.7,
+     "end_time": 431.65
+    },
+    {
+     "index": 92,
+     "speaker_name": "Priya Raman",
+     "text": "They can add a note too, and the next person who opens that machine sees it.",
+     "start_time": 431.65,
+     "end_time": 436.6
+    },
+    {
+     "index": 93,
+     "speaker_name": "Greg Tolliver",
+     "text": "Wait, so they close it right there at the machine?",
+     "start_time": 437.0,
+     "end_time": 441.8
+    },
+    {
+     "index": 94,
+     "speaker_name": "Greg Tolliver",
+     "text": "They don't come back to the office?",
+     "start_time": 441.8,
+     "end_time": 446.6
+    },
+    {
+     "index": 95,
+     "speaker_name": "Priya Raman",
+     "text": "Right there at the machine.",
+     "start_time": 447.0,
+     "end_time": 453.8
+    },
+    {
+     "index": 96,
+     "speaker_name": "Priya Raman",
+     "text": "And if they're somewhere with no signal, like the back of the warehouse, it saves and syncs when they're back on wifi.",
+     "start_time": 453.8,
+     "end_time": 460.6
+    },
+    {
+     "index": 97,
+     "speaker_name": "Greg Tolliver",
+     "text": "This is exactly what we need.",
+     "start_time": 461.0,
+     "end_time": 464.3
+    },
+    {
+     "index": 98,
+     "speaker_name": "Greg Tolliver",
+     "text": "Honestly, this would fix half my week.",
+     "start_time": 464.3,
+     "end_time": 467.6
+    },
+    {
+     "index": 99,
+     "speaker_name": "Priya Raman",
+     "text": "Ha, I love that.",
+     "start_time": 468.0,
+     "end_time": 470.3
+    },
+    {
+     "index": 100,
+     "speaker_name": "Priya Raman",
+     "text": "What's the other half?",
+     "start_time": 470.3,
+     "end_time": 472.6
+    },
+    {
+     "index": 101,
+     "speaker_name": "Greg Tolliver",
+     "text": "The other half is chasing paper.",
+     "start_time": 473.0,
+     "end_time": 479.2
+    },
+    {
+     "index": 102,
+     "speaker_name": "Greg Tolliver",
+     "text": "My guys write stuff on the work order, it sits on my desk, and I'm typing it in at seven at night.",
+     "start_time": 479.2,
+     "end_time": 485.4
+    },
+    {
+     "index": 103,
+     "speaker_name": "Greg Tolliver",
+     "text": "Or I'm walking the floor trying to find out if something got done.",
+     "start_time": 485.4,
+     "end_time": 491.6
+    },
+    {
+     "index": 104,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah, you'd be done with that.",
+     "start_time": 492.0,
+     "end_time": 496.2
+    },
+    {
+     "index": 105,
+     "speaker_name": "Priya Raman",
+     "text": "And when they close it, it turns green on the schedule right away.",
+     "start_time": 496.2,
+     "end_time": 500.4
+    },
+    {
+     "index": 106,
+     "speaker_name": "Priya Raman",
+     "text": "Watch, I'll close this one.",
+     "start_time": 500.4,
+     "end_time": 504.6
+    },
+    {
+     "index": 107,
+     "speaker_name": "Greg Tolliver",
+     "text": "Oh, there it goes.",
+     "start_time": 505.0,
+     "end_time": 509.6
+    },
+    {
+     "index": 108,
+     "speaker_name": "Priya Raman",
+     "text": "Yep.",
+     "start_time": 510.0,
+     "end_time": 515.94
+    },
+    {
+     "index": 109,
+     "speaker_name": "Priya Raman",
+     "text": "And you'd see it on your phone too, so if you're stuck in a meeting you still know what's done.",
+     "start_time": 515.94,
+     "end_time": 521.89
+    },
+    {
+     "index": 110,
+     "speaker_name": "Priya Raman",
+     "text": "Let me show you parts real quick, because that's the other thing people always ask about.",
+     "start_time": 521.89,
+     "end_time": 527.83
+    },
+    {
+     "index": 111,
+     "speaker_name": "Priya Raman",
+     "text": "So every job can have the parts it needs listed on it.",
+     "start_time": 527.83,
+     "end_time": 533.77
+    },
+    {
+     "index": 112,
+     "speaker_name": "Priya Raman",
+     "text": "When a tech uses one, it comes off the count, and when you get low it tells you.",
+     "start_time": 533.77,
+     "end_time": 539.71
+    },
+    {
+     "index": 113,
+     "speaker_name": "Priya Raman",
+     "text": "So you're not finding out the morning of a PM that you're out of bearings.",
+     "start_time": 539.71,
+     "end_time": 545.66
+    },
+    {
+     "index": 114,
+     "speaker_name": "Priya Raman",
+     "text": "You can set the minimum for each part, and it'll flag it on your phone.",
+     "start_time": 545.66,
+     "end_time": 551.6
+    },
+    {
+     "index": 115,
+     "speaker_name": "Greg Tolliver",
+     "text": "That's happened.",
+     "start_time": 552.0,
+     "end_time": 556.53
+    },
+    {
+     "index": 116,
+     "speaker_name": "Greg Tolliver",
+     "text": "More than once.",
+     "start_time": 556.53,
+     "end_time": 561.07
+    },
+    {
+     "index": 117,
+     "speaker_name": "Greg Tolliver",
+     "text": "We had a belt job last spring where we pulled the old one off and then found out the new one wasn't on the shelf.",
+     "start_time": 561.07,
+     "end_time": 565.6
+    },
+    {
+     "index": 118,
+     "speaker_name": "Priya Raman",
+     "text": "Oof.",
+     "start_time": 566.0,
+     "end_time": 567.53
+    },
+    {
+     "index": 119,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah.",
+     "start_time": 567.53,
+     "end_time": 569.07
+    },
+    {
+     "index": 120,
+     "speaker_name": "Priya Raman",
+     "text": "Okay, and then over here is...",
+     "start_time": 569.07,
+     "end_time": 570.6
+    },
+    {
+     "index": 121,
+     "speaker_name": "Greg Tolliver",
+     "text": "Sorry, one thing before you move on.",
+     "start_time": 571.0,
+     "end_time": 575.8
+    },
+    {
+     "index": 122,
+     "speaker_name": "Greg Tolliver",
+     "text": "I've got budget left this year if we move before December.",
+     "start_time": 575.8,
+     "end_time": 580.6
+    },
+    {
+     "index": 123,
+     "speaker_name": "Priya Raman",
+     "text": "Oh, that's great to know.",
+     "start_time": 581.0,
+     "end_time": 586.66
+    },
+    {
+     "index": 124,
+     "speaker_name": "Priya Raman",
+     "text": "Okay, so this next screen is reporting.",
+     "start_time": 586.66,
+     "end_time": 592.31
+    },
+    {
+     "index": 125,
+     "speaker_name": "Priya Raman",
+     "text": "This is the one managers usually live on.",
+     "start_time": 592.31,
+     "end_time": 597.97
+    },
+    {
+     "index": 126,
+     "speaker_name": "Priya Raman",
+     "text": "So up top, you've got how many planned jobs got done on time this month.",
+     "start_time": 597.97,
+     "end_time": 603.63
+    },
+    {
+     "index": 127,
+     "speaker_name": "Priya Raman",
+     "text": "That's the number most of our customers watch, because when it goes up, the unplanned stops usually come down.",
+     "start_time": 603.63,
+     "end_time": 609.29
+    },
+    {
+     "index": 128,
+     "speaker_name": "Priya Raman",
+     "text": "Then below that, the overdue list, sorted by how late they are, so you know what to chase first.",
+     "start_time": 609.29,
+     "end_time": 614.94
+    },
+    {
+     "index": 129,
+     "speaker_name": "Priya Raman",
+     "text": "You can filter it by shift too, so you can see if first and second shift are keeping up the same.",
+     "start_time": 614.94,
+     "end_time": 620.6
+    },
+    {
+     "index": 130,
+     "speaker_name": "Greg Tolliver",
+     "text": "Huh, okay.",
+     "start_time": 621.0,
+     "end_time": 624.8
+    },
+    {
+     "index": 131,
+     "speaker_name": "Greg Tolliver",
+     "text": "I'd like to see that by shift, honestly.",
+     "start_time": 624.8,
+     "end_time": 628.6
+    },
+    {
+     "index": 132,
+     "speaker_name": "Priya Raman",
+     "text": "And this one here is backlog by tech, so you can see if somebody's buried while somebody else is light.",
+     "start_time": 629.0,
+     "end_time": 636.8
+    },
+    {
+     "index": 133,
+     "speaker_name": "Priya Raman",
+     "text": "That's usually where the new guys show up, because the experienced guys grab the jobs they already know.",
+     "start_time": 636.8,
+     "end_time": 644.6
+    },
+    {
+     "index": 134,
+     "speaker_name": "Greg Tolliver",
+     "text": "Yeah, that'd be useful.",
+     "start_time": 645.0,
+     "end_time": 647.87
+    },
+    {
+     "index": 135,
+     "speaker_name": "Greg Tolliver",
+     "text": "Right now I just kind of know who's buried.",
+     "start_time": 647.87,
+     "end_time": 650.73
+    },
+    {
+     "index": 136,
+     "speaker_name": "Greg Tolliver",
+     "text": "Usually it's me.",
+     "start_time": 650.73,
+     "end_time": 653.6
+    },
+    {
+     "index": 137,
+     "speaker_name": "Priya Raman",
+     "text": "Right, it's all in your head.",
+     "start_time": 654.0,
+     "end_time": 658.93
+    },
+    {
+     "index": 138,
+     "speaker_name": "Priya Raman",
+     "text": "And this is the part a lot of people don't expect.",
+     "start_time": 658.93,
+     "end_time": 663.87
+    },
+    {
+     "index": 139,
+     "speaker_name": "Priya Raman",
+     "text": "Operators can send a request from their phone too.",
+     "start_time": 663.87,
+     "end_time": 668.8
+    },
+    {
+     "index": 140,
+     "speaker_name": "Priya Raman",
+     "text": "You put a code on each machine, so they don't even have to look it up.",
+     "start_time": 668.8,
+     "end_time": 673.73
+    },
+    {
+     "index": 141,
+     "speaker_name": "Priya Raman",
+     "text": "If somebody on converting hears something, they don't have to go find you.",
+     "start_time": 673.73,
+     "end_time": 678.67
+    },
+    {
+     "index": 142,
+     "speaker_name": "Priya Raman",
+     "text": "They just send it, and it lands in your queue with the machine and a photo.",
+     "start_time": 678.67,
+     "end_time": 683.6
+    },
+    {
+     "index": 143,
+     "speaker_name": "Greg Tolliver",
+     "text": "Oh, I like that.",
+     "start_time": 684.0,
+     "end_time": 689.53
+    },
+    {
+     "index": 144,
+     "speaker_name": "Greg Tolliver",
+     "text": "My operators tell me stuff in the break room and I forget half of it by the time I'm back at my desk.",
+     "start_time": 689.53,
+     "end_time": 695.07
+    },
+    {
+     "index": 145,
+     "speaker_name": "Greg Tolliver",
+     "text": "Or I write it on my hand.",
+     "start_time": 695.07,
+     "end_time": 700.6
+    },
+    {
+     "index": 146,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah, that's exactly why we built it.",
+     "start_time": 701.0,
+     "end_time": 706.15
+    },
+    {
+     "index": 147,
+     "speaker_name": "Priya Raman",
+     "text": "And then down here at the bottom is downtime.",
+     "start_time": 706.15,
+     "end_time": 711.3
+    },
+    {
+     "index": 148,
+     "speaker_name": "Priya Raman",
+     "text": "Every unplanned stop, how long it lasted and what caused it.",
+     "start_time": 711.3,
+     "end_time": 716.45
+    },
+    {
+     "index": 149,
+     "speaker_name": "Priya Raman",
+     "text": "The tech tags the cause when they close it out, so it's not a guess three weeks later.",
+     "start_time": 716.45,
+     "end_time": 721.6
+    },
+    {
+     "index": 150,
+     "speaker_name": "Greg Tolliver",
+     "text": "Does that break it out by machine?",
+     "start_time": 722.0,
+     "end_time": 727.8
+    },
+    {
+     "index": 151,
+     "speaker_name": "Greg Tolliver",
+     "text": "My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down.",
+     "start_time": 727.8,
+     "end_time": 733.6
+    },
+    {
+     "index": 152,
+     "speaker_name": "Priya Raman",
+     "text": "Yep, it does.",
+     "start_time": 734.0,
+     "end_time": 738.53
+    },
+    {
+     "index": 153,
+     "speaker_name": "Priya Raman",
+     "text": "You'd pick the corrugator here, and you see every stop, how long it lasted and what the cause was.",
+     "start_time": 738.53,
+     "end_time": 743.07
+    },
+    {
+     "index": 154,
+     "speaker_name": "Priya Raman",
+     "text": "You can export it too, or just send somebody the link.",
+     "start_time": 743.07,
+     "end_time": 747.6
+    },
+    {
+     "index": 155,
+     "speaker_name": "Greg Tolliver",
+     "text": "That'd be nice.",
+     "start_time": 748.0,
+     "end_time": 750.53
+    },
+    {
+     "index": 156,
+     "speaker_name": "Greg Tolliver",
+     "text": "Something to show him besides my spreadsheet.",
+     "start_time": 750.53,
+     "end_time": 753.07
+    },
+    {
+     "index": 157,
+     "speaker_name": "Greg Tolliver",
+     "text": "He's not a spreadsheet guy.",
+     "start_time": 753.07,
+     "end_time": 755.6
+    },
+    {
+     "index": 158,
+     "speaker_name": "Priya Raman",
+     "text": "Totally.",
+     "start_time": 756.0,
+     "end_time": 760.53
+    },
+    {
+     "index": 159,
+     "speaker_name": "Priya Raman",
+     "text": "And you can set it to email you every Monday, so you're not building it by hand.",
+     "start_time": 760.53,
+     "end_time": 765.07
+    },
+    {
+     "index": 160,
+     "speaker_name": "Priya Raman",
+     "text": "A lot of maintenance managers forward that one up.",
+     "start_time": 765.07,
+     "end_time": 769.6
+    },
+    {
+     "index": 161,
+     "speaker_name": "Greg Tolliver",
+     "text": "Okay.",
+     "start_time": 770.0,
+     "end_time": 773.3
+    },
+    {
+     "index": 162,
+     "speaker_name": "Greg Tolliver",
+     "text": "That'd save me a couple hours a week right there.",
+     "start_time": 773.3,
+     "end_time": 776.6
+    },
+    {
+     "index": 163,
+     "speaker_name": "Priya Raman",
+     "text": "Yeah.",
+     "start_time": 777.0,
+     "end_time": 780.4
+    },
+    {
+     "index": 164,
+     "speaker_name": "Priya Raman",
+     "text": "So that's most of it.",
+     "start_time": 780.4,
+     "end_time": 783.8
+    },
+    {
+     "index": 165,
+     "speaker_name": "Priya Raman",
+     "text": "There's more, like the audit history and the reports for your insurance carrier, but that's the core.",
+     "start_time": 783.8,
+     "end_time": 787.2
+    },
+    {
+     "index": 166,
+     "speaker_name": "Priya Raman",
+     "text": "Any questions so far?",
+     "start_time": 787.2,
+     "end_time": 790.6
+    },
+    {
+     "index": 167,
+     "speaker_name": "Greg Tolliver",
+     "text": "Not really.",
+     "start_time": 791.0,
+     "end_time": 793.32
+    },
+    {
+     "index": 168,
+     "speaker_name": "Greg Tolliver",
+     "text": "It looks pretty simple, which is what I want.",
+     "start_time": 793.32,
+     "end_time": 795.64
+    },
+    {
+     "index": 169,
+     "speaker_name": "Greg Tolliver",
+     "text": "My guys aren't going to use anything complicated.",
+     "start_time": 795.64,
+     "end_time": 797.96
+    },
+    {
+     "index": 170,
+     "speaker_name": "Greg Tolliver",
+     "text": "So what does something like this cost?",
+     "start_time": 797.96,
+     "end_time": 800.28
+    },
+    {
+     "index": 171,
+     "speaker_name": "Greg Tolliver",
+     "text": "Just ballpark.",
+     "start_time": 800.28,
+     "end_time": 802.6
+    },
+    {
+     "index": 172,
+     "speaker_name": "Priya Raman",
+     "text": "For one plant your size, most teams land somewhere between $20,000 and $28,000 a year.",
+     "start_time": 803.0,
+     "end_time": 809.53
+    },
+    {
+     "index": 173,
+     "speaker_name": "Priya Raman",
+     "text": "It mostly depends on how many machines you put in, not how many people use it.",
+     "start_time": 809.53,
+     "end_time": 816.07
+    },
+    {
+     "index": 174,
+     "speaker_name": "Priya Raman",
+     "text": "With the corrugator line and converting, you'd probably be somewhere in the middle of that.",
+     "start_time": 816.07,
+     "end_time": 822.6
+    },
+    {
+     "index": 175,
+     "speaker_name": "Greg Tolliver",
+     "text": "Okay.",
+     "start_time": 823.0,
+     "end_time": 825.4
+    },
+    {
+     "index": 176,
+     "speaker_name": "Greg Tolliver",
+     "text": "That's reasonable.",
+     "start_time": 825.4,
+     "end_time": 827.8
+    },
+    {
+     "index": 177,
+     "speaker_name": "Greg Tolliver",
+     "text": "Honestly, it's less than I figured.",
+     "start_time": 827.8,
+     "end_time": 830.2
+    },
+    {
+     "index": 178,
+     "speaker_name": "Greg Tolliver",
+     "text": "I thought you were going to say double that.",
+     "start_time": 830.2,
+     "end_time": 832.6
+    },
+    {
+     "index": 179,
+     "speaker_name": "Priya Raman",
+     "text": "Ha, no.",
+     "start_time": 833.0,
+     "end_time": 838.87
+    },
+    {
+     "index": 180,
+     "speaker_name": "Priya Raman",
+     "text": "And that includes the setup and the training for your techs.",
+     "start_time": 838.87,
+     "end_time": 844.73
+    },
+    {
+     "index": 181,
+     "speaker_name": "Priya Raman",
+     "text": "There's no extra charge per user, so you and all eight of your guys are covered, and the operators too if you want them sending requests.",
+     "start_time": 844.73,
+     "end_time": 850.6
+    },
+    {
+     "index": 182,
+     "speaker_name": "Greg Tolliver",
+     "text": "How long does it take to get going?",
+     "start_time": 851.0,
+     "end_time": 856.6
+    },
+    {
+     "index": 183,
+     "speaker_name": "Priya Raman",
+     "text": "Usually a few weeks to get your machines in and the techs using it.",
+     "start_time": 857.0,
+     "end_time": 864.15
+    },
+    {
+     "index": 184,
+     "speaker_name": "Priya Raman",
+     "text": "The first week is mostly us loading your machines and PMs with you, and then we train your techs on the floor, a shift at a time.",
+     "start_time": 864.15,
+     "end_time": 871.3
+    },
+    {
+     "index": 185,
+     "speaker_name": "Priya Raman",
+     "text": "And honestly, packaging plants tend to go fast.",
+     "start_time": 871.3,
+     "end_time": 878.45
+    },
+    {
+     "index": 186,
+     "speaker_name": "Priya Raman",
+     "text": "We've got a folding carton plant that was up and running in about three weeks.",
+     "start_time": 878.45,
+     "end_time": 885.6
+    },
+    {
+     "index": 187,
+     "speaker_name": "Greg Tolliver",
+     "text": "Three weeks would be good.",
+     "start_time": 886.0,
+     "end_time": 890.12
+    },
+    {
+     "index": 188,
+     "speaker_name": "Greg Tolliver",
+     "text": "And training on the floor is good.",
+     "start_time": 890.12,
+     "end_time": 894.24
+    },
+    {
+     "index": 189,
+     "speaker_name": "Greg Tolliver",
+     "text": "If you put my guys in a conference room, you'll lose them in ten minutes.",
+     "start_time": 894.24,
+     "end_time": 898.36
+    },
+    {
+     "index": 190,
+     "speaker_name": "Greg Tolliver",
+     "text": "Can we bring over the spreadsheet, though?",
+     "start_time": 898.36,
+     "end_time": 902.48
+    },
+    {
+     "index": 191,
+     "speaker_name": "Greg Tolliver",
+     "text": "I've got four years of stuff in there, and I really don't want to start over.",
+     "start_time": 902.48,
+     "end_time": 906.6
+    },
+    {
+     "index": 192,
+     "speaker_name": "Priya Raman",
+     "text": "Yep, we'd import it.",
+     "start_time": 907.0,
+     "end_time": 911.87
+    },
+    {
+     "index": 193,
+     "speaker_name": "Priya Raman",
+     "text": "We've done it from spreadsheets a lot messier than yours, I promise.",
+     "start_time": 911.87,
+     "end_time": 916.73
+    },
+    {
+     "index": 194,
+     "speaker_name": "Priya Raman",
+     "text": "You'd keep all that history, so the reports have something in them from day one.",
+     "start_time": 916.73,
+     "end_time": 921.6
+    },
+    {
+     "index": 195,
+     "speaker_name": "Greg Tolliver",
+     "text": "Okay, good.",
+     "start_time": 922.0,
+     "end_time": 925.8
+    },
+    {
+     "index": 196,
+     "speaker_name": "Greg Tolliver",
+     "text": "That was the thing I was most worried about, to be honest.",
+     "start_time": 925.8,
+     "end_time": 929.6
+    },
+    {
+     "index": 197,
+     "speaker_name": "Priya Raman",
+     "text": "Great.",
+     "start_time": 930.0,
+     "end_time": 933.15
+    },
+    {
+     "index": 198,
+     "speaker_name": "Priya Raman",
+     "text": "So that's the whole picture.",
+     "start_time": 933.15,
+     "end_time": 936.3
+    },
+    {
+     "index": 199,
+     "speaker_name": "Priya Raman",
+     "text": "The schedule, the phone app, parts, the reports, and we set it up with you.",
+     "start_time": 936.3,
+     "end_time": 939.45
+    },
+    {
+     "index": 200,
+     "speaker_name": "Priya Raman",
+     "text": "So, um, what do you think?",
+     "start_time": 939.45,
+     "end_time": 942.6
+    },
+    {
+     "index": 201,
+     "speaker_name": "Greg Tolliver",
+     "text": "I like it.",
+     "start_time": 943.0,
+     "end_time": 945.65
+    },
+    {
+     "index": 202,
+     "speaker_name": "Greg Tolliver",
+     "text": "I really do.",
+     "start_time": 945.65,
+     "end_time": 948.3
+    },
+    {
+     "index": 203,
+     "speaker_name": "Greg Tolliver",
+     "text": "I'll need to run it by my boss.",
+     "start_time": 948.3,
+     "end_time": 950.95
+    },
+    {
+     "index": 204,
+     "speaker_name": "Greg Tolliver",
+     "text": "He'll want to see numbers.",
+     "start_time": 950.95,
+     "end_time": 953.6
+    },
+    {
+     "index": 205,
+     "speaker_name": "Priya Raman",
+     "text": "Totally, that makes sense.",
+     "start_time": 954.0,
+     "end_time": 959.8
+    },
+    {
+     "index": 206,
+     "speaker_name": "Priya Raman",
+     "text": "Why don't I send over a few things and you can take a look and let me know?",
+     "start_time": 959.8,
+     "end_time": 965.6
+    },
+    {
+     "index": 207,
+     "speaker_name": "Greg Tolliver",
+     "text": "Yeah, that works.",
+     "start_time": 966.0,
+     "end_time": 967.8
+    },
+    {
+     "index": 208,
+     "speaker_name": "Greg Tolliver",
+     "text": "What kind of stuff?",
+     "start_time": 967.8,
+     "end_time": 969.6
+    },
+    {
+     "index": 209,
+     "speaker_name": "Priya Raman",
+     "text": "I'll send our overview deck, a one-pager on pricing, and a recording of a demo like this one, so you can show it around.",
+     "start_time": 970.0,
+     "end_time": 975.65
+    },
+    {
+     "index": 210,
+     "speaker_name": "Priya Raman",
+     "text": "There's also a short case study in there from a packaging plant.",
+     "start_time": 975.65,
+     "end_time": 981.3
+    },
+    {
+     "index": 211,
+     "speaker_name": "Priya Raman",
+     "text": "I think you'd like that one.",
+     "start_time": 981.3,
+     "end_time": 986.95
+    },
+    {
+     "index": 212,
+     "speaker_name": "Priya Raman",
+     "text": "I'll have it all over to you by tomorrow morning.",
+     "start_time": 986.95,
+     "end_time": 992.6
+    },
+    {
+     "index": 213,
+     "speaker_name": "Greg Tolliver",
+     "text": "Perfect.",
+     "start_time": 993.0,
+     "end_time": 996.3
+    },
+    {
+     "index": 214,
+     "speaker_name": "Greg Tolliver",
+     "text": "Yeah, I'll get back to you next week or so.",
+     "start_time": 996.3,
+     "end_time": 999.6
+    },
+    {
+     "index": 215,
+     "speaker_name": "Priya Raman",
+     "text": "Sounds great.",
+     "start_time": 1000.0,
+     "end_time": 1002.4
+    },
+    {
+     "index": 216,
+     "speaker_name": "Priya Raman",
+     "text": "No rush at all.",
+     "start_time": 1002.4,
+     "end_time": 1004.8
+    },
+    {
+     "index": 217,
+     "speaker_name": "Priya Raman",
+     "text": "And good luck with the corrugator.",
+     "start_time": 1004.8,
+     "end_time": 1007.2
+    },
+    {
+     "index": 218,
+     "speaker_name": "Priya Raman",
+     "text": "I hope October's quieter than August was.",
+     "start_time": 1007.2,
+     "end_time": 1009.6
+    },
+    {
+     "index": 219,
+     "speaker_name": "Greg Tolliver",
+     "text": "Ha.",
+     "start_time": 1010.0,
+     "end_time": 1012.53
+    },
+    {
+     "index": 220,
+     "speaker_name": "Greg Tolliver",
+     "text": "Me too.",
+     "start_time": 1012.53,
+     "end_time": 1015.07
+    },
+    {
+     "index": 221,
+     "speaker_name": "Greg Tolliver",
+     "text": "It's been okay so far, knock on wood.",
+     "start_time": 1015.07,
+     "end_time": 1017.6
+    },
+    {
+     "index": 222,
+     "speaker_name": "Priya Raman",
+     "text": "Are you guys running all the way through the holidays, or do you get a break?",
+     "start_time": 1018.0,
+     "end_time": 1025.6
+    },
+    {
+     "index": 223,
+     "speaker_name": "Greg Tolliver",
+     "text": "We run hard until about the twentieth of December, and then we shut down for a week and do all the big jobs.",
+     "start_time": 1026.0,
+     "end_time": 1031.53
+    },
+    {
+     "index": 224,
+     "speaker_name": "Greg Tolliver",
+     "text": "That's honestly my favorite week of the year.",
+     "start_time": 1031.53,
+     "end_time": 1037.07
+    },
+    {
+     "index": 225,
+     "speaker_name": "Greg Tolliver",
+     "text": "Nobody's running anything, and I can actually get ahead.",
+     "start_time": 1037.07,
+     "end_time": 1042.6
+    },
+    {
+     "index": 226,
+     "speaker_name": "Priya Raman",
+     "text": "Ha, the shutdown week.",
+     "start_time": 1043.0,
+     "end_time": 1045.87
+    },
+    {
+     "index": 227,
+     "speaker_name": "Priya Raman",
+     "text": "Every maintenance manager I know says that.",
+     "start_time": 1045.87,
+     "end_time": 1048.73
+    },
+    {
+     "index": 228,
+     "speaker_name": "Priya Raman",
+     "text": "Well, enjoy it when it comes.",
+     "start_time": 1048.73,
+     "end_time": 1051.6
+    },
+    {
+     "index": 229,
+     "speaker_name": "Greg Tolliver",
+     "text": "I will.",
+     "start_time": 1052.0,
+     "end_time": 1054.87
+    },
+    {
+     "index": 230,
+     "speaker_name": "Greg Tolliver",
+     "text": "And hey, thanks for keeping it short.",
+     "start_time": 1054.87,
+     "end_time": 1057.73
+    },
+    {
+     "index": 231,
+     "speaker_name": "Greg Tolliver",
+     "text": "Most of these calls go an hour.",
+     "start_time": 1057.73,
+     "end_time": 1060.6
+    },
+    {
+     "index": 232,
+     "speaker_name": "Priya Raman",
+     "text": "Of course.",
+     "start_time": 1061.0,
+     "end_time": 1063.4
+    },
+    {
+     "index": 233,
+     "speaker_name": "Priya Raman",
+     "text": "I know you've got a plant to run.",
+     "start_time": 1063.4,
+     "end_time": 1065.8
+    },
+    {
+     "index": 234,
+     "speaker_name": "Priya Raman",
+     "text": "Thanks, Greg, this was great.",
+     "start_time": 1065.8,
+     "end_time": 1068.2
+    },
+    {
+     "index": 235,
+     "speaker_name": "Priya Raman",
+     "text": "Talk soon.",
+     "start_time": 1068.2,
+     "end_time": 1070.6
+    },
+    {
+     "index": 236,
+     "speaker_name": "Greg Tolliver",
+     "text": "Take care, Priya.",
+     "start_time": 1071.0,
+     "end_time": 1075.0
+    }
+   ]
+  }
+ }
+}
