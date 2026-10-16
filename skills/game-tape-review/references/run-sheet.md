@@ -1,6 +1,6 @@
 # Run sheet
 
-The template for `run-sheet.md` and the rules for writing it. The leader runs game tape from this file and copies blocks from it into a meeting agenda, so each block stands on its own.
+The template for `run-sheet.md` and the rules for writing it. The leader runs the game tape review from this file and copies blocks from it into a meeting agenda, so each block stands on its own.
 
 ## Writing rules
 
@@ -20,7 +20,7 @@ The template for `run-sheet.md` and the rules for writing it. The leader runs ga
 Leave out any block a clip doesn't need, such as part 2 or the answer key.
 
 ```markdown
-# Game tape: {meeting name}, {date}
+# Game tape review: {meeting name}, {date}
 
 Play {rep 1}, then {rep 2}. {One sentence on the thread the clips follow through a call.} {Minutes} minutes of video in all. Plan on {total} minutes with the questions.
 

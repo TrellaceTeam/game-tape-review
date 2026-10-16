@@ -1,6 +1,6 @@
 # Built-in first-call playbook
 
-Use this when the team has no playbook of its own. It covers a first call with a B2B buyer, in the order most calls run. Each step has its job, what a good rep says, and the near-miss that game tape catches most often. Words in [brackets] stand for the buyer's own details.
+Use this when the team has no playbook of its own. It covers a first call with a B2B buyer, in the order most calls run. Each step has its job, what a good rep says, and the near-miss that a game tape review catches most often. Words in [brackets] stand for the buyer's own details.
 
 ## 1. Prep
 

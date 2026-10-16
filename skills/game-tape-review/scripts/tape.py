@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Game tape helper: convert call transcripts, show a clip, check a run sheet, pack the skill.
+"""Game tape review helper: convert call transcripts, show a clip, check a run sheet, pack the skill.
 
 Usage:
     python tape.py convert FILE [FILE ...] [--out FILE | --out-dir DIR] [header options]
@@ -8,7 +8,7 @@ Usage:
     python tape.py check RUN_SHEET TRANSCRIPTS_FOLDER
     python tape.py pack --out FILE [--team FOLDER]
 
-convert reads a transcript export and writes it in the game-tape format. It reads
+convert reads a transcript export and writes it in the tape format. It reads
 WebVTT (.vtt), SubRip (.srt), Word (.docx), JSON from a recorder's API, and the
 common text layouts, such as "[00:01:23] Name: text", "00:01:23 Name: text",
 "Name (00:01:23): text", and a "Name  1:23" line with the words on the lines
@@ -33,10 +33,10 @@ transcript's LINK, open at the label's first time, and cover transcript lines.
 pack zips this skill as one file a chat app installs as a skill, with the team's
 setup inside: the skill's own team/*.md files, with any Markdown files in --team
 laid over them. Every entry starts with the skill's name, such as
-game-tape/SKILL.md. Only SKILL.md, references/*.md, scripts/*.py and the team's
+game-tape-review/SKILL.md. Only SKILL.md, references/*.md, scripts/*.py and the team's
 .md files go in. It lists everything it left out.
 
-The game-tape format is a few header lines, a blank line, then one line per turn:
+The tape format is a few header lines, a blank line, then one line per turn:
 
     TITLE: First call with Ashgrove Plastics
     DATE: 2026-09-22
@@ -195,7 +195,7 @@ class Transcript:
 
 
 def read_tape(path: Path) -> Transcript:
-    """Read a file already in the game-tape format."""
+    """Read a file already in the tape format."""
     header, turns = {}, []
     for raw in path.read_text(encoding="utf-8-sig").splitlines():
         match = TAPE_LINE.match(raw)
@@ -209,7 +209,7 @@ def read_tape(path: Path) -> Transcript:
             key, value = raw.split(":", 1)
             if key.strip().upper() in HEADER_KEYS:
                 header[key.strip().upper()] = value.strip()
-    return Transcript(turns, header, "game tape")
+    return Transcript(turns, header, "tape format")
 
 
 def _is_tape(text: str) -> bool:
@@ -712,7 +712,7 @@ def check(args) -> int:
         if _is_tape(text):
             transcripts.append((path.relative_to(folder).as_posix(), read_tape(path)))
     if not transcripts:
-        print(f"No game-tape transcripts under {folder}. Convert them first with: tape.py convert")
+        print(f"No transcripts in the tape format under {folder}. Convert them first with: tape.py convert")
         return 1
     sheet = sheet_path.read_text(encoding="utf-8-sig").splitlines()
     patterns = [(link_pattern(t.header["LINK"]), name, t) for name, t in transcripts if t.header.get("LINK")]
@@ -909,7 +909,7 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
 
-    c = sub.add_parser("convert", help="convert transcript exports to the game-tape format")
+    c = sub.add_parser("convert", help="convert transcript exports to the tape format")
     c.add_argument("files", nargs="+")
     c.add_argument("--out", help="output file, for one input")
     c.add_argument("--out-dir", help="output folder, one .txt per input")
@@ -934,7 +934,7 @@ def main(argv=None) -> int:
     n.add_argument("time", help="the time the recording showed when the link was copied, such as 12:34")
 
     p = sub.add_parser("pack", help="zip this skill with the team's setup files, for a chat app to install")
-    p.add_argument("--out", required=True, help="the file to write, such as game-tape.skill or game-tape.zip")
+    p.add_argument("--out", required=True, help="the file to write, such as game-tape-review.skill or game-tape-review.zip")
     p.add_argument("--team", help="the folder with profile.md and playbook.md. Default: team/ in this skill's folder")
 
     args = parser.parse_args(argv)

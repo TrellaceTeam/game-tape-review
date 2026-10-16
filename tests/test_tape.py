@@ -1,4 +1,4 @@
-"""Tests for skills/game-tape/scripts/tape.py. Run: python -m unittest discover -s tests -v
+"""Tests for skills/game-tape-review/scripts/tape.py. Run: python -m unittest discover -s tests -v
 
 Every name and line is from the fictional Fennick Software world.
 """
@@ -13,7 +13,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "skills" / "game-tape" / "scripts"))
+sys.path.insert(0, str(ROOT / "skills" / "game-tape-review" / "scripts"))
 
 import tape  # noqa: E402
 
@@ -404,7 +404,7 @@ class Window(Workspace):
 
 class Pack(Workspace):
     def fake_skill(self):
-        self.write("skill/SKILL.md", "---\nname: game-tape\ndescription: test\n---\n\n# Game tape\n")
+        self.write("skill/SKILL.md", "---\nname: game-tape-review\ndescription: test\n---\n\n# Game tape review\n")
         self.write("skill/references/setup.md", "# Setup\n")
         self.write("skill/scripts/tape.py", "print('hi')\n")
         self.write("skill/scripts/__pycache__/tape.cpython-313.pyc", "cache")
@@ -413,20 +413,20 @@ class Pack(Workspace):
         return self.dir / "skill"
 
     def pack(self, root, team, out=None):
-        out = out or self.dir / "out" / "game-tape.skill"
+        out = out or self.dir / "out" / "game-tape-review.skill"
         entries, added, left_out = tape.pack_skill(root, team, out)
         with zipfile.ZipFile(out) as archive:
             files = {n: archive.read(n).decode("utf-8").replace("\r\n", "\n") for n in archive.namelist()}
         self.assertEqual(sorted(files), sorted(entries))
-        self.assertTrue(all(name.startswith("game-tape/") for name in files))
+        self.assertTrue(all(name.startswith("game-tape-review/") for name in files))
         return files, added, left_out
 
     def test_new_team_files_replace_old_ones_and_keep_the_rest(self):
         root = self.fake_skill()
         self.write("new-team/profile.md", "# New profile\n")
         files, added, _ = self.pack(root, self.dir / "new-team")
-        self.assertEqual(files["game-tape/team/profile.md"], "# New profile\n")
-        self.assertEqual(files["game-tape/team/playbook.md"], "# Old playbook\n")
+        self.assertEqual(files["game-tape-review/team/profile.md"], "# New profile\n")
+        self.assertEqual(files["game-tape-review/team/playbook.md"], "# Old playbook\n")
         self.assertEqual(added, ["playbook.md", "profile.md"])
 
     def test_only_the_skills_own_files_go_in(self):
@@ -436,32 +436,32 @@ class Pack(Workspace):
         self.write("skill/run-sheet.md", "# Game tape")
         self.write("skill/candidates-jordan.md", "notes")
         self.write("skill/references/export.vtt", "WEBVTT")
-        self.write("skill/game-tape-2026-10-19/brief.md", "notes")
+        self.write("skill/game-tape-review-2026-10-19/brief.md", "notes")
         self.write("skill/team/calls.vtt", "WEBVTT")
         self.write("skill/team/old/profile.md", "# Older")
         files, _, left_out = self.pack(root, root / "team")
-        self.assertEqual(sorted(files), ["game-tape/SKILL.md", "game-tape/references/setup.md",
-                                         "game-tape/scripts/tape.py", "game-tape/team/playbook.md",
-                                         "game-tape/team/profile.md"])
+        self.assertEqual(sorted(files), ["game-tape-review/SKILL.md", "game-tape-review/references/setup.md",
+                                         "game-tape-review/scripts/tape.py", "game-tape-review/team/playbook.md",
+                                         "game-tape-review/team/profile.md"])
         for name in (".env", "sable-point.vtt", "run-sheet.md", "references/export.vtt", "team/calls.vtt", "team/old"):
             self.assertIn(name, left_out)
 
     def test_an_out_file_inside_the_skill_is_not_packed_into_itself(self):
         root = self.fake_skill()
-        files, _, _ = self.pack(root, root / "team", root / "game-tape.skill")
-        self.assertNotIn("game-tape/game-tape.skill", files)
+        files, _, _ = self.pack(root, root / "team", root / "game-tape-review.skill")
+        self.assertNotIn("game-tape-review/game-tape-review.skill", files)
 
     def test_packs_the_real_skill_from_the_command_line(self):
         team = self.dir / "team"
-        self.write("team/profile.md", "# Game tape setup\n")
-        out = self.dir / "game-tape.zip"
+        self.write("team/profile.md", "# Game tape review setup\n")
+        out = self.dir / "game-tape-review.zip"
         code, output = run("pack", "--team", str(team), "--out", str(out))
         self.assertEqual(code, 0, output)
         with zipfile.ZipFile(out) as archive:
             names = archive.namelist()
-        self.assertIn("game-tape/SKILL.md", names)
-        self.assertIn("game-tape/scripts/tape.py", names)
-        self.assertIn("game-tape/team/profile.md", names)
+        self.assertIn("game-tape-review/SKILL.md", names)
+        self.assertIn("game-tape-review/scripts/tape.py", names)
+        self.assertIn("game-tape-review/team/profile.md", names)
 
     def test_a_missing_team_folder_fails_plainly(self):
         code, output = run("pack", "--team", str(self.dir / "nowhere"), "--out", str(self.dir / "x.zip"))

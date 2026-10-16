@@ -1,4 +1,4 @@
-# Install game tape
+# Install game tape review
 
 These steps are for the AI assistant a person asked to "install this for me". A person can follow them by hand too. Installing takes a minute. Setup follows straight after, in the same conversation, and takes about five.
 
@@ -23,11 +23,11 @@ These steps are for the AI assistant a person asked to "install this for me". A 
 1. Run `node --version`. With Node.js 22.20 or later, install for every project on this computer:
 
    ```
-   npx skills add https://github.com/TrellaceTeam/sales-game-tape -g -y
+   npx skills add https://github.com/TrellaceTeam/game-tape-review -g -y
    ```
 
    Leave out `-g` when the person wants it in this folder only. When they gave you a link to a branch or a fork, use their link.
-2. Without Node.js 22.20, download [game-tape.zip](https://github.com/TrellaceTeam/sales-game-tape/releases/latest/download/game-tape.zip), unzip it, and copy the `game-tape` folder into your skills folder: `~/.claude/skills/` for Claude Code, and `~/.agents/skills/` for Codex, Cursor, OpenCode, GitHub Copilot and Gemini CLI.
+2. Without Node.js 22.20, download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip), unzip it, and copy the `game-tape-review` folder into your skills folder: `~/.claude/skills/` for Claude Code, and `~/.agents/skills/` for Codex, Cursor, OpenCode, GitHub Copilot and Gemini CLI.
 3. Find the installed `SKILL.md` and note its folder. That's `<skill>` in the skill's steps.
 
 ### Claude
@@ -38,33 +38,33 @@ You can't add a skill to the person's account yourself. You can hand them a file
 2. Download the skill into your working folder and unzip it:
 
    ```
-   curl -fsSL -o game-tape.zip https://github.com/TrellaceTeam/sales-game-tape/releases/latest/download/game-tape.zip
+   curl -fsSL -o game-tape-review.zip https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip
    ```
 
-   When the download is blocked, ask the person to download [game-tape.zip](https://github.com/TrellaceTeam/sales-game-tape/releases/latest/download/game-tape.zip) and drop it into this chat.
-3. Run setup from the unzipped `game-tape` folder. It ends by packing the skill with the person's setup inside as `game-tape.skill`, for them to save.
+   When the download is blocked, ask the person to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and drop it into this chat.
+3. Run setup from the unzipped `game-tape-review` folder. It ends by packing the skill with the person's setup inside as `game-tape-review.skill`, for them to save.
 
-When the person wants to stop before setup ends, run `python game-tape/scripts/tape.py pack --out <your outputs folder>/game-tape.skill` and share that file to save. Setup runs the first time they ask for game tape.
+When the person wants to stop before setup ends, run `python game-tape-review/scripts/tape.py pack --out <your outputs folder>/game-tape-review.skill` and share that file to save. Setup runs the first time they ask for a game tape review.
 
 ### ChatGPT
 
 Skill uploads work on ChatGPT Business, Enterprise, Healthcare and Edu. We haven't tested this route yet.
 
 1. Ask the person whether they see a Skills tab under Plugins. Without it, follow [Anything else](#anything-else).
-2. Ask them to download [game-tape.zip](https://github.com/TrellaceTeam/sales-game-tape/releases/latest/download/game-tape.zip) and attach it here. Unzip it in your Python tool.
-3. Run setup from the unzipped `game-tape` folder. It ends by packing the skill with their setup inside as `game-tape.zip`. They upload it under Plugins, then Skills, then Create, then Upload from your computer.
+2. Ask them to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and attach it here. Unzip it in your Python tool.
+3. Run setup from the unzipped `game-tape-review` folder. It ends by packing the skill with their setup inside as `game-tape-review.zip`. They upload it under Plugins, then Skills, then Create, then Upload from your computer.
 
 ### Gemini
 
 Gemini needs the person to upload the folder. We haven't tested this route yet.
 
-1. Ask them to download [game-tape.zip](https://github.com/TrellaceTeam/sales-game-tape/releases/latest/download/game-tape.zip) and unzip it.
-2. Ask them to open Customize, then Skills, then Upload, and pick the `game-tape` folder.
-3. Ask them to start a new chat and say "set up game tape". Setup runs there.
+1. Ask them to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and unzip it.
+2. Ask them to open Customize, then Skills, then Upload, and pick the `game-tape-review` folder.
+3. Ask them to start a new chat and say "set up game tape review". Setup runs there.
 
 ### Anything else
 
-Use [the paste-in prompt](prompts/game-tape.md). It runs the core of the skill on transcripts the person attaches. It can't save a setup, so each time they paste it, they fill in four lines.
+Use [the paste-in prompt](prompts/game-tape-review.md). It runs the core of the skill on transcripts the person attaches. It can't save a setup, so each time they paste it, they fill in four lines.
 
 ## 3. Run setup now
 
@@ -74,7 +74,7 @@ Read `SKILL.md` in the installed or unzipped folder, then follow its `references
 
 ## Update it later
 
-The person can ask: "Update game tape from https://github.com/TrellaceTeam/sales-game-tape and keep my setup."
+The person can ask: "Update game tape review from https://github.com/TrellaceTeam/game-tape-review and keep my setup."
 
-- **Coding agents.** Copy the skill's `team/` folder somewhere safe, install again as above, then copy `team/` back into the new skill folder. Check that `team/profile.md` is there.
-- **Chat apps.** Copy the installed skill's `team/` folder to your working folder, get and unzip the new zip as above, and run `python game-tape/scripts/tape.py pack --team <the copied team folder> --out <your outputs folder>/game-tape.skill`. Use `game-tape.zip` as the name outside Claude. Share the file to save in place of the old one.
+- **Coding agents.** Copy the skill's `team/` folder somewhere safe, install again as above, then copy `team/` back into the new skill folder. Check that `team/profile.md` is there. Versions before 1.2 named the skill `game-tape`. When that older skill is installed, copy its `team/` folder into the new one, then remove the old skill so the two don't both answer.
+- **Chat apps.** Copy the installed skill's `team/` folder to your working folder, get and unzip the new zip as above, and run `python game-tape-review/scripts/tape.py pack --team <the copied team folder> --out <your outputs folder>/game-tape-review.skill`. Use `game-tape-review.zip` as the name outside Claude. Share the file to save in place of the old one.

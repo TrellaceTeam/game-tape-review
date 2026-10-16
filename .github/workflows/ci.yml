@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Skill rules
-        run: python scripts/check_skill.py skills/game-tape
+        run: python scripts/check_skill.py skills/game-tape-review
 
       - name: Prose rules
         run: python scripts/lint_prose.py
@@ -55,4 +55,4 @@ jobs:
         run: |
           listing="$(npx -y skills@1.7.2 add . --list 2>&1)"
           echo "$listing"
-          grep -q "game-tape" <<< "$listing" || { echo "skills CLI did not list game-tape"; exit 1; }
+          grep -q "game-tape-review" <<< "$listing" || { echo "skills CLI did not list game-tape-review"; exit 1; }

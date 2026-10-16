@@ -56,7 +56,7 @@ NETWORK_ALLOWED: set[str] = set()
 BRAND = re.compile(r"trellace", re.IGNORECASE)
 BRAND_OK = re.compile(
     r"github\.com/TrellaceTeam/[a-z0-9-]+"
-    r"|https://www\.trellace\.com/contact\?utm_source=github&utm_medium=skill&utm_campaign=sales-game-tape\)? with Trellace"
+    r"|https://www\.trellace\.com/contact\?utm_source=github&utm_medium=skill&utm_campaign=game-tape-review\)? with Trellace"
 )
 
 

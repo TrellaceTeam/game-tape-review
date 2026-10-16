@@ -28,8 +28,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" dist/game-tape.zip --clobber
+            gh release upload "$GITHUB_REF_NAME" dist/game-tape-review.zip --clobber
           else
-            gh release create "$GITHUB_REF_NAME" dist/game-tape.zip --title "$GITHUB_REF_NAME" \
+            gh release create "$GITHUB_REF_NAME" dist/game-tape-review.zip --title "$GITHUB_REF_NAME" \
               --notes "Paste the repo's link into your AI assistant and say: Install this for me. To install by hand, see INSTALL.md."
           fi

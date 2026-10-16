@@ -1,11 +1,11 @@
 ---
-name: game-tape
-description: "Prep game tape for a sales meeting: short clips from your team's recorded calls that show your playbook done well or nearly, with timestamped links and questions for the room."
+name: game-tape-review
+description: "Prep a game tape review for a sales team: short clips from your recorded calls that show your playbook done well or nearly, with timestamped links and questions for the room."
 ---
 
-# Game tape
+# Game tape review
 
-Game tape is the part of a sales meeting where the team watches short clips of its own calls and talks about them. This skill prepares it. It reads the team's sales playbook and recorded calls, read-only, and writes a run sheet the leader runs the meeting from. For each rep it picks one clip of a playbook step done well and one clip to pause on, where the room says what they'd do next. Each clip has its link and start time, a one-line setup, the exact quotes, the near-miss and questions for the room.
+A game tape review is the part of a sales meeting where the team watches short clips of its own calls and talks about them. This skill prepares one. It reads the team's sales playbook and recorded calls, read-only, and writes a run sheet the leader runs the meeting from. For each rep it picks one clip of a playbook step done well and one clip to pause on, where the room says what they'd do next. Each clip has its link and start time, a one-line setup, the exact quotes, the near-miss and questions for the room.
 
 It runs in Claude, ChatGPT, Gemini and coding agents such as Claude Code, Codex and Cursor. Where a step says **ask**, use the session's question tool when it has one, and otherwise ask in a message with numbered options. Step 4 uses subagents when the session has them, and otherwise does the same work one rep at a time. `scripts/tape.py` needs Python 3.9 or later and nothing else. Run it as `python3`, `python` or `py`, whichever works. `<skill>` below means this skill's folder, the one that holds this file.
 
@@ -13,7 +13,7 @@ It runs in Claude, ChatGPT, Gemini and coding agents such as Claude Code, Codex 
 
 **Writing.** Everything you write follows [writing.md](references/writing.md): questions, replies, the run sheet and the team files.
 
-**Folders.** The project folder is the folder the session works in, or your working folder in a chat app. Each session gets a work folder inside it, `game-tape-<date>/`, for the transcripts and the run sheet. It holds buyers' names, so keep it out of the team folder and out of shared folders. Steps 1 to 5 also name working notes, such as `playbook-map.md`. Write them in the work folder when subagents scan or the session is long, so every subagent reads the same map and nothing is lost. In a short session you can skip them.
+**Folders.** The project folder is the folder the session works in, or your working folder in a chat app. Each session gets a work folder inside it, `game-tape-review-<date>/`, for the transcripts and the run sheet. It holds buyers' names, so keep it out of the team folder and out of shared folders. Steps 1 to 5 also name working notes, such as `playbook-map.md`. Write them in the work folder when subagents scan or the session is long, so every subagent reads the same map and nothing is lost. In a short session you can skip them.
 
 ## Steps
 
@@ -28,7 +28,7 @@ It runs in Claude, ChatGPT, Gemini and coding agents such as Claude Code, Codex 
 
 ## 1. Start the session
 
-Read the saved profile. Take what this session is for from the person's request, such as a date, a meeting, the minutes, which reps, or a step to look for. Use the profile for everything else. When the request is only "prep game tape", use today's date, the profile's minutes and reps, and its Look for. Ask only when the profile says to ask each time, such as for the minutes.
+Read the saved profile. Take what this session is for from the person's request, such as a date, a meeting, the minutes, which reps, or a step to look for. Use the profile for everything else. When the request is only "prep a game tape review", use today's date, the profile's minutes and reps, and its Look for. Ask only when the profile says to ask each time, such as for the minutes.
 
 Load the playbook. When the profile names a link you can reach, read it again, comments too. When it changed, use the new version, update `team/playbook.md` at step 8, and say so in the hand-back. When you can't reach it, use `team/playbook.md`. With the built-in playbook, use [first-call-playbook.md](references/first-call-playbook.md).
 
@@ -93,7 +93,7 @@ Done when every rep has up to three good and three pause candidates, ranked, eac
 
 ## 5. Pick the clips
 
-Size the tape to the time. Video should fill about a third of game tape, and talk the rest.
+Size the tape to the time. Video should fill about a third of the review, and talk the rest.
 
 | Who's on tape | Clips |
 |---|---|

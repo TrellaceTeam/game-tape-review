@@ -24,8 +24,8 @@ Each call is in a different export format, the way different recorders give them
 |---|---|
 | [team/profile.md](team/profile.md) | The setup the skill saved inside its own folder, with the four clips from the session under Played |
 | [team/playbook.md](team/playbook.md) | Setup's word-for-word copy of the playbook |
-| [game-tape-2026-10-19/run-sheet.md](game-tape-2026-10-19/run-sheet.md) | The run sheet the meeting runs from |
-| [game-tape-2026-10-19/transcripts/](game-tape-2026-10-19/transcripts/priya/2026-10-13-sable-point.txt) | The five calls, converted to the tape format |
+| [game-tape-review-2026-10-19/run-sheet.md](game-tape-review-2026-10-19/run-sheet.md) | The run sheet the meeting runs from |
+| [game-tape-review-2026-10-19/transcripts/](game-tape-review-2026-10-19/transcripts/priya/2026-10-13-sable-point.txt) | The five calls, converted to the tape format |
 
 ## How it was made
 
@@ -34,7 +34,7 @@ We ran Claude Code with Claude Sonnet 5.5 twice on October 16, 2026, in a folder
 **1. Install and setup, in 33 seconds.** It installed the skill from GitHub into the folder, copied the playbook and saved the setup. We ran it from a test branch before release, so the link points there. You'd paste the main page's link. This was the prompt:
 
 ```text
-Install this for me: https://github.com/TrellaceTeam/sales-game-tape/tree/setup-mode
+Install this for me: https://github.com/TrellaceTeam/game-tape-review/tree/setup-mode
 
 Install it for this folder only, not for every project.
 
@@ -72,7 +72,7 @@ A few things it did on its own:
 From the repo root:
 
 ```
-python skills/game-tape/scripts/tape.py check examples/fennick/game-tape-2026-10-19/run-sheet.md examples/fennick/game-tape-2026-10-19/transcripts
+python skills/game-tape-review/scripts/tape.py check examples/fennick/game-tape-review-2026-10-19/run-sheet.md examples/fennick/game-tape-review-2026-10-19/transcripts
 ```
 
 The repo's tests run the same check on every push. They also convert each call again to make sure no word changes, and check that the playbook copy matches the original word for word.

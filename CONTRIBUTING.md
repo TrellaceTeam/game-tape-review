@@ -1,6 +1,6 @@
 # Contributing
 
-Improvements are welcome, especially from people who run game tape with a recorder we haven't tested.
+Improvements are welcome, especially from people who run game tape reviews with a recorder we haven't tested.
 
 ## Report a recorder that didn't work
 
@@ -8,11 +8,11 @@ Open an issue with the recorder, your plan on it, the assistant you used, and wh
 
 ## Share a link pattern
 
-If your recorder has a "copy link at this time" option, run `python skills/game-tape/scripts/tape.py link "<the link>" <the time it showed>` and open an issue with the pattern it prints, with the call's ID replaced. We'll add it to [recorders.md](skills/game-tape/references/recorders.md).
+If your recorder has a "copy link at this time" option, run `python skills/game-tape-review/scripts/tape.py link "<the link>" <the time it showed>` and open an issue with the pattern it prints, with the call's ID replaced. We'll add it to [recorders.md](skills/game-tape-review/references/recorders.md).
 
 ## Keep team folders out
 
-Setup saves a team's playbook and reps in `skills/game-tape/team/`. Git ignores that folder in this repo, so a test setup never lands in a pull request.
+Setup saves a team's playbook and reps in `skills/game-tape-review/team/`. Git ignores that folder in this repo, so a test setup never lands in a pull request.
 
 ## Keep examples fictional
 
@@ -27,7 +27,7 @@ Examples and tests use the fictional Fennick Software, its prospects and its peo
 Run these from the repo root with Python 3.9 or later, using `python3` or `py` where that's the command. CI runs the same checks on every push and pull request.
 
 ```
-python scripts/check_skill.py skills/game-tape
+python scripts/check_skill.py skills/game-tape-review
 python scripts/lint_prose.py
 python scripts/check_links.py
 python -m unittest discover -s tests -v

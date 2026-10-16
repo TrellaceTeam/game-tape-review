@@ -9,7 +9,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "skills" / "game-tape" / "scripts"))
+sys.path.insert(0, str(ROOT / "skills" / "game-tape-review" / "scripts"))
 
 import tape  # noqa: E402
 
@@ -25,8 +25,8 @@ def quiet(*argv):
 
 class Example(unittest.TestCase):
     def work_folder(self):
-        folders = sorted(p for p in EXAMPLE.glob("game-tape-*") if p.is_dir())
-        self.assertTrue(folders, "the example has no game-tape-<date> work folder")
+        folders = sorted(p for p in EXAMPLE.glob("game-tape-review-*") if p.is_dir())
+        self.assertTrue(folders, "the example has no game-tape-review-<date> work folder")
         return folders[-1]
 
     def test_run_sheet_passes_the_check(self):

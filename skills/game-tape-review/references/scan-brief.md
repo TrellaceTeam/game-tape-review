@@ -14,7 +14,7 @@ Fill each `{BLOCK}` and give the filled brief to one subagent per rep, or follow
 
 {MEETING}
 
-One part of the meeting is game tape. The leader plays short clips and the room talks about them. Your scan finds the best candidate clips for one rep, {REP}. There are two kinds:
+One part of the meeting is a game tape review. The leader plays short clips and the room talks about them. Your scan finds the best candidate clips for one rep, {REP}. There are two kinds:
 
 - **Good.** One step of the team's playbook done well. A small near-miss in the same stretch is fine.
 - **Pause.** The buyer hands the rep an opening, such as naming a decision maker, a worry, a deadline or a buying signal. The leader will pause right after the buyer's line and ask the room what they'd say next. The rep's real next move can be strong or weak.
