@@ -22,7 +22,9 @@ SKIP = {"__pycache__", ".DS_Store"}
 
 def build() -> Path:
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    files = sorted(p for p in SKILL.rglob("*") if p.is_file() and not SKIP & set(p.parts) and p.suffix != ".pyc")
+    # A team/ folder is someone's own setup, from a local test, and never ships.
+    files = sorted(p for p in SKILL.rglob("*") if p.is_file() and not SKIP & set(p.parts) and p.suffix != ".pyc"
+                   and p.relative_to(SKILL).parts[0] != "team")
     with zipfile.ZipFile(OUT, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for path in files:
             name = "game-tape/" + path.relative_to(SKILL).as_posix()

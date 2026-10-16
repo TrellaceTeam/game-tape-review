@@ -10,6 +10,10 @@ Open an issue with the recorder, your plan on it, the assistant you used, and wh
 
 If your recorder has a "copy link at this time" option, run `python skills/game-tape/scripts/tape.py link "<the link>" <the time it showed>` and open an issue with the pattern it prints, with the call's ID replaced. We'll add it to [recorders.md](skills/game-tape/references/recorders.md).
 
+## Keep team folders out
+
+Setup saves a team's playbook and reps in `skills/game-tape/team/`. Git ignores that folder in this repo, so a test setup never lands in a pull request.
+
 ## Keep examples fictional
 
 Examples and tests use the fictional Fennick Software, its prospects and its people. Leave out real calls, real customers and anything private. A real transcript never goes in an issue or a pull request.

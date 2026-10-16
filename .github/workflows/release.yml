@@ -31,5 +31,5 @@ jobs:
             gh release upload "$GITHUB_REF_NAME" dist/game-tape.zip --clobber
           else
             gh release create "$GITHUB_REF_NAME" dist/game-tape.zip --title "$GITHUB_REF_NAME" \
-              --notes "Upload game-tape.zip to Claude or ChatGPT as a skill. See the README for every way to install it."
+              --notes "Paste the repo's link into your AI assistant and say: Install this for me. To install by hand, see INSTALL.md."
           fi

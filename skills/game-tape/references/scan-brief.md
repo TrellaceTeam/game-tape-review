@@ -6,7 +6,7 @@ Fill each `{BLOCK}` and give the filled brief to one subagent per rep, or follow
 - `{REP}`: the rep's name and their folder under `transcripts/`.
 - `{WORK}`: the work folder's path.
 - `{MATCH}`: the match row from the skill's table, copied whole.
-- `{FOCUS}`: what the person asked you to look for, and notes from the profile and past reviews. Write "none given" when there's nothing.
+- `{FOCUS}`: what the person asked you to look for, the profile's Look for, and notes from the profile and past reviews. Write "none given" when there's nothing.
 
 ---
 

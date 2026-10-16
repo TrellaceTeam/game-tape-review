@@ -13,7 +13,7 @@ The template for `run-sheet.md` and the rules for writing it. The leader runs ga
 - **What came before.** For a pause clip, the answer key: what the buyer said earlier, each with its time, so the leader can share it after the room answers.
 - **Ask the room.** Two or three questions the room can answer from the clip and the setup line. Good shapes: "Think of your last demo. What did the buyer tell you early on that you could bring back like this?", "What would you say next?" and "How would you ask that without sounding pushy?" Leave out quiz questions about parts of the call the room didn't see.
 - **Kind.** Credit what went well before the near-miss. Write about the move, never the person.
-- Use short sentences and plain words.
+- **Everything else.** Follow [writing.md](writing.md). Its rules cover your words, never the quotes.
 
 ## Template
 
@@ -26,7 +26,7 @@ Play {rep 1}, then {rep 2}. {One sentence on the thread the clips follow through
 
 ## Open with this
 
-"We're working on our {process name, such as first-call process} together. Here's the doc: [{playbook name}]({playbook link}). Each of you has two short clips. One shows a step done well. In the other we'll pause and ask: what would you say here? The person on the call speaks first. Then we each add one thing that worked and one thing to try. By the end we'll pick one thing to try next week."
+"We're working on our {process name, such as first-call process} together. Here's the doc: [{playbook name}]({playbook link}). Each of you has two short clips. One shows a step done well. In the other we'll pause and ask: what would you say here? The person on the call speaks first. Then we each add one thing that worked and one thing to try. By the end we'll pick one thing we'll all try on our next calls."
 
 ## Your picks at a glance
 

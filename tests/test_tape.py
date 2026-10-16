@@ -402,5 +402,56 @@ class Window(Workspace):
         self.assertIn("MISSING 'not said'", output)
 
 
+class Pack(Workspace):
+    def fake_skill(self):
+        self.write("skill/SKILL.md", "---\nname: game-tape\ndescription: test\n---\n\n# Game tape\n")
+        self.write("skill/references/setup.md", "# Setup\n")
+        self.write("skill/scripts/__pycache__/tape.cpython-313.pyc", "cache")
+        self.write("skill/team/profile.md", "# Old profile\n")
+        self.write("skill/game-tape-2026-10-19/transcripts/jordan/a.txt", "a buyer's words")
+        return self.dir / "skill"
+
+    def test_swaps_in_the_new_team_files_and_leaves_out_caches_and_work(self):
+        root = self.fake_skill()
+        team = self.dir / "new-team"
+        self.write("new-team/profile.md", "# New profile\n")
+        self.write("new-team/playbook.md", "# Playbook\n")
+        self.write("new-team/calls.vtt", "WEBVTT")
+        entries, added, skipped = tape.pack_skill(root, team, self.dir / "out" / "game-tape.skill")
+        with zipfile.ZipFile(self.dir / "out" / "game-tape.skill") as archive:
+            names = archive.namelist()
+            profile = archive.read("game-tape/team/profile.md").decode("utf-8").replace("\r\n", "\n")
+        self.assertEqual(sorted(names), sorted(entries))
+        self.assertTrue(all(name.startswith("game-tape/") for name in names))
+        self.assertIn("game-tape/SKILL.md", names)
+        self.assertIn("game-tape/team/playbook.md", names)
+        self.assertEqual(profile, "# New profile\n")
+        self.assertEqual(skipped, ["calls.vtt"])
+        self.assertFalse(any("__pycache__" in n or "transcripts" in n or n.endswith(".vtt") for n in names), names)
+
+    def test_keeps_the_skills_own_team_folder_by_default(self):
+        root = self.fake_skill()
+        entries, added, _ = tape.pack_skill(root, root / "team", root / "game-tape.skill")
+        self.assertEqual(added, ["profile.md"])
+        self.assertNotIn("game-tape/game-tape.skill", entries)
+
+    def test_packs_the_real_skill_from_the_command_line(self):
+        team = self.dir / "team"
+        self.write("team/profile.md", "# Game tape setup\n")
+        out = self.dir / "game-tape.zip"
+        code, output = run("pack", "--team", str(team), "--out", str(out))
+        self.assertEqual(code, 0, output)
+        with zipfile.ZipFile(out) as archive:
+            names = archive.namelist()
+        self.assertIn("game-tape/SKILL.md", names)
+        self.assertIn("game-tape/scripts/tape.py", names)
+        self.assertIn("game-tape/team/profile.md", names)
+
+    def test_a_missing_team_folder_fails_plainly(self):
+        code, output = run("pack", "--team", str(self.dir / "nowhere"), "--out", str(self.dir / "x.zip"))
+        self.assertEqual(code, 1)
+        self.assertIn("No folder at", output)
+
+
 if __name__ == "__main__":
     unittest.main()

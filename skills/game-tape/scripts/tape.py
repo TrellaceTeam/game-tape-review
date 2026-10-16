@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Game tape helper: convert call transcripts, show a clip, check a run sheet.
+"""Game tape helper: convert call transcripts, show a clip, check a run sheet, pack the skill.
 
 Usage:
     python tape.py convert FILE [FILE ...] [--out FILE | --out-dir DIR] [header options]
     python tape.py link COPIED_LINK TIME
     python tape.py window TRANSCRIPT START END [--quote "exact words"]... [--quotes FILE]
     python tape.py check RUN_SHEET TRANSCRIPTS_FOLDER
+    python tape.py pack --out FILE [--team FOLDER]
 
 convert reads a transcript export and writes it in the game-tape format. It reads
 WebVTT (.vtt), SubRip (.srt), Word (.docx), JSON from a recorder's API, and the
@@ -28,6 +29,11 @@ check reads a finished run sheet and checks it against the transcripts. Every
 quote written as "[HH:MM:SS] exact words" has to sit on that transcript line.
 Every link whose label holds a time, such as [4:40 to 6:49](...), has to match a
 transcript's LINK, open at the label's first time, and cover transcript lines.
+
+pack zips this skill's folder with the team's setup files, from --team or the
+skill's own team/ folder, as one file a chat app installs as a skill. Every entry
+starts with the skill's name, such as game-tape/SKILL.md. It leaves out caches,
+work folders and anything in the team folder that isn't a Markdown file.
 
 The game-tape format is a few header lines, a blank line, then one line per turn:
 
@@ -822,6 +828,61 @@ def learn_link(args) -> int:
     return 1
 
 
+# ---------- pack ----------
+
+PACK_SKIP_SUFFIXES = {".pyc", ".zip", ".skill"}
+
+
+def skill_name(root: Path) -> str:
+    """The name in SKILL.md's frontmatter, or the folder's name."""
+    for line in (root / "SKILL.md").read_text(encoding="utf-8-sig").splitlines()[1:20]:
+        key, sep, value = line.partition(":")
+        if sep and key.strip() == "name" and value.strip():
+            return value.strip().strip("\"'")
+    return root.name
+
+
+def _left_out(rel: Path) -> bool:
+    """Caches, packed files and anything that looks like a session's work, which holds buyers' names."""
+    return (rel.suffix in PACK_SKIP_SUFFIXES or rel.name == ".DS_Store"
+            or any(part == "__pycache__" or part == "transcripts" or part.startswith("game-tape-") for part in rel.parts))
+
+
+def pack_skill(root: Path, team: Path, out: Path):
+    """Write the skill at root, with team's Markdown files as team/, to the zip at out.
+    Return (entries written, team files added, team files left out)."""
+    root, out = root.resolve(), out.resolve()
+    name = skill_name(root)
+    entries = []
+    for path in sorted(root.rglob("*")):
+        rel = path.relative_to(root)
+        if path.is_file() and rel.parts[0] != "team" and path.resolve() != out and not _left_out(rel):
+            entries.append((f"{name}/{rel.as_posix()}", path))
+    found = sorted(p for p in team.iterdir() if p.is_file()) if team.is_dir() else []
+    added = [p for p in found if p.suffix.lower() == ".md"]
+    entries += [(f"{name}/team/{p.name}", p) for p in added]
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for arcname, path in entries:
+            archive.write(path, arcname)
+    return [arcname for arcname, _ in entries], [p.name for p in added], [p.name for p in found if p not in added]
+
+
+def pack(args) -> int:
+    root = Path(__file__).resolve().parents[1]
+    team = Path(args.team) if args.team else root / "team"
+    if args.team and not team.is_dir():
+        print(f"No folder at {team}. Point --team at the folder that holds profile.md.", file=sys.stderr)
+        return 1
+    entries, added, skipped = pack_skill(root, team, Path(args.out))
+    print(f"wrote {args.out}: {len(entries)} files, with team files: {', '.join(added) or 'none'}")
+    for item in skipped:
+        print(f"  left out team/{item}: the team folder holds Markdown files only")
+    if "profile.md" not in added:
+        print("  check: no team/profile.md went in, so this copy will start with setup.")
+    return 0
+
+
 # ---------- main ----------
 
 def main(argv=None) -> int:
@@ -855,8 +916,12 @@ def main(argv=None) -> int:
     n.add_argument("url")
     n.add_argument("time", help="the time the recording showed when the link was copied, such as 12:34")
 
+    p = sub.add_parser("pack", help="zip this skill with the team's setup files, for a chat app to install")
+    p.add_argument("--out", required=True, help="the file to write, such as game-tape.skill or game-tape.zip")
+    p.add_argument("--team", help="the folder with profile.md and playbook.md. Default: team/ in this skill's folder")
+
     args = parser.parse_args(argv)
-    return {"convert": convert, "window": window, "check": check, "link": learn_link}[args.command](args)
+    return {"convert": convert, "window": window, "check": check, "link": learn_link, "pack": pack}[args.command](args)
 
 
 if __name__ == "__main__":

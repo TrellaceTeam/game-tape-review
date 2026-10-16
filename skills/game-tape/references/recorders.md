@@ -22,7 +22,7 @@ When the table says "learn it", ask the person once to open any call, pause at s
 python <skill>/scripts/tape.py link "<pasted link>" 12:34
 ```
 
-It prints the pattern. Save it in the profile, so you never ask again. When it finds no time in the link, or the recorder has no such option, use each call's plain link, and the run sheet tells the leader where to scrub to.
+It prints the pattern. Test it as [setup.md](setup.md#4-work-out-the-clip-links) says, then save it in the profile, so you never ask again. When it finds no time in the link, or the recorder has no such option, use each call's plain link, and the run sheet tells the leader where to scrub to.
 
 ## At a glance
 

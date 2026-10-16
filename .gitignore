@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 dist/
 .env
-# A game-tape run inside this repo's root holds real transcripts. Keep it out of git.
+# A game-tape session inside this repo's root holds real transcripts, and a team
+# folder holds a real playbook and reps. Keep them out of git.
 /game-tape-*/
 /game-tape-profile.md
+/game-tape-team/
+skills/game-tape/team/
+*.skill

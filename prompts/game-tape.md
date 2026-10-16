@@ -1,6 +1,6 @@
 # Game tape prompt for ChatGPT, Claude or Gemini
 
-Paste this prompt into any chat assistant that reads attached files. You get a run sheet for game tape: for each rep, a clip of a playbook step done well and a clip to pause on, with times, exact quotes and questions for the room. It runs the core of the skill. The skill adds a saved team profile, reading calls straight from your recorder, and a script that checks every quote and link, so install it if your assistant supports skills.
+Paste this prompt into any chat assistant that reads attached files. You get a run sheet for game tape: for each rep, a clip of a playbook step done well and a clip to pause on, with times, exact quotes and questions for the room. It runs the core of the skill. The skill adds a guided setup it saves, reading calls straight from your recorder, and a script that checks every quote and link, so [install it](../INSTALL.md) if your assistant supports skills.
 
 ## Get a result in four steps
 
@@ -9,7 +9,7 @@ Paste this prompt into any chat assistant that reads attached files. You get a r
 3. **Copy the prompt.** Paste it below your attachments, fill in the four lines at the bottom, and send it.
 4. **Check the quotes.** Compare them with the transcripts before the meeting, unless the assistant ran the check.
 
-To reuse it every week, paste the prompt into a project's instructions (a ChatGPT or Claude project), without the four lines at the bottom. Then in each new chat, attach the week's transcripts and type the four lines.
+To reuse it, paste the prompt into a project's instructions (a ChatGPT or Claude project), without the four lines at the bottom. Then in each new chat, attach that session's transcripts and type the four lines.
 
 ## Copy this prompt
 
@@ -41,7 +41,7 @@ RULES
 - Base every claim on the transcript. If a speaker label looks wrong, say so.
 - Write about the move, never the person. Credit what went well before the near-miss.
 - Write each time as m:ss. If links are given below, label each clip's link with its times, as [4:40 to 6:49](link). If one of them is a link copied at a moment of a recording, find where it holds that time, as a number of seconds or a form like 1m25s, and put each clip's start time there in each call's link. Otherwise write "scrub to 4:40".
-- Plain words, short sentences. No greeting and no sign-off.
+- Write like a calm, direct colleague. Lead with what the leader needs. Short, common words and one idea per sentence. Use periods and commas, with no dashes or semicolons. No hype, no filler such as "really" or "just", no emoji, no greeting and no sign-off. These rules cover your words, never the quotes.
 
 LAYOUT
 Use this layout. Square brackets show what to fill in.
@@ -50,7 +50,7 @@ Use this layout. Square brackets show what to fill in.
 
 [One line: the order of the clips, the minutes of video, and the minutes with questions.]
 
-**Open with this.** "Each of you has two short clips. One shows a step done well. In the other we'll pause and ask: what would you say here? The person on the call speaks first. Then we each add one thing that worked and one thing to try. By the end we'll pick one thing to try next week."
+**Open with this.** "Each of you has two short clips. One shows a step done well. In the other we'll pause and ask: what would you say here? The person on the call speaks first. Then we each add one thing that worked and one thing to try. By the end we'll pick one thing we'll all try on our next calls."
 
 For each clip, in play order:
 
