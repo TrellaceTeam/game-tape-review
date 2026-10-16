@@ -1,4 +1,4 @@
 # Files lint_prose.py leaves alone. The example run is the skill's unedited output,
 # and it quotes buyers word for word, so the house writing rules don't apply to it.
 examples/fennick/game-tape-*/*
-examples/fennick/game-tape-profile.md
+examples/fennick/team/*

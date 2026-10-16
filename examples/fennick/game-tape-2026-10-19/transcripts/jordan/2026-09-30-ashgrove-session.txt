@@ -1,10 +1,10 @@
-TITLE: ashgrove-working-session-2026-09-30
+TITLE: Working session with Ashgrove Plastics
 DATE: 2026-09-30
 MINUTES: 13
 REP: Jordan Ellis
-CALL_TYPE: second call (working session)
+CALL_TYPE: working session (not a first call)
 LINK: https://recorder.example/share/x9Lp4Ashgrove0930?t={seconds}
-BUYERS: Dana Whitfield, Luis Ortega, Ashgrove Plastics
+BUYERS: Dana Whitfield, Luis Ortega
 
 [00:00:12] Jordan Ellis: Morning, Dana. Morning, Luis. Thanks for making the time, I know Wednesdays are busy at the plant.
 [00:00:30] Luis Ortega: They're all busy.

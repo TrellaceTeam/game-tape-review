@@ -1,12 +1,12 @@
 # Game tape for your sales team
 
-Game tape is when a sales team watches short clips of its own calls and talks about them, the way a sports team watches its own plays. This skill preps it for you. It reads your recorded calls and your sales playbook. For each rep, it picks one clip of a playbook step done well and one clip to pause on, where the room says what they'd do next. Every clip comes with a link that opens at the right moment, a one-line setup, the exact quotes and questions for the room.
+Game tape is when a sales team watches short clips of its own calls and talks about them, the way a sports team watches its own plays. This is a skill, a set of steps your AI assistant follows, and it preps game tape for you. It reads your recorded calls and your sales playbook. For each rep, it picks one clip of a playbook step done well and one clip to pause on, where the room says what they'd do next. Every clip comes with its start time, a link where your recorder allows one, a one-line setup, the exact quotes and questions for the room.
 
-It works in Claude, ChatGPT, Gemini and coding agents. It reads calls from Fathom, Fireflies, Gong, Grain, Avoma, Otter, Read AI, tl;dv, Zoom, Google Meet, Microsoft Teams or any transcript file. <!-- prose-allow: semicolon -->
+It's built for Claude, ChatGPT, Gemini and coding tools such as Claude Code, Codex and Cursor. It reads calls from Fathom, Fireflies, Gong, Grain, Avoma, Otter, Read AI, tl;dv, Zoom, Google Meet, Microsoft Teams or any transcript file. So far we've tested it end to end only in Claude Code. <!-- prose-allow: semicolon -->
 
 ## Install it
 
-Copy this page's link into your AI assistant and say:
+Paste this into your AI assistant:
 
 ```text
 Install this for me: https://github.com/TrellaceTeam/sales-game-tape
@@ -22,9 +22,9 @@ The assistant asks one question at a time.
 2. **Your reps.** It lists who ran calls with outside buyers in the last 30 days, and you pick who's on tape.
 3. **Your playbook.** Point it at the doc in Google Drive, Notion or another connected app, or drop the file in. It keeps a copy and re-reads the original each time. No playbook? It uses a [built-in first-call playbook](skills/game-tape/references/first-call-playbook.md).
 4. **Your clip links.** It works out how your recorder links to a moment in a call, and asks you to click one test link.
-5. **Your time.** How many minutes game tape usually gets.
+5. **Your time.** It asks how many minutes game tape usually gets.
 
-It saves all of this inside your own copy of the skill. In a coding agent, it saves it for you. In Claude, ChatGPT or Gemini, it hands you your copy as one file to save.
+It saves all of this inside your own copy of the skill. In a coding tool, it saves it for you. In Claude, ChatGPT or Gemini, it hands you your copy as one file to save.
 
 ## Then ask for game tape
 
@@ -33,41 +33,40 @@ Type "Prep game tape" whenever you want a session. It skips the setup questions 
 - "Game tape for Thursday's sales meeting, 20 minutes."
 - "Only Jordan's calls, for our 1:1."
 - "My own calls, to teach our first AE." It picks four to six good clips in call order.
-- "Look for how we get the person who signs onto the next call."
+- "Look for how we get the person who signs the deal onto the next call."
 - "Use the last two weeks, and skip anything with pricing in it."
 
-It reads your recent calls and hands back a run sheet. Changes you want to keep go into your setup, and so does a list of clips you've played, so the next session picks new moments.
+It reads your recent calls and hands back a run sheet. Changes you want to keep go into your setup, and so does a list of clips you've played, so the next session picks new moments. In a chat app, it hands you an updated file to save for that.
 
 ## What you get
 
-The run sheet is a Markdown file, ready to paste into a meeting agenda. It opens with a script for the leader and a table of picks, with two swaps for each clip. Then comes one block per clip. Here's a pause clip from [the example](examples/fennick/README.md), a full run on five calls from Fennick Software, a fictional company.
+The run sheet is a document you can paste into a meeting agenda. It opens with a script for the leader and a table of picks, with two backup clips for each pick. Then comes one block per clip. Here's part of a pause clip from [the example](examples/fennick/README.md), a full setup and session on five calls from Fennick Software, a fictional company.
 
-> ### 4. Priya, pause: Sable Point Packaging (Oct 13, first call)
+> ### 2. Priya, pause: Sable Point (Oct 13, first call)
 >
-> **Why this step matters.** Same step, one week later. A buyer who says "I need to run it by my boss" is handing you the decision maker. The next question decides whether the boss ever meets you.
+> **Why this step matters.** When a buyer says "I'll need to run it by my boss," the buyer has just told you the person who signs, or the one who sways them, and has handed you the way to ask for them. <!-- prose-allow: just -->
 >
-> **Set it up.** Greg is the maintenance manager at Sable Point, a 250-person corrugated box plant. He took the call because of three corrugator stops in August. Priya has just finished a full demo, and Greg has said the price is reasonable. <!-- prose-allow: just -->
+> **Set it up.** Greg is the maintenance manager at Sable Point Packaging, a 250-person corrugated box plant. He's had three unplanned corrugator stops in August. Priya has just shown the product and quoted a price, and Greg took it well. We're about 15 minutes in. <!-- prose-allow: just -->
 >
-> **Play part 1: [15:30 to 15:43](https://recorder.example/share/q5Ws1Sable1013?t=930).** Pause right after Greg says "[00:15:43] I like it. I really do. I'll need to run it by my boss. He'll want to see numbers." <!-- prose-allow: really -->
+> **Play part 1: [15:05 to 15:50](https://recorder.example/share/q5Ws1Sable1013?t=905).** Pause right after Greg says "[00:15:43] I like it. I really do. I'll need to run it by my boss. He'll want to see numbers." <!-- prose-allow: really -->
 >
 > **Ask the room while it's paused.**
 > 1. What would you say next?
-> 2. What do you want to know about the boss before you hang up?
 >
-> **What came before.** The answer key:
-> - 9:31. "[00:09:31] Sorry, one thing before you move on. I've got budget left this year if we move before December."
-> - 12:02. "[00:12:02] Does that break it out by machine? My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down."
+> **What came before.** The answer key, to share after the room answers.
+> - 9:31. Greg said, "[00:09:31] Sorry, one thing before you move on. I've got budget left this year if we move before December." Priya answered "Oh, that's great to know" and moved on.
+> - 12:02. Greg said, "[00:12:02] Does that break it out by machine? My plant manager, Neil Ostrowski, keeps asking me why the corrugator keeps going down."
 >
-> **Play part 2: [15:43 to 16:33](https://recorder.example/share/q5Ws1Sable1013?t=943).**
+> **Play part 2: [15:50 to 16:40](https://recorder.example/share/q5Ws1Sable1013?t=950).**
 >
-> **The near-miss.** The call ended on "send some things and let me know". Nothing was booked and Neil was never asked about. Priya could have said:
-> - "What will Neil want to see? Could he join us for 30 minutes next week? I have two times."
+> **The near-miss.** The call ends on "send some info," and the boss, who will judge the numbers, never hears them from us. Greg offered the chance twice: "run it by my boss" and "budget left this year if we move before December." Priya could have said:
+> - "Who's your boss, and would he join a 20 minute call so he sees numbers on your own corrugator? I have two times this week."
 
 A script that ships with the skill checks every quote against its transcript line, and every link against its start time. When a quote is off, the script prints the right time or the real words, and the assistant fixes it.
 
 ## Run the session
 
-The run sheet opens with a script for the leader. The format behind it:
+Each session runs in five steps, and the run sheet's script follows them.
 
 1. **The person on the call speaks first.** Before anyone else weighs in, they say what they were going for.
 2. **Play the good clip.** Ask what made it work, and where else it would help.
@@ -81,7 +80,7 @@ The run sheet opens with a script for the leader. The format behind it:
 |---|---|---|
 | Fathom | Connect it in your assistant | Yes |
 | Gong | Download transcripts, or Gong's API in a coding agent | Yes, for viewers signed in to Gong |
-| Fireflies, Grain, Otter, Read AI, tl;dv <!-- prose-allow: semicolon --> | Connect it in your assistant, or download transcripts | Fireflies and tl;dv from one copied link. Grain and Otter through their own clips |
+| Fireflies, Grain, Otter, Read AI, tl;dv <!-- prose-allow: semicolon --> | Connect it in your assistant. Fireflies, Grain and Otter also download transcripts | Fireflies and tl;dv from one copied link. Grain and Otter through their own clips. Read AI, no |
 | Avoma | Connect it, or download transcripts | No. Use its public snippets |
 | Zoom, Microsoft Teams | Download transcripts | No. The run sheet says where to scrub to |
 | Google Meet | Through Google Drive | From Drive's copied link, within about 5 minutes |
@@ -99,12 +98,12 @@ In Claude, ChatGPT and Gemini chats, the skill uses your recorder to pick the ca
 
 ## Limits
 
-- Only Fathom and Gong document links that open at a set second. Other recorders need one copied link, a clip made in the recorder, or a time to scrub to.
+- Fathom and Gong links open at a set second. Fireflies, tl;dv and Google Meet need one copied link first. Other recorders need a clip made in the recorder, or a time to scrub to. <!-- prose-allow: semicolon -->
 - Google Meet's transcript marks the time only every 5 minutes, so Meet clips land within about 5 minutes. The leader finds the moment by its words.
 - A chat holds about 10 to 15 full calls. Coding agents that can split the reading across helpers read more.
 - Transcripts sometimes mislabel speakers, and their times can sit a few seconds off the video. Each clip starts a few seconds early.
 - It picks moments. You decide what plays, so watch every clip before the session.
-- We've run install, setup and sessions end to end in Claude Code. We haven't yet tested the Claude, ChatGPT and Gemini routes, and the one-click Save skill in Claude comes from Anthropic's docs. We checked every recorder's docs in October 2026, and vendors change their menus often.
+- We've run install, setup and a session end to end in Claude Code. We haven't yet tested the Claude, ChatGPT and Gemini routes, and the Save skill button in Claude comes from Anthropic's docs. We checked every recorder's docs in October 2026, and vendors change their menus often.
 
 ## What's in this repo
 

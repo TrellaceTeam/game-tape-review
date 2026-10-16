@@ -1,10 +1,10 @@
-TITLE: pell-valley-intro-2026-09-24
+TITLE: Intro call with Pell Valley Components
 DATE: 2026-09-24
 MINUTES: 13
 REP: Jordan Ellis
-CALL_TYPE: intro call
+CALL_TYPE: first call
 LINK: https://recorder.example/share/m3Vt8Pell0924?t={seconds}
-BUYERS: Marcus Hale, Pell Valley Components
+BUYERS: Marcus Hale
 
 [00:00:08] Jordan Ellis: Hey Marcus, Jordan from Fennick. Thanks for jumping on.
 [00:00:17] Marcus Hale: Sure. I've got about 20 minutes.

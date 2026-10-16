@@ -1,10 +1,10 @@
-TITLE: harrow-creek-first-call-2026-10-06
+TITLE: First call with Harrow Creek Castings
 DATE: 2026-10-06
 MINUTES: 22
 REP: Priya Raman
 CALL_TYPE: first call
 LINK: https://recorder.example/share/c2Hd6Harrow1006?t={seconds}
-BUYERS: Ruth Adeyemi, Harrow Creek Castings
+BUYERS: Ruth Adeyemi
 
 [00:00:04] Priya Raman: Hi Ruth, it's Priya from Fennick. Can you hear me okay?
 [00:00:10] Ruth Adeyemi: Yep, I've got you. Sorry, give me one second, I just came in off the floor. Okay. Hi.

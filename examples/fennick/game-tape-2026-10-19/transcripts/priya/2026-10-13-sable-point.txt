@@ -1,10 +1,10 @@
-TITLE: sable-point-first-call-2026-10-13
+TITLE: First call with Sable Point Packaging
 DATE: 2026-10-13
 MINUTES: 18
 REP: Priya Raman
 CALL_TYPE: first call
 LINK: https://recorder.example/share/q5Ws1Sable1013?t={seconds}
-BUYERS: Greg Tolliver, maintenance manager at Sable Point Packaging
+BUYERS: Greg Tolliver
 
 [00:00:05] Priya Raman: Hi Greg, it's Priya from Fennick. Can you hear me?
 [00:00:12] Greg Tolliver: Hey Priya. Yeah, I got you. Sorry, I'm in the office by the corrugator, so if it gets loud, that's why.

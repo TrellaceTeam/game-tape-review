@@ -1,10 +1,10 @@
-TITLE: Fennick Software / Ashgrove Plastics: discovery call (fictional example, condensed)
+TITLE: Discovery call with Ashgrove Plastics
 DATE: 2026-09-22
 MINUTES: 27
 REP: Jordan Ellis
 CALL_TYPE: first call
 LINK: https://recorder.example/share/r7Kq2Ashgrove0922?t={seconds}
-BUYERS: Dana Whitfield, operations lead at Ashgrove Plastics
+BUYERS: Dana Whitfield
 
 [00:00:13] Jordan Ellis: Hi Dana, thanks for making the time. Can you hear me okay?
 [00:00:21] Dana Whitfield: Loud and clear. Sorry, I'm a couple of minutes late. Plant walk ran over.

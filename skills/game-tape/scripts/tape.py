@@ -30,10 +30,11 @@ quote written as "[HH:MM:SS] exact words" has to sit on that transcript line.
 Every link whose label holds a time, such as [4:40 to 6:49](...), has to match a
 transcript's LINK, open at the label's first time, and cover transcript lines.
 
-pack zips this skill's folder with the team's setup files, from --team or the
-skill's own team/ folder, as one file a chat app installs as a skill. Every entry
-starts with the skill's name, such as game-tape/SKILL.md. It leaves out caches,
-work folders and anything in the team folder that isn't a Markdown file.
+pack zips this skill as one file a chat app installs as a skill, with the team's
+setup inside: the skill's own team/*.md files, with any Markdown files in --team
+laid over them. Every entry starts with the skill's name, such as
+game-tape/SKILL.md. Only SKILL.md, references/*.md, scripts/*.py and the team's
+.md files go in. It lists everything it left out.
 
 The game-tape format is a few header lines, a blank line, then one line per turn:
 
@@ -830,9 +831,6 @@ def learn_link(args) -> int:
 
 # ---------- pack ----------
 
-PACK_SKIP_SUFFIXES = {".pyc", ".zip", ".skill"}
-
-
 def skill_name(root: Path) -> str:
     """The name in SKILL.md's frontmatter, or the folder's name."""
     for line in (root / "SKILL.md").read_text(encoding="utf-8-sig").splitlines()[1:20]:
@@ -842,30 +840,48 @@ def skill_name(root: Path) -> str:
     return root.name
 
 
-def _left_out(rel: Path) -> bool:
-    """Caches, packed files and anything that looks like a session's work, which holds buyers' names."""
-    return (rel.suffix in PACK_SKIP_SUFFIXES or rel.name == ".DS_Store"
-            or any(part == "__pycache__" or part == "transcripts" or part.startswith("game-tape-") for part in rel.parts))
+def _ships(rel: Path) -> bool:
+    """Only the skill's own files ship: SKILL.md, references/*.md and scripts/*.py. Anything else
+    beside them, such as a key file, an export or a session's notes, may hold private data."""
+    parts = rel.parts
+    if parts == ("SKILL.md",):
+        return True
+    if len(parts) == 2 and parts[0] == "references":
+        return rel.suffix == ".md"
+    if len(parts) == 2 and parts[0] == "scripts":
+        return rel.suffix == ".py"
+    return False
 
 
 def pack_skill(root: Path, team: Path, out: Path):
-    """Write the skill at root, with team's Markdown files as team/, to the zip at out.
-    Return (entries written, team files added, team files left out)."""
+    """Write the skill at root to the zip at out, with a team/ folder made of the skill's own
+    team/*.md files, overlaid by the Markdown files in team. Return (entries written, team files,
+    files left out)."""
     root, out = root.resolve(), out.resolve()
     name = skill_name(root)
-    entries = []
+    entries, left_out = [], []
     for path in sorted(root.rglob("*")):
         rel = path.relative_to(root)
-        if path.is_file() and rel.parts[0] != "team" and path.resolve() != out and not _left_out(rel):
+        if not path.is_file() or path.resolve() == out or rel.parts[0] == "team" or "__pycache__" in rel.parts:
+            continue
+        if _ships(rel):
             entries.append((f"{name}/{rel.as_posix()}", path))
-    found = sorted(p for p in team.iterdir() if p.is_file()) if team.is_dir() else []
-    added = [p for p in found if p.suffix.lower() == ".md"]
-    entries += [(f"{name}/team/{p.name}", p) for p in added]
+        else:
+            left_out.append(rel.as_posix())
+    files = {}
+    for folder in (root / "team", team):
+        if folder.is_dir():
+            for path in sorted(folder.iterdir()):
+                if path.is_file() and path.suffix.lower() == ".md":
+                    files[path.name] = path
+                elif not path.name.startswith("."):
+                    left_out.append(f"{folder.name}/{path.name}")
+    entries += [(f"{name}/team/{file_name}", path) for file_name, path in sorted(files.items())]
     out.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for arcname, path in entries:
             archive.write(path, arcname)
-    return [arcname for arcname, _ in entries], [p.name for p in added], [p.name for p in found if p not in added]
+    return [arcname for arcname, _ in entries], sorted(files), sorted(set(left_out))
 
 
 def pack(args) -> int:
@@ -874,10 +890,11 @@ def pack(args) -> int:
     if args.team and not team.is_dir():
         print(f"No folder at {team}. Point --team at the folder that holds profile.md.", file=sys.stderr)
         return 1
-    entries, added, skipped = pack_skill(root, team, Path(args.out))
+    entries, added, left_out = pack_skill(root, team, Path(args.out))
     print(f"wrote {args.out}: {len(entries)} files, with team files: {', '.join(added) or 'none'}")
-    for item in skipped:
-        print(f"  left out team/{item}: the team folder holds Markdown files only")
+    if left_out:
+        shown = ", ".join(left_out[:8]) + (f" and {len(left_out) - 8} more" if len(left_out) > 8 else "")
+        print(f"  left out {shown}. Only the skill's own files and the team's .md files go in.")
     if "profile.md" not in added:
         print("  check: no team/profile.md went in, so this copy will start with setup.")
     return 0

@@ -49,9 +49,16 @@ class Example(unittest.TestCase):
                 self.assertIn(words(tape.read_tape(target).turns), expected, export.name)
 
     def test_profile_keeps_standing_rules(self):
-        profile = (EXAMPLE / "game-tape-profile.md").read_text(encoding="utf-8")
+        profile = (EXAMPLE / "team" / "profile.md").read_text(encoding="utf-8")
         self.assertIn("Link pattern", profile)
+        self.assertIn("## Played", profile)
         self.assertNotRegex(profile, r"api[_ -]?key\s*[:=]\s*\S{12,}")
+
+    def test_playbook_copy_is_word_for_word(self):
+        original = (EXAMPLE / "fennick-first-call-playbook.md").read_text(encoding="utf-8")
+        source_line, _, copy = (EXAMPLE / "team" / "playbook.md").read_text(encoding="utf-8").partition("\n")
+        self.assertTrue(source_line.startswith("Copied from"), source_line)
+        self.assertEqual(copy.lstrip("\n"), original)
 
 
 if __name__ == "__main__":

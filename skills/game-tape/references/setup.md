@@ -27,7 +27,7 @@ When the recorder isn't connected yet, open [recorders.md](recorders.md) at that
 - **ChatGPT.** Plugins, then find the recorder and connect it.
 - **A coding agent.** The recorder's MCP server when it has one, or an API key the person saves in a file such as `.env`. Never ask for the key in chat.
 
-Then try its tools. When they don't show up in this chat, ask the person to start a new chat and say "set up game tape". Setup starts over, and it's quick. When the recorder has no connector, use exported transcript files. Each session will ask for the few calls it picked.
+Then try its tools. When they don't show up in this chat, the person needs a new chat. If this chat is also where you installed the skill, it isn't saved yet, so first pack it and hand it over to save, as [team-folder.md](team-folder.md#save-it) says. Then ask them to start a new chat and say "set up game tape". Setup starts over, and it's quick. When the recorder has no connector, use exported transcript files. Each session will ask for the few calls it picked.
 
 ## 2. Check the calls and the reps
 
@@ -63,7 +63,7 @@ Test a pattern before you save it. Build a link to one listed call that opens at
 
 ## 5. Ask how long game tape gets
 
-Ask: "How long does game tape usually get?" Options: "15 minutes", "30 minutes", "45 minutes", "It changes, ask me each time". Invite them to add who runs it and the meeting's name when game tape is part of a regular meeting.
+Ask: "How long does game tape usually get?" Options: "15 minutes", "30 minutes", "45 minutes", "It changes, ask me each time". Invite them to add who runs it, who's usually in the room, and the meeting's name when game tape is part of a regular meeting.
 
 Every other setting starts at its default in [team-folder.md](team-folder.md#defaults). Change one only when the person asks.
 
@@ -76,6 +76,7 @@ Then tell the person, in a few short lines:
 - What you saved: the recorder, the reps, the playbook and the links.
 - That from now on they only need to ask, such as "Prep game tape" or "Game tape for Thursday, 20 minutes, only Jordan's calls".
 - In a chat app, how to install their own copy, from [team-folder.md](team-folder.md#save-it).
+- In a coding agent, that to update the skill later they should ask you to "update game tape and keep my setup", since a plain reinstall replaces the team folder.
 
 Ask: "Want me to prep a game tape session now?" On a yes, start the session at step 1 of the skill.
 

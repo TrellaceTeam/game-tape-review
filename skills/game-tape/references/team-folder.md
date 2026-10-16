@@ -14,25 +14,26 @@ The team folder never holds transcripts, run sheets or API keys. Transcripts and
 ## Where to look for it
 
 1. `team/profile.md` in this skill's folder.
-2. `game-tape-team/profile.md` in the project folder, where setup saves when the skill's folder is read-only.
-3. A profile the person attached or added to the project's files, including a `game-tape-profile.md` from an earlier version of this skill. Use it, and save it the new way at the end of the session.
+2. `team/profile.md` in your working folder, in a chat where setup ran earlier and the person hasn't installed the new copy yet.
+3. `game-tape-team/profile.md` in the project folder, where setup saves when the skill's folder is read-only.
+4. A profile the person attached or added to the project's files, including a `game-tape-profile.md` from an earlier version of this skill. Use it, and save it the new way at the end of the session.
 
 ## Save it
 
 | Where the skill runs | How to save |
 |---|---|
-| A coding agent on the person's computer, such as Claude Code, Codex, Cursor, OpenCode, GitHub Copilot or Gemini CLI | Write the files into `team/` in this skill's folder. Read one back to check that it saved. When the folder is read-only, write them to `game-tape-team/` in the project folder instead, and tell the person where they are |
-| Claude, in a chat, the desktop app or Cowork | The skill's folder here is a copy that's gone when the chat ends. Write the two files to a `team` folder in your working folder, then run `python <skill>/scripts/tape.py pack --team <that folder> --out <your outputs folder>/game-tape.skill` and share the file |
+| A coding agent on the person's computer, such as Claude Code, Codex, Cursor, OpenCode, GitHub Copilot or Gemini CLI | Write the files into `team/` in this skill's folder. Read one back to check that it saved. When the folder is read-only, write them to `game-tape-team/` in the project folder instead, and tell the person where they are. When the team folder sits inside a git repository, as it does after an install for one project, check that git ignores it. If it doesn't, tell the person it would be committed with their playbook and reps, and ask whether to add it to `.gitignore` |
+| Claude, in a chat, the desktop app or Cowork | The skill's folder here is a copy that's gone when the chat ends. Write the changed files to a `team` folder in your working folder, then run `python <skill>/scripts/tape.py pack --team <that folder> --out <your outputs folder>/game-tape.skill` and share the file. `pack` keeps the team files already in the skill and lays yours over them |
 | ChatGPT, Gemini or another chat app that runs Python | Run the same `pack` command with `--out <your outputs folder>/game-tape.zip` and share the file |
 | An app that can't run code | Give `profile.md` and `playbook.md` as files or text, and ask the person to add them to a project or attach them next time |
 
 When you share a packed file, tell the person how to install it, one step per line:
 
-- **Claude.** "Click Save skill on this file. It replaces game tape with your own copy, with your setup inside." When no Save skill button shows: "Rename the file to game-tape.zip. Open Customize, then Skills. Delete the old game-tape skill. Click +, then Create skill, then Upload a skill, and pick this file."
-- **ChatGPT.** "Open Plugins, then the Skills tab. Delete the old game-tape skill. Choose Create, then Upload from your computer, and pick this file."
-- **Gemini.** "Unzip the file. Open Customize, then Skills. Delete the old game-tape skill, then upload the game-tape folder."
+- **Claude.** "Click Save skill on this file. It installs game tape as your own copy, with your setup inside." When no Save skill button shows: "Rename the file to game-tape.zip. Open Customize, then Skills. If an older game-tape skill is there, delete it first. Click +, then Create skill, then Upload a skill, and pick this file."
+- **ChatGPT.** "Open Plugins, then the Skills tab. If an older game-tape skill is there, delete it first. Choose Create, then Upload from your computer, and pick this file."
+- **Gemini.** "Unzip the file. Open Customize, then Skills. If an older game-tape skill is there, delete it first. Then upload the game-tape folder."
 
-`pack` copies this skill's folder, swaps in the team files you give it, and names every entry `game-tape/...`, the shape these apps accept. It leaves out caches and anything in `team/` that isn't a Markdown file.
+`pack` names every entry `game-tape/...`, the shape these apps accept. Only `SKILL.md`, `references/*.md`, `scripts/*.py` and the team's `.md` files go in, so a key file, an export or a session's notes beside the skill never ship. It lists what it left out.
 
 ## Defaults
 
@@ -70,7 +71,8 @@ Saved by the game-tape skill on {date}. Edit any line, or ask for a change in pl
 ## Sessions
 - Run by: {leader}
 - Meeting: {name, when game tape runs in a regular meeting | none}
-- Game tape gets: {minutes} minutes
+- In the room: {names | not set}
+- Game tape gets: {minutes} minutes | ask each time
 - Who's on tape: {every rep | my own calls, to teach | one rep, for a 1:1}
 
 ## Settings

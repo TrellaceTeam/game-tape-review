@@ -2,7 +2,7 @@
 
 Fill each `{BLOCK}` and give the filled brief to one subagent per rep, or follow it yourself one rep at a time. Keep the rest of the wording as it is.
 
-- `{MEETING}`: who runs it, when, who's in the room, and who's on tape. Example: "Priya runs the Monday sales meeting on Oct 19. Priya, Jordan and Mei are in the room. Both sellers are on tape."
+- `{MEETING}`: who runs it, when, who's in the room when you know, and who's on tape. Example: "Priya runs the Monday sales meeting on Oct 19. Priya, Jordan and Mei are in the room. Both sellers are on tape."
 - `{REP}`: the rep's name and their folder under `transcripts/`.
 - `{WORK}`: the work folder's path.
 - `{MATCH}`: the match row from the skill's table, copied whole.

@@ -406,34 +406,50 @@ class Pack(Workspace):
     def fake_skill(self):
         self.write("skill/SKILL.md", "---\nname: game-tape\ndescription: test\n---\n\n# Game tape\n")
         self.write("skill/references/setup.md", "# Setup\n")
+        self.write("skill/scripts/tape.py", "print('hi')\n")
         self.write("skill/scripts/__pycache__/tape.cpython-313.pyc", "cache")
         self.write("skill/team/profile.md", "# Old profile\n")
-        self.write("skill/game-tape-2026-10-19/transcripts/jordan/a.txt", "a buyer's words")
+        self.write("skill/team/playbook.md", "# Old playbook\n")
         return self.dir / "skill"
 
-    def test_swaps_in_the_new_team_files_and_leaves_out_caches_and_work(self):
-        root = self.fake_skill()
-        team = self.dir / "new-team"
-        self.write("new-team/profile.md", "# New profile\n")
-        self.write("new-team/playbook.md", "# Playbook\n")
-        self.write("new-team/calls.vtt", "WEBVTT")
-        entries, added, skipped = tape.pack_skill(root, team, self.dir / "out" / "game-tape.skill")
-        with zipfile.ZipFile(self.dir / "out" / "game-tape.skill") as archive:
-            names = archive.namelist()
-            profile = archive.read("game-tape/team/profile.md").decode("utf-8").replace("\r\n", "\n")
-        self.assertEqual(sorted(names), sorted(entries))
-        self.assertTrue(all(name.startswith("game-tape/") for name in names))
-        self.assertIn("game-tape/SKILL.md", names)
-        self.assertIn("game-tape/team/playbook.md", names)
-        self.assertEqual(profile, "# New profile\n")
-        self.assertEqual(skipped, ["calls.vtt"])
-        self.assertFalse(any("__pycache__" in n or "transcripts" in n or n.endswith(".vtt") for n in names), names)
+    def pack(self, root, team, out=None):
+        out = out or self.dir / "out" / "game-tape.skill"
+        entries, added, left_out = tape.pack_skill(root, team, out)
+        with zipfile.ZipFile(out) as archive:
+            files = {n: archive.read(n).decode("utf-8").replace("\r\n", "\n") for n in archive.namelist()}
+        self.assertEqual(sorted(files), sorted(entries))
+        self.assertTrue(all(name.startswith("game-tape/") for name in files))
+        return files, added, left_out
 
-    def test_keeps_the_skills_own_team_folder_by_default(self):
+    def test_new_team_files_replace_old_ones_and_keep_the_rest(self):
         root = self.fake_skill()
-        entries, added, _ = tape.pack_skill(root, root / "team", root / "game-tape.skill")
-        self.assertEqual(added, ["profile.md"])
-        self.assertNotIn("game-tape/game-tape.skill", entries)
+        self.write("new-team/profile.md", "# New profile\n")
+        files, added, _ = self.pack(root, self.dir / "new-team")
+        self.assertEqual(files["game-tape/team/profile.md"], "# New profile\n")
+        self.assertEqual(files["game-tape/team/playbook.md"], "# Old playbook\n")
+        self.assertEqual(added, ["playbook.md", "profile.md"])
+
+    def test_only_the_skills_own_files_go_in(self):
+        root = self.fake_skill()
+        self.write("skill/.env", "FATHOM_API_KEY=abc")
+        self.write("skill/sable-point.vtt", "WEBVTT")
+        self.write("skill/run-sheet.md", "# Game tape")
+        self.write("skill/candidates-jordan.md", "notes")
+        self.write("skill/references/export.vtt", "WEBVTT")
+        self.write("skill/game-tape-2026-10-19/brief.md", "notes")
+        self.write("skill/team/calls.vtt", "WEBVTT")
+        self.write("skill/team/old/profile.md", "# Older")
+        files, _, left_out = self.pack(root, root / "team")
+        self.assertEqual(sorted(files), ["game-tape/SKILL.md", "game-tape/references/setup.md",
+                                         "game-tape/scripts/tape.py", "game-tape/team/playbook.md",
+                                         "game-tape/team/profile.md"])
+        for name in (".env", "sable-point.vtt", "run-sheet.md", "references/export.vtt", "team/calls.vtt", "team/old"):
+            self.assertIn(name, left_out)
+
+    def test_an_out_file_inside_the_skill_is_not_packed_into_itself(self):
+        root = self.fake_skill()
+        files, _, _ = self.pack(root, root / "team", root / "game-tape.skill")
+        self.assertNotIn("game-tape/game-tape.skill", files)
 
     def test_packs_the_real_skill_from_the_command_line(self):
         team = self.dir / "team"
