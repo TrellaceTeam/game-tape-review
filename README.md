@@ -116,10 +116,10 @@ In Claude, ChatGPT and Gemini chats, the skill uses your recorder to pick the ca
 
 ## From Trellace
 
-[Trellace](https://www.trellace.com/?utm_source=github&utm_medium=readme&utm_campaign=sales-game-tape) works with B2B founders in the messy middle, after product-market fit and before a repeatable go-to-market team. That's usually $1 million to $10 million in annual revenue. We built this skill to prep game tape for a sales team we work with, then rebuilt it so any founder can run it with the tools they already have. We publish the methods we use because GTM needs more open source projects.
+[Trellace](https://www.trellace.com/?utm_source=github&utm_medium=readme&utm_campaign=sales-game-tape) helps B2B startups become scaleups. That 'messy middle' phase, after product-market fit and before a repeatable go-to-market team. We built this skill so any founder can run a game tape review session with the tools they already have. We believe GTM needs more open source projects. 
 
 - **Founders.** If something here is close to what you're working through, [book a 30-minute GTM Sparring Session](https://www.trellace.com/contact?utm_source=github&utm_medium=readme&utm_campaign=sales-game-tape).
-- **Investors.** Most of our work starts with an introduction from a fund. If a company you back comes to mind, [make an introduction](https://www.trellace.com/contact?utm_source=github&utm_medium=readme&utm_campaign=sales-game-tape).
+- **Investors.** If a company you back comes to mind, [make an introduction](https://www.trellace.com/contact?utm_source=github&utm_medium=readme&utm_campaign=sales-game-tape).
 - **More free tools.** See everything we've published at [github.com/TrellaceTeam](https://github.com/TrellaceTeam).
 
 ## License
