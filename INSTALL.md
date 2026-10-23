@@ -1,10 +1,15 @@
 # Install game tape review
 
-These steps are for the AI assistant a person asked to "install this for me". A person can follow them by hand too. Installing takes a minute. Setup follows straight after, in the same conversation, and takes about five.
+These steps are for the AI assistant a person asked to set up and install this skill, or only to install it. Most people who paste the link aren't technical. They copied one line from the README and expect you to do the rest, one question at a time. A person can follow these steps by hand too.
+
+Setup comes before the install. The copy the person installs then already holds their setup, so they install it once. Setup takes about five minutes.
 
 1. **Work out where you're running.** Done when you know which section below is yours.
-2. **Install the skill.** Done when the skill's `SKILL.md` is where your app will load it next time, or the person has a file to save.
-3. **Run setup now.** Done when the person's setup is saved inside their copy of the skill. Gemini runs setup in a new chat, and the paste-in prompt has none.
+2. **Get the skill.** Done when you can read its `SKILL.md`. In a coding agent, that's the installed copy.
+3. **Set it up.** Done when the person's setup is saved, or the person has a line to paste in a new chat.
+4. **Install their copy.** Done when the copy with their setup is where their app loads it, or in a chat app the person has the file and the steps to install it.
+
+Whenever the person has to open a new chat, such as after connecting their call recorder, give them the line to paste there, as [setup.md](skills/game-tape-review/references/setup.md#moving-to-a-new-chat) says. Then stop. The new chat goes on from that line.
 
 ## 1. Work out where you're running
 
@@ -16,7 +21,7 @@ These steps are for the AI assistant a person asked to "install this for me". A 
 | Gemini | [Gemini](#gemini) |
 | Any other assistant | [Anything else](#anything-else) |
 
-## 2. Install the skill
+## 2. Get the skill
 
 ### Coding agents
 
@@ -30,47 +35,53 @@ These steps are for the AI assistant a person asked to "install this for me". A 
 2. Without Node.js 22.20, download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip), unzip it, and copy the `game-tape-review` folder into your skills folder: `~/.claude/skills/` for Claude Code, and `~/.agents/skills/` for Codex, Cursor, OpenCode, GitHub Copilot and Gemini CLI.
 3. Find the installed `SKILL.md` and note its folder. That's `<skill>` in the skill's steps.
 
+Setup saves into this installed copy, so step 4 has nothing left to do.
+
 ### Claude
 
-You can't add a skill to the person's account yourself. You can hand them a file to save, and Claude shows a Save skill button on skill files it shares. Run setup first, so that file already holds their setup. We haven't tested this route end to end yet.
+You can't add a skill to the person's account yourself. Claude shows a Save skill button on skill files it shares, so you set up a copy here and hand it over at the end, with the setup inside. We haven't tested this route end to end yet.
 
-1. Code execution must be on. If you can't run code, ask the person to turn on "Code execution and file creation" under Settings, then Capabilities. On a Team or Enterprise plan, an owner may need to allow it and allow skills.
-2. Download the skill into your working folder and unzip it:
+1. **Check that you can run code.** When you can't, ask the person to turn on "Code execution and file creation" under Settings, then Capabilities. On a Team or Enterprise plan, an owner may need to allow it and allow skills. When their call recorder isn't connected yet, ask them to connect it too, under Customize, then Connectors. Then move to a new chat, as [setup.md](skills/game-tape-review/references/setup.md#moving-to-a-new-chat) says. When code has to stay off, follow [Anything else](#anything-else).
+2. **Download the skill** into your working folder and unzip it:
 
    ```
    curl -fsSL -o game-tape-review.zip https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip
    ```
 
    When the download is blocked, ask the person to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and drop it into this chat.
-3. Run setup from the unzipped `game-tape-review` folder. It ends by packing the skill with the person's setup inside as `game-tape-review.skill`, for them to save.
-
-When the person wants to stop before setup ends, run `python game-tape-review/scripts/tape.py pack --out <your outputs folder>/game-tape-review.skill` and share that file to save. Setup runs the first time they ask for a game tape review.
 
 ### ChatGPT
 
 Skill uploads work on ChatGPT Business, Enterprise, Healthcare and Edu. We haven't tested this route yet.
 
-1. Ask the person whether they see a Skills tab under Plugins. Without it, follow [Anything else](#anything-else).
+1. Ask the person whether they see Plugins in the sidebar, with a Skills tab. Without it, follow [Anything else](#anything-else).
 2. Ask them to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and attach it here. Unzip it in your Python tool.
-3. Run setup from the unzipped `game-tape-review` folder. It ends by packing the skill with their setup inside as `game-tape-review.zip`. They upload it under Plugins, then Skills, then Create, then Upload from your computer.
 
 ### Gemini
 
-Gemini needs the person to upload the folder. We haven't tested this route yet.
+We haven't tested this route yet.
 
-1. Ask them to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and unzip it.
-2. Ask them to open Customize, then Skills, then Upload, and pick the `game-tape-review` folder.
-3. Ask them to start a new chat and say "set up game tape review". Setup runs there.
+1. Ask the person to download [game-tape-review.zip](https://github.com/TrellaceTeam/game-tape-review/releases/latest/download/game-tape-review.zip) and attach it here. Unzip it with your code tool.
+2. When you can't unzip it or run Python, ask them to unzip it themselves, open Customize, then Skills, then Upload, and pick the `game-tape-review` folder. Then move to a new chat, as [setup.md](skills/game-tape-review/references/setup.md#moving-to-a-new-chat) says. Setup runs there, and it tells them how to save their setup.
 
 ### Anything else
 
 Use [the paste-in prompt](prompts/game-tape-review.md). It runs the core of the skill on transcripts the person attaches. It can't save a setup, so each time they paste it, they fill in four lines.
 
-## 3. Run setup now
+## 3. Set it up
 
-Skip this step in Gemini, which runs setup in the new chat, and for the paste-in prompt, which has no setup.
+Skip this step and step 4 for the paste-in prompt, which has no setup and nothing to install.
 
-Read `SKILL.md` in the installed or unzipped folder, then follow its `references/setup.md` in this conversation. Don't wait for a new session. Start with one line, such as "Installed. Setup takes about five minutes, one question at a time." Then ask the first question.
+Read `SKILL.md` in the installed or unzipped folder, then follow its `references/setup.md` now, in this conversation. Start with one line, such as "Got it. Setup takes about five minutes, one question at a time." Then ask the first question.
+
+## 4. Install their copy
+
+Setup's last step saves the team folder the way [team-folder.md](skills/game-tape-review/references/team-folder.md#save-it) says for this app.
+
+- **Coding agents.** It saves into the installed copy, and you're done.
+- **Chat apps.** It packs the skill with the person's setup inside and hands them the file, with the steps to install it.
+
+When the person wants to stop before setup ends, give them a line to paste when they come back, with what they've answered so far, as [setup.md](skills/game-tape-review/references/setup.md#moving-to-a-new-chat) says. They install once, when setup is done.
 
 ## Update it later
 

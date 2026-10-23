@@ -6,13 +6,17 @@ It's built for Claude, ChatGPT, Gemini and coding tools such as Claude Code, Cod
 
 ## Install it
 
-Paste this into your AI assistant:
+Paste this into your AI assistant, such as Claude, ChatGPT, Gemini or a coding agent:
 
 ```text
-Install this for me: https://github.com/TrellaceTeam/game-tape-review
+Set up this skill and install it for me: https://github.com/TrellaceTeam/game-tape-review
 ```
 
-Your assistant follows [INSTALL.md](INSTALL.md). It installs the skill, then walks you through setup. To install it yourself, the same file has the steps for each app.
+Your assistant follows [INSTALL.md](INSTALL.md). It sets the skill up with you first, then installs your own copy with your setup inside, so you install it once.
+
+If you can, connect your call recorder to your assistant before you paste the line. In Claude, that's Customize, then Connectors. In ChatGPT, it's Plugins. Some apps see a new connection only in a new chat. When yours does, your assistant tells you what to click and gives you a line to paste there.
+
+To install it yourself, INSTALL.md has the steps for each app.
 
 ## Setup takes about five minutes
 
@@ -110,7 +114,7 @@ In Claude, ChatGPT and Gemini chats, the skill uses your recorder to pick the ca
 | Path | What it's for |
 |---|---|
 | [skills/game-tape-review/](skills/game-tape-review/SKILL.md) | The skill: its steps, setup, writing rules, recorder notes and the `tape.py` script |
-| [INSTALL.md](INSTALL.md) | How an assistant, or you, installs it in each app |
+| [INSTALL.md](INSTALL.md) | How an assistant, or you, sets it up and installs it in each app |
 | [prompts/game-tape-review.md](prompts/game-tape-review.md) | A paste-in version for assistants without skills |
 | [examples/fennick/](examples/fennick/README.md) | A full fictional setup and review: the calls, the playbook, the saved setup and the run sheet |
 

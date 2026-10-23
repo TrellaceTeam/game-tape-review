@@ -31,5 +31,5 @@ jobs:
             gh release upload "$GITHUB_REF_NAME" dist/game-tape-review.zip --clobber
           else
             gh release create "$GITHUB_REF_NAME" dist/game-tape-review.zip --title "$GITHUB_REF_NAME" \
-              --notes "Paste the repo's link into your AI assistant and say: Install this for me. To install by hand, see INSTALL.md."
+              --notes 'Paste this line into your AI assistant: "Set up this skill and install it for me: https://github.com/TrellaceTeam/game-tape-review". To install by hand, see INSTALL.md.'
           fi
