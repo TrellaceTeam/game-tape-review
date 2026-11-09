@@ -36,13 +36,11 @@ jobs:
       - name: The zip builds with the right shape
         run: python scripts/build_zip.py
 
-      - name: Scripts run on Python 3.9
-        uses: actions/setup-python@v7
-        with:
-          python-version: "3.9"
+      # Python 3.9 is the python3 a Mac ships with. GitHub's Ubuntu 26.04 has no 3.9 build, so uv supplies it.
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
 
-      - name: Tests on Python 3.9
-        run: python -m unittest discover -s tests -v
+      - name: Scripts run on Python 3.9
+        run: uv run --no-project --python 3.9 python -m unittest discover -s tests -v
 
       - uses: actions/setup-node@v7
         with:
